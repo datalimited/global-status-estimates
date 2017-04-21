@@ -1,0 +1,551 @@
+# Ensemble fits to FAO data
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, cache=TRUE, autodep = TRUE)
+library(dplyr)
+library(ggplot2)
+```
+
+We'll start by reading in the previous model fits to the FAO data.
+
+This code chunk:
+
+1. Sets conditions (minimum average annual catch of 1000 tonnes and a minimum time series length of 20 years)  
+2. Loads each FAO-catch only model fit (CMSY, SSCOM, COMSIR and Costello), fixes column names, adds a `method` column and combines all four datasets into one (`all.fits.df`). This final dataframe has the B/Bmsy estimate from each of the catch only models for each year in the stocks time series. There is no catch data in this dataframe.  
+3. Loads the FAO catch data, fixes some column names and then merges with the model fit data.
+  + All stocks in the FAO catch database that do not have matching model fits are removed
+  + Adds an empty column "b_bmsy_true"  
+4. Checks the final merged dataframe for stocks with missing model fits and saves those stocks to "FAO_missing_data.csv"  
+
+```{r}
+#need to run ensemble for all 4 combinations (main results 
+#1000 or 3000 tonne cut off
+# 20 or 10 year cut off 
+ct_size <- 1000  #or 3000
+cutoff_yr <- 20  #or 10
+
+## CMSY
+#load("CMSY_fixed/cmsy_fao_results_table_v1.RData") # old fits (conducted in May 2015)
+# note: there are 61 datapoints with NC (Assuming No Convergence) and 602 stocks missing
+#cmsy.df<-cmsy.fao.df0
+#rm(cmsy.fao.df0)
+cmsy.df <-readRDS("data-raw/CMSY_fixed/cmsy_fits_FAO_stocks.rds") ## need to use this one instead. Ran Nov 2015
+#112 stocks didn't converge
+
+## Costello
+costello.df<-read.csv("data-raw/mPRM/Costello_FAO_qaqc.csv")
+
+## SSCOM
+load("data-raw/SSCOM/sscom_fao_fits_02022015.RData")
+#1439 datapoints with No convergence
+
+## COMSIR
+load("data-raw/COMSIR/comsir_fao_fits_02022015.RData")
+#there are 92 NA stocks in COMSIR
+
+# ## make a master data frame
+# ## change some names
+names(cmsy.df)[names(cmsy.df)=="yr"]<-"year"
+names(cmsy.df)[names(cmsy.df)=="stock_id"]<-"stock"
+#change bck for new file b_bmsy
+names(cmsy.df)[names(cmsy.df)=="bbmsy"]<-"b2bmsy"
+#cmsy.df <- filter(cmsy.df, prior == "ORIG")
+#cmsy.df <- filter(cmsy.df, convergence %in% c("SC", "WC"))
+cmsy.df <- select(cmsy.df, -prior)
+cmsy.df$method<-"CMSY"
+##
+names(costello.df)[names(costello.df)=="yr"]<-"year"
+names(costello.df)[names(costello.df)=="BvBmsy"]<-"b2bmsy"
+costello.df$method<-"Costello"
+##
+names(comsir.df)[names(comsir.df)=="stock_id"]<-"stock"
+names(comsir.df)[names(comsir.df)=="b_bmsy"]<-"b2bmsy"
+comsir.df$method<-"COMSIR"
+##
+names(sscom.df)[names(sscom.df)=="stock_id"]<-"stock"
+names(sscom.df)[names(sscom.df)=="b_bmsy"]<-"b2bmsy"
+sscom.df <- filter(sscom.df, convergence %in% c("Strong", "Weak"))
+sscom.df$method<-"SSCOM"
+
+keep.names<-c("stock","year","b2bmsy","method")
+
+all.fits.df<-rbind(
+                   cmsy.df[,keep.names],
+                   costello.df[,keep.names],
+                   comsir.df[,keep.names],
+                   sscom.df[,keep.names]
+)
+
+## There are 1700 unique stocks in all.fits.df (2-7-17 JA)
+
+## FAO catch data
+cdat<-read.csv("data-raw/FAO_Stocks_ToRunISCAAP_qaqc.csv", stringsAsFactors=FALSE)
+all.stocks<-unique(cdat$stock)
+all.stocks<-all.stocks[order(all.stocks)]
+names(cdat)[names(cdat)=="yr"]<-"year"
+
+all.df<-merge(cdat, all.fits.df, by=c("stock","year"), all=TRUE)
+all.df <- filter(all.df, !is.na(method))
+all.df<-all.df[with(all.df, order(stock,method,year)),]
+all.df$method<-factor(all.df$method, levels=c("CMSY", "Costello", "COMSIR", "SSCOM"))
+
+nrow(all.df)
+all.df <- filter(all.df, ! is.na (stock))
+nrow(all.df)
+
+all.df <- rename(all.df, b_bmsy_est = b2bmsy) %>%
+  mutate(b_bmsy_true = NA)
+
+#checking for missing data
+check <- all.df %>% group_by(stock, method) %>%
+                    arrange(stock, method, -year) %>% 
+                    summarise(lastbbmsy_isnotna = !is.na(b_bmsy_est[1])) %>%
+        reshape2::dcast(stock ~ method, value.var = "lastbbmsy_isnotna")
+check$CMSY[check$CMSY == "FALSE"] <- NA
+summary(check)
+
+#13 stocks with no data for any model
+#Stocks missing from model fits
+# CMSY: 112
+# Costello: 127
+# COMSIR: 92
+# SSCOM: 45
+
+# readr::write_csv(check, path= "FAO_missing_data.csv")
+```
+
+Calculate Spectral frequencies for the fao data
+
+This code chunk:
+
+1. Defines a function to calculate the spectral frequencies for each stock that has a catch time series length of at least 20 years. Using the `spec.ar()` function, spectral densities are calculated at 0.2 and 0.05.   
+2. Applies the function to each stock within the FAO catch dataset and  
+3. Creates `spec_wide` which lists each stock and their associated spectral frequencies at 0.05 and 0.2  
+
+```{r}
+# currently, cutting stocks with fewer than 20 data points
+# using AR as smoother, empirical didn't seem to confer much more benefit
+train_spec_mat <- function(x, freq_vec = 1/c(5, 20)) {
+if(length(x) >= cutoff_yr) {
+  sp <- spec.ar(x/max(x), plot = FALSE)
+  # approximate at fixed frequencies - necessary as series of different length
+  approx(x = sp$freq, y = sp$spec, xout = freq_vec) %>% as.data.frame
+ } else {
+   data.frame(x=NA, y=NA, xout=NA)
+ }
+}
+
+spec <- cdat %>%
+  arrange(stock, year) %>%
+  group_by(stock) %>%
+  do(train_spec_mat(.$ct)) %>%
+  rename(spec_freq = x, spec_dens = y) %>%
+  as.data.frame()
+spec$xout <- NULL
+
+nrow(spec)
+spec <- na.omit(spec)
+nrow(spec)
+
+spec_wide <- spec %>%
+  mutate(spec_freq = paste0("spec_freq_", spec_freq)) %>%
+  reshape2::dcast(stock ~ spec_freq,
+    value.var = "spec_dens")
+
+length(spec_wide$stock)
+```
+
+Calculate mean bbmsy over past 5 years based on DL estimates
+
+This code chunk:
+
+1. Defines the function `mean_bbmsy` which calculates the mean estimated B/Bmsy across the entire time series for each stock in the combined catch/bbmsy dataset, creating `fao_sum`  
+2. The `fao` dataset is created by joining `fao_sum` with `spec_wide` so each stock has mean B/Bmsy estimates from each of the 4 models, and the two associated spectral frequencies  
+3. Using the `cdat` dataset (FAO catch data), stocks with a mean annual catch of less than 1000 tonnes are identified and then removed from `cdat`, resulting in the `mean_ct_filter` dataset  
+4. An inner_join between `fao` and `mean_ct_filter` removes all stocks in `fao` that have less than 1000 annual tonnes. Final dataset is `fao_filter`  
+
+```{r}
+library("doParallel")
+registerDoParallel(cores = 4)
+
+mean_bbmsy <- function(dat, years_window = 5L) {
+  # chunk of data must have columns: b_bmsy_true, b_bmsy_est
+  # message(paste(unique(dat$stockid), unique(dat$iter), sep = "-"))
+  if (ncol(dat) > 0) { # not sure what's happening here, but some chunks can have zero columns
+    if (nrow(dat) > years_window) {
+      .n <- nrow(dat)
+      i <- seq(.n-(years_window-1), .n)
+      bbmsy_true_mean = mean(dat$b_bmsy_true[i])
+      bbmsy_est_mean = mean(dat$b_bmsy_est[i])
+      ytrue <- dat$b_bmsy_true[i]
+      yest <- dat$b_bmsy_est[i]
+      data.frame(bbmsy_true_mean, bbmsy_est_mean)
+    }
+  }
+}
+
+all.df <- arrange(all.df, stock, method, year)
+
+fao_sum <- plyr::ddply(all.df, c("stock", "method"),
+  .parallel = TRUE, .fun = mean_bbmsy)
+
+fao_sum$bbmsy_true_mean <- NULL 
+
+fao_sum <- reshape2::dcast(fao_sum, stock ~method, value.var = "bbmsy_est_mean")
+summary(fao_sum)
+
+fao <- inner_join(fao_sum, spec_wide)
+summary(fao)
+
+#remove stocks with mean ct < 1000 Tonnes per year
+mean_catch <- group_by(cdat, stock) %>% 
+                  summarise(mean_ct = mean(ct)) 
+mean_ct_filter <- filter(mean_catch, mean_ct >= ct_size)
+
+fao_filter <- inner_join(fao, mean_ct_filter)
+fao_filter$mean_ct <- NULL
+```
+
+Check FAO spectral densities. 
+
+```{r}
+dir.create("figs", showWarnings = FALSE)
+low_0.2 <- filter(fao_filter, spec_freq_0.2 < 0.005)
+nrow(low_0.2)
+
+head(all.df)
+
+g <- filter(cdat, stock %in% low_0.2$stock) %>% 
+  ggplot(aes(year, ct)) + geom_line() +
+  facet_wrap(~stock, scales = "free_y")
+ggsave("figs/fao-spec-dens-low-0.2-examples.pdf", width = 22, height = 9)
+
+high_0.2 <- filter(fao_filter, spec_freq_0.2 > 0.06)
+nrow(high_0.2)
+
+g <- filter(cdat, stock %in% high_0.2$stock) %>% 
+  ggplot(aes(year, ct)) + geom_line() +
+  facet_wrap(~stock, scales = "free_y")
+ggsave("figs/fao-spec-dens-high-0.2-examples.pdf", width = 22, height = 9)
+
+low_0.05 <- filter(fao_filter, spec_freq_0.05 < 0.05)
+nrow(low_0.05)
+
+g <- filter(cdat, stock %in% low_0.05$stock) %>% 
+  ggplot(aes(year, ct)) + geom_line() +
+  facet_wrap(~stock, scales = "free_y")
+ggsave("figs/fao-spec-dens-low-0.05-examples.pdf", width = 19, height = 8)
+
+high_0.05 <- filter(fao_filter, spec_freq_0.05 > 0.3)
+nrow(high_0.05)
+
+g <- filter(cdat, stock %in% high_0.05$stock) %>% 
+  ggplot(aes(year, ct)) + geom_line() +
+  facet_wrap(~stock, scales = "free_y")
+ggsave("figs/fao-spec-dens-high-0.05-examples.pdf", width = 22, height = 9)
+```
+
+Load simulated dataset
+
+This code chunk:  
+
+1. Loads the simulated stock dataset  
+2. Identifies duplicated observations in the simulated stock dataset based on the stock id, year, iteration, catch, true bbmsy sigmaC, sigmaR and method  
+3. Removes all stocks with method_id == CMSY so that the new CMSY fits can be added in  
+4. Loads the new CMSY fits, and binds with the original sim data (after CMSY rows removed) to create final dataset `dsim`  
+
+```{r}
+# Bring in all results exept CMSY:
+load("data-raw/CMSY_COMSIR_SSCOM_COSTELLO_STO_BATCH_ALL_RESULTS 2013-06-24 .Rdata")
+
+# dupes <- duplicated(dplyr::select(batch1results, 
+#   stock_id, year, iter, catch, bmsy_true, sigmaC, sigmaR, method_id))
+
+# bringing in corrected fits below
+d1 <- dplyr::filter(batch1results, method_id != "CMSY")
+
+rm(batch1results)
+
+d1$stock_id <- as.character(d1$stock_id)
+d1$ID <- as.numeric(as.character(d1$ID))
+d1$b_bmsyUpper <- as.numeric(as.character(d1$b_bmsyUpper))
+d1$b_bmsyLower <- as.numeric(as.character(d1$b_bmsyLower))
+d1$b_bmsy_iq25 <- as.numeric(as.character(d1$b_bmsy_iq25))
+d1$b_bmsy_iq75 <- as.numeric(as.character(d1$b_bmsy_iq75))
+d1$seed <- as.numeric(as.character(d1$seed))
+d1$n_iterations <- as.numeric(as.character(d1$n_iterations))
+d1$effective_sample_size <- as.numeric(as.character(d1$effective_sample_size))
+
+load("data-raw/cmsy_fits_22052015.RData")
+d2 <- cmsynewfits
+rm(cmsynewfits)
+
+# match stock_id values in the new dataset to match the old one:
+d2$stock_id <- as.character(d2$stock_id)
+d2$stock_id <- gsub(
+  "([A-Z]+_[ID0-9]+_[A-Z]+_[A-Z0-9.]+_[A-Z0-9.]+_[UR0-9]+_[TS0-9]+)_[sR0-9]+_[sC0-9]+_[0-9]+",
+  "\\1", d2$stock_id)
+d2 <- dplyr::rename(d2, b_bmsy_est = b_bmsy)
+
+dsim <- dplyr::bind_rows(d1, d2) %>% as.data.frame()
+```
+
+Add spectral frequencies to simulated data
+
+This code chunk:
+
+1. Takes the output dataset `dsim` and creates a new `stock_id` variable that combines stock_id, iter, sigmaC and sigmaR  
+2. Removes duplicate entries (38,400 of them) from `dsim`  
+3. Calculates the spectral densities for each stock+year combination. To avoid duplicates, we first filter for a single method (SSCOM), then calculate the spectral densities creating `dsim_spec`  
+4. Changing long to wide format, we get `dsim_spec_wide` which provides the spectral frequencies at 0.05 and 0.2 for each stock_id  
+5. The spec data is then added back to the simulated data, updating `dsim`  
+6. The `mean_bbmsy` function is applied to each unique stock_id+method+iter to calculate mean true bbmsy and mean estimated bbmsy (we can calculate mean true bbmsy here because we have the "true" bbmsy estimates for all sim stocks, not FAO stocks) creating `dsim_sum`  
+7. `dsim_meta` grabs the spectral frequencies for each of the stocks and is joined back to `dsim_sum`  
+8. `trues` save a data frame of 'true' operating model values to merge in  
+9. Combine `trues` with `dsim_sum` and change to wide format, final output dataset is `d_mean_sim`  
+
+```{r}
+dsim <- dsim %>% mutate(stock_id = paste(stock_id, iter, sigmaC, sigmaR))
+# sum(duplicated(select(dsim, stock_id, iter, year, method_id)))
+dsim <- dsim[!duplicated(select(dsim, stock_id, iter, year, method_id)), ]
+
+dsim_spec<- dsim %>%
+  arrange(stock_id, year) %>%
+  filter(method_id == "SSCOM") %>% # pick one
+  group_by(stock_id, sigmaC, sigmaR, LH, iter, ED) %>%
+  do(train_spec_mat(.$catch)) %>%
+  rename(spec_freq = x, spec_dens = y) %>%
+  as.data.frame()
+
+dsim_spec_wide <- dsim_spec %>%
+  mutate(spec_freq = paste0("spec_freq_", spec_freq)) %>%
+  reshape2::dcast(stock_id ~ spec_freq,
+    value.var = "spec_dens")
+
+#adding sims data and spec data together for training model
+dsim <- suppressWarnings(left_join(dsim, dsim_spec_wide)) # warnings on character-factor conversions
+dsim$method_id <- sub("COM.SIR", "COMSIR", dsim$method_id) # to match RAM fits
+
+dsim <- dsim %>%
+  arrange(stock_id, iter, year) # critical since not all in order
+
+dsim_sum <- plyr::ddply(dsim, c("stock_id", "method_id", "iter"),
+  .parallel = TRUE, .fun = mean_bbmsy)
+# saveRDS(dsim_sum, file = "generated-data/dsim_sum.rds")
+# dsim_sum <- readRDS("generated-data/dsim_sum.rds")
+
+# join in some characteristics that we'll use in models:
+dsim_meta <- dsim %>%
+  group_by(stock_id, iter, method_id) %>%
+  summarise(
+    spec_freq_0.05 = spec_freq_0.05[1],
+    spec_freq_0.2 = spec_freq_0.2[1])
+dsim_sum <- inner_join(dsim_sum, dsim_meta)
+
+# save a data frame of 'true' operating model values to merge in:
+trues <- select(dsim_sum, stock_id, iter,  bbmsy_true_mean)
+trues <- trues[!duplicated(trues), ] # one value per operating model stockid
+
+library(assertthat)
+assert_that(identical(nrow(trues), length(unique(dsim$stock_id))))
+
+# switch from long to wide format for modelling:
+d_mean_sim <- reshape2::dcast(dsim_sum,
+  stock_id + iter + spec_freq_0.05 + spec_freq_0.2 ~ method_id,
+  value.var = "bbmsy_est_mean")  %>%
+  inner_join(trues)
+
+assert_that(identical(nrow(d_mean_sim), length(unique(dsim$stock_id))))
+```
+
+Train random forest ensemble model with simulated data
+
+This code chunk:  
+
+1. Removes all observations in `d_mean_sim` with an NA  
+2. defines the Random Forest model (`m_rf`) using all 4 models, then RF models without each of the models/spec densities  
+
+```{r}
+library(randomForest)
+d_mean_sim <- na.omit(d_mean_sim)
+m_rf <- randomForest(
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello + SSCOM #+
+  ,#  spec_freq_0.05 + spec_freq_0.2,
+  data = d_mean_sim, ntree = 1000L)
+
+m_rf_cmsy <- randomForest(
+  log(bbmsy_true_mean) ~ COMSIR + Costello + SSCOM #+
+    ,# spec_freq_0.05 + spec_freq_0.2,
+  data = d_mean_sim, ntree = 1000L)
+
+m_rf_comsir <- randomForest(
+  log(bbmsy_true_mean) ~ CMSY + Costello + SSCOM #+
+    ,# spec_freq_0.05 + spec_freq_0.2,
+  data = d_mean_sim, ntree = 1000L)
+
+m_rf_costello <- randomForest(
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + SSCOM #+
+    ,# spec_freq_0.05 + spec_freq_0.2,
+  data = d_mean_sim, ntree = 1000L)
+
+m_rf_sscom <- randomForest(
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello #+
+    ,# spec_freq_0.05 + spec_freq_0.2,
+  data = d_mean_sim, ntree = 1000L)
+
+m_rf_spectral <- randomForest(
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello + SSCOM,
+  data = d_mean_sim, ntree = 1000L)
+```
+
+Make a partial dependence plot of Random Forest ensemble
+
+```{r}
+xa <- partialPlot(m_rf, x.var="CMSY", pred.data=d_mean_sim, plot = FALSE)
+xb <- partialPlot(m_rf, x.var="Costello", pred.data=d_mean_sim, plot = FALSE)
+xc <- partialPlot(m_rf, x.var="COMSIR", pred.data=d_mean_sim, plot = FALSE)
+xd <- partialPlot(m_rf, x.var="SSCOM", pred.data=d_mean_sim, plot = FALSE)
+# xe <- partialPlot(m_rf, x.var="spec_freq_0.05", pred.data=d_mean_sim, plot = FALSE)
+# xf <- partialPlot(m_rf, x.var="spec_freq_0.2", pred.data=d_mean_sim, plot = FALSE)
+
+plot(d_mean_sim$spec_freq_0.05, jitter(rep(1, nrow(d_mean_sim)), 0.3), col  = "#00000050")
+plot(d_mean_sim$spec_freq_0.2, jitter(rep(1, nrow(d_mean_sim)), 0.3), col  = "#00000050")
+
+xa <- data.frame(predictor = "CMSY", as.data.frame(xa))
+xb <- data.frame(predictor = "mPRM", as.data.frame(xb))
+xc <- data.frame(predictor = "COMSIR", as.data.frame(xc))
+xd <- data.frame(predictor = "SSCOM", as.data.frame(xd))
+# xe <- data.frame(predictor = "spec_freq_0.05", as.data.frame(xe))
+# xf <- data.frame(predictor = "spec_freq_0.2", as.data.frame(xf))
+
+j <- bind_rows(xa, xb) %>% 
+     bind_rows(xc) %>%
+     bind_rows(xd) #%>%
+     # bind_rows(xe) %>%
+     # bind_rows(xf)
+
+library(ggplot2)
+p <- ggplot(j, aes(x, exp(y)))+ geom_line() +
+  facet_wrap(~predictor, scales="free_x") +
+  ylab(expression(Average~B/B[MSY])) +
+  xlab("Predictor value") +
+  theme_bw() +
+  theme(axis.line=element_blank(),
+    panel.background=element_blank(),
+    panel.grid.major=element_blank(),
+    panel.grid.minor=element_blank(),
+    plot.background=element_blank())
+ggsave(paste0("figs/ensemble-partial_TS",cutoff_yr,"_CS", ct_size,".pdf"),width = 7, height = 4)
+
+# par(mfrow = c(2, 1))
+# hist(d_mean_sim$spec_freq_0.05, breaks = xe$x)
+# hist(d_mean_sim$spec_freq_0.2, breaks = xf$x)
+
+# plot(d_mean_sim$spec_freq_0.05, jitter(rep(1, nrow(d_mean_sim)), 0.3), col  = "#00000050");abline(v = xe$x)
+# plot(d_mean_sim$spec_freq_0.2, jitter(rep(1, nrow(d_mean_sim)), 0.3), col  = "#00000050");abline(v = xf$x)
+```
+
+What do the stocks look like that have very low spectral densities? 
+
+```{r}
+low_0.2 <- filter(d_mean_sim, spec_freq_0.2 < 0.00005)
+nrow(low_0.2)
+filter(trues, stock_id %in% low_0.2$stock_id)
+
+head(all.df)
+
+g <- filter(dsim, stock_id %in% low_0.2$stock_id, iter %in% 1) %>% 
+  ggplot(aes(year, catch)) + geom_line() +
+  facet_wrap(~stock_id, scales = "free_y")
+ggsave("figs/spec-dens-low-0.2-examples.pdf", width = 22, height = 9)
+
+high_0.2 <- filter(d_mean_sim, spec_freq_0.2 > 0.06)
+nrow(high_0.2)
+
+g <- filter(dsim, stock_id %in% high_0.2$stock_id) %>% 
+  ggplot(aes(year, catch)) + geom_line() +
+  facet_wrap(~stock_id, scales = "free_y")
+ggsave("figs/spec-dens-high-0.2-examples.pdf", width = 22, height = 9)
+
+low_0.05 <- filter(d_mean_sim, spec_freq_0.05 < 0.0005)
+nrow(low_0.05)
+filter(trues, stock_id %in% low_0.05$stock_id)
+
+g <- filter(dsim, stock_id %in% low_0.05$stock_id) %>% 
+  ggplot(aes(year, catch)) + geom_line() +
+  facet_wrap(~stock_id, scales = "free_y")
+ggsave("figs/spec-dens-low-0.05-examples.pdf", width = 19, height = 8)
+
+high_0.05 <- filter(d_mean_sim, spec_freq_0.05 > 0.9)
+nrow(high_0.05)
+
+g <- filter(dsim, stock_id %in% high_0.05$stock_id) %>% 
+  ggplot(aes(year, catch)) + geom_line() +
+  facet_wrap(~stock_id, scales = "free_y")
+ggsave("figs/spec-dens-high-0.05-examples.pdf", width = 22, height = 9)
+```
+
+Predict FAO status for ensemble model.
+
+This code chunk:  
+
+1. Removes all stocks from `fao_filter` that have an NA
+2. Creates separate dataframes for each of the catch only models by selecting those stocks that are NA for each of the models. For example, `fao_cmsy` selects all stocks where NA exists for CMSY but each of the other models has a B/Bmsy estimate.  
+3. For the 5 datasets created, the random forest model that was trained on sim data is used to predict B/Bmsy using the appropriate model defined above. This means that each stock only has one rf model applied to it, depending on how much information we have from the individual model fits. If we have all, then the full ensemble is used, if we are missing SSCOM, then we use CMSY, COMSIR and Costello to predict. It looks like no less than 3 model outputs are used in each ensemble model.  
+4. The outputs are combined into a single dataset `fao_all`  
+
+```{r}
+#sort data into 4 chunks
+fao_all <- na.omit(fao_filter) %>%
+          mutate(ensemble_method = "full_ensemble") # n=633
+fao_cmsy <- filter(fao_filter, is.na(CMSY), !is.na(COMSIR), !is.na(Costello), !is.na(SSCOM))  %>%
+            mutate(ensemble_method = "fao_cmsy")  # n=62
+fao_comsir <- filter(fao_filter, is.na(COMSIR), !is.na(CMSY), !is.na(Costello), !is.na(SSCOM))  %>%
+            mutate(ensemble_method = "fao_comsir")  # n=61
+fao_costello <- filter(fao_filter, is.na(Costello), !is.na(CMSY), !is.na(COMSIR), !is.na(SSCOM))  %>%
+            mutate(ensemble_method = "fao_costello")  # n=26
+fao_sscom <- filter(fao_filter, is.na(SSCOM), !is.na(CMSY), !is.na(COMSIR), !is.na(Costello)) %>%
+            mutate(ensemble_method = "fao_sscom")  # n=9
+
+fao_all$ensemble <- exp(predict(m_rf, newdata=fao_all))
+fao_cmsy$ensemble <- exp(predict(m_rf_cmsy, newdata=fao_cmsy))
+fao_comsir$ensemble <- exp(predict(m_rf_comsir, newdata=fao_comsir))
+fao_costello$ensemble <- exp(predict(m_rf_costello, newdata=fao_costello))
+fao_sscom$ensemble <- exp(predict(m_rf_sscom, newdata=fao_sscom))
+
+fao_all <- bind_rows(fao_all, fao_cmsy) %>%
+  bind_rows(fao_comsir) %>%
+  bind_rows(fao_costello) %>%
+  bind_rows(fao_sscom)
+
+nrow(fao_all)   #n=791 for TS20, n=906 for TS10
+# 21 stocks with fewer than 3 models converged 
+
+assert_that(sum(duplicated(fao_all$stock)) == 0)
+
+# saveRDS(fao_all,file = paste0("data-generated/fao_ensemble_TS",cutoff_yr,"_CS", ct_size,".rds"))
+```
+
+Testing the difference if we remove each model.
+
+```{r}
+fao_all_test <- data.frame(stock=fao_all$stock)
+fao_all_test$All <- exp(predict(m_rf, newdata=fao_all))
+fao_all_test$CMSY <- exp(predict(m_rf_cmsy, newdata=fao_all))
+fao_all_test$COMSIR <- exp(predict(m_rf_comsir, newdata=fao_all))
+fao_all_test$mPRM <- exp(predict(m_rf_costello, newdata=fao_all))
+fao_all_test$SSCOM <- exp(predict(m_rf_sscom, newdata=fao_all))
+# fao_all_test$Spectral <- exp(predict(m_rf_spectral, newdata=fao_all))
+
+reshape2::melt(fao_all_test) %>%
+ggplot(aes(variable,value)) + geom_violin(draw_quantiles = c(0.25, 0.5, 0.75)) + coord_flip()+xlab("")+ylab(expression(B/B[MSY]))# + scale_fill_manual(values=c("#000000",RColorBrewer::brewer.pal(5,"Set2")))
+ggsave("figs/model_sensitivity_violin_plot.pdf",width=3,height=5)
+```
+
+Save generated data into .csv files.
+
+```{r}
+fao_all <- rename(fao_all, mPRM = Costello)
+readr::write_csv(fao_all, path = "data-generated/ensemble-estimates.csv")
+```
+
