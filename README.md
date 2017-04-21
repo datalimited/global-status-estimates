@@ -18,7 +18,7 @@ The raw input data files are in the folder `data-raw`. This folder can be mostly
 
 The file `fit-ensemble.Rmd` generates the ensemble model based on a simulated data set and fit this model to the FAO data.
 
-The generated data `data-generated/ensemble-estimates.csv` is the primary output of interest. It contains the following:
+The generated data file `data-generated/ensemble-estimates.csv` ([link to raw data](https://raw.githubusercontent.com/datalimited/global-status-estimates/master/data-generated/ensemble-estimates.csv?token=AABLlWL4pzOWoHz2yBxWrNJx3vyY_ikPks5ZA5rywA%3D%3D)) is the primary output of interest. It contains the following:
 
 `stock` The FAO stock name
 
