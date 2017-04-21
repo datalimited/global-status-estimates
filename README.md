@@ -22,7 +22,7 @@ The generated data file `data-generated/ensemble-estimates.csv` ([link to raw da
 
 `stock` The FAO stock name
 
-`CMSY` The CMSY method estimate of B/Bmsy
+`CMSY` The CMSY method estimate of B/Bmsy 
 
 `mPRM` The modified panel regression method estimate of B/Bmsy
 
@@ -36,9 +36,10 @@ The generated data file `data-generated/ensemble-estimates.csv` ([link to raw da
 
 `ensemble` contains the superensemble estimate of B/Bmsy.
 
-## Caveats 
+## Caveats
+
+All estimates are for the average of the last 5 years of data: 2006-2010.
+
+Any catch-only stock status model is not particularly accurate on a stock-by-stock basis — particularly given that the individual models were not tuned for the unique circumstances of each stock in this case. They are best used to determine aggregate status across multiple stocks and only when there is no other option to estimate stock status. 
 
 The training dataset was based on 3 life-history types, and may not be reliable for a wider range of species.
-
-The ensemble uses the average B/Bmsy estimates from catch-only models  from the last 5 years of catch data. In other words: B/Bmsy is estimated using 4 catch-only models. These B/Bmsy estimates from the 5 years of data from each model are averaged and then fed into the ensemble model. 
-
