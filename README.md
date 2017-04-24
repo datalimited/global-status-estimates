@@ -40,6 +40,6 @@ The generated data file `data-generated/ensemble-estimates.csv` ([link to raw da
 
 All estimates are for the average of the last 5 years of data: 2006-2010.
 
-Any catch-only stock status model is not particularly accurate on a stock-by-stock basis — particularly given that the individual models were not tuned for the unique circumstances of each stock in this case. They are best used to determine aggregate status across multiple stocks and only when there is no other option to estimate stock status. 
+Any catch-only stock status model may not be particularly accurate on a stock-by-stock basis — particularly given that the individual models were not tuned for the unique circumstances of each stock in the paper cited above. Here they were used to determine aggregate status across multiple stocks. For individual stock estimates, these catch only models should only be used if a fuller stock assessment with addition sources of data cannot be performed.
 
-The training dataset was based on 3 life-history types, and may not be reliable for a wider range of species.
+The training dataset was based on 3 life-history types, and may not be reliable for a wider range of species. The superensemble was trained on the simulated fish stock data described in the Rosenberg et al. (2014) FAO technical report cited above.  
