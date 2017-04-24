@@ -547,7 +547,7 @@ Save generated data into .csv files.
 ```{r}
 fao_all <- rename(fao_all, mPRM = Costello)
 fao_all2 <- mutate_at(fao_all, 
-  vars(CMSY:spec_freq_0.2, ensemble), round, digits = 3)
+  vars(CMSY:spec_freq_0.2, ensemble), round, digits = 2)
 fao_all2$spec_freq_0.05 <- NULL
 fao_all2$spec_freq_0.2 <- NULL
 readr::write_csv(fao_all2, path = "data-generated/ensemble-estimates.csv")
