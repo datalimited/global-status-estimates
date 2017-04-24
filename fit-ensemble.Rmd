@@ -551,6 +551,7 @@ fao_all2 <- mutate_at(fao_all,
   vars(CMSY:spec_freq_0.2, ensemble), round, digits = 2)
 fao_all2$spec_freq_0.05 <- NULL
 fao_all2$spec_freq_0.2 <- NULL
+fao_all2 <- arrange(fao_all2, stock)
 readr::write_csv(fao_all2, path = "data-generated/ensemble-estimates.csv")
 ```
 
