@@ -14,7 +14,7 @@ Rosenberg, A. A., M. J. Fogarty, A. B. Cooper, M. Dickey-Collas, E. A. Fulton, N
 
 ## Data description 
 
-The generated data file `data-generated/ensemble-estimates.csv` ([link to raw data](https://raw.githubusercontent.com/datalimited/global-status-estimates/master/data-generated/ensemble-estimates.csv?token=AABLlWL4pzOWoHz2yBxWrNJx3vyY_ikPks5ZA5rywA%3D%3D)) is the primary output of interest. It contains the following:
+The generated data file `data-generated/ensemble-estimates.csv` ([link to raw data](https://raw.githubusercontent.com/datalimited/global-status-estimates/master/data-generated/ensemble-estimates.csv), [link to table](https://github.com/datalimited/global-status-estimates/blob/master/data-generated/ensemble-estimates.csv)) is the primary output of interest. It contains the following:
 
 `stock` The FAO stock name
 
