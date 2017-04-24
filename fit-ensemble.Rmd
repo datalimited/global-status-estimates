@@ -4,6 +4,7 @@
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, cache=TRUE, autodep = TRUE)
 library(dplyr)
 library(ggplot2)
+set.seed(1)
 ```
 
 We'll start by reading in the previous model fits to the FAO data.
