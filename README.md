@@ -34,12 +34,12 @@ The generated data file `data-generated/ensemble-estimates.csv` ([link to raw da
 
 The raw input data files are in the folder `data-raw`. This folder can be mostly ignored and is there so that the R code is reproducible.
 
-The file `fit-ensemble.Rmd` generates the ensemble model based on a simulated data set and fit this model to the FAO data.
+The file `fit-ensemble.Rmd` generates the ensemble model based on a simulated data set and fits this model to the FAO data.
 
 ## Caveats
 
 All estimates are for the average of the last 5 years of data: 2006-2010.
 
-Any catch-only stock status model may not be particularly accurate on a stock-by-stock basis — particularly given that the individual models were not tuned for the unique circumstances of each stock in the paper cited above. Here they were used to determine aggregate status across multiple stocks. For individual stock estimates, these catch only models should only be used if a fuller stock assessment with addition sources of data cannot be performed.
+Any catch-only stock status model may not be particularly accurate on a stock-by-stock basis — especially given that the individual models were not tuned for the unique circumstances of each stock in the paper cited above. Here they were used to determine aggregate status across multiple stocks. For individual stock estimates, these catch only models should only be used if a fuller stock assessment with addition sources of data cannot be performed.
 
 The training dataset was based on 3 life-history types, and may not be reliable for a wider range of species. The superensemble was trained on the simulated fish stock data described in the Rosenberg et al. (2014) FAO technical report cited above.  
