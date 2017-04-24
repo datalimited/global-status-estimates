@@ -1,792 +1,792 @@
-stock,CMSY,mPRM,COMSIR,SSCOM,spec_freq_0.05,spec_freq_0.2,ensemble_method,ensemble
-"Atlantic, Antarctic Patagonian toothfish",0.576,1.227,1.615,1.448,0.233,0.052,full_ensemble,0.774
-"Atlantic, Eastern Central African sicklefish",0.902,0.943,1.209,1.744,0.066,0.011,full_ensemble,0.957
-"Atlantic, Eastern Central Albacore",0.333,0.551,0.152,1.483,0.124,0.011,full_ensemble,0.509
-"Atlantic, Eastern Central Angola dentex",0.734,0.901,1.943,1.447,0.308,0.037,full_ensemble,1.228
-"Atlantic, Eastern Central Atlantic blue marlin",1.237,1.255,1.566,1.649,0.108,0.023,full_ensemble,1.363
-"Atlantic, Eastern Central Atlantic bonito",1.424,1.199,1.192,1.513,0.135,0.044,full_ensemble,0.978
-"Atlantic, Eastern Central Atlantic bumper",1.106,1.318,1.612,1.56,0.257,0.028,full_ensemble,0.874
-"Atlantic, Eastern Central Atlantic horse mackerel",0.265,0.516,0.009,1.65,0.261,0.056,full_ensemble,0.615
-"Atlantic, Eastern Central Atlantic sailfish",0.569,0.756,1.042,1.542,0.11,0.03,full_ensemble,1.122
-"Atlantic, Eastern Central Bearded brotula",1.344,1.432,1.285,1.504,0.23,0.031,full_ensemble,1.217
-"Atlantic, Eastern Central Bigeye grunt",1.246,1.025,1.468,1.41,0.091,0.016,full_ensemble,1.189
-"Atlantic, Eastern Central Bigeye tuna",1.021,1.071,1.477,1.289,0.098,0.007,full_ensemble,0.896
-"Atlantic, Eastern Central Black scabbardfish",0.466,1.069,1.253,1.321,0.057,0.022,full_ensemble,0.938
-"Atlantic, Eastern Central Black seabream",1.451,0.714,1.512,1.479,0.183,0.04,full_ensemble,0.906
-"Atlantic, Eastern Central Blue butterfish",1.09,1.355,0.698,1.597,0.334,0.01,full_ensemble,1.337
-"Atlantic, Eastern Central Bobo croaker",1.14,1.164,1.488,1.293,0.158,0.013,full_ensemble,0.993
-"Atlantic, Eastern Central Boe drum",0.651,0.608,1.225,1.466,0.042,0.025,full_ensemble,0.987
-"Atlantic, Eastern Central Bogue",1.008,1.221,1.978,1.729,0.181,0.023,full_ensemble,1.485
-"Atlantic, Eastern Central Bonga shad",1.159,1.572,1.697,1.66,0.101,0.007,full_ensemble,1.221
-"Atlantic, Eastern Central Cassava croaker",1.182,1.116,0.85,1.392,0.24,0.019,full_ensemble,1.354
-"Atlantic, Eastern Central Chub mackerel",1.163,0.974,1.115,1.132,0.214,0.021,full_ensemble,1.133
-"Atlantic, Eastern Central Common dentex",0.364,0.36,0.053,0.753,0.222,0.029,full_ensemble,1.563
-"Atlantic, Eastern Central Common octopus",0.332,1.124,0.047,1.267,0.182,0.021,full_ensemble,0.854
-"Atlantic, Eastern Central Common pandora",0.354,0.406,0.025,1.066,0.243,0.019,full_ensemble,0.704
-"Atlantic, Eastern Central Common sole",0.509,0.501,1.297,1.324,0.18,0.03,full_ensemble,0.917
-"Atlantic, Eastern Central Crevalle jack",0.885,0.763,1.177,1.602,0.122,0.052,full_ensemble,1.023
-"Atlantic, Eastern Central Deepwater rose shrimp",0.301,0.35,0,0.8,0.137,0.032,full_ensemble,0.999
-"Atlantic, Eastern Central European anchovy",0.52,0.707,0.937,1.287,0.079,0.004,full_ensemble,1.126
-"Atlantic, Eastern Central European conger",0.92,1.519,1.392,1.206,0.156,0.012,full_ensemble,1.13
-"Atlantic, Eastern Central European hake",0.598,0.548,1.519,1.366,0.149,0.029,full_ensemble,0.827
-"Atlantic, Eastern Central False scad",0.302,0.529,1.109,1.178,0.248,0.045,full_ensemble,0.908
-"Atlantic, Eastern Central Frigate tuna",0.341,0.624,0.307,1.215,0.329,0.048,full_ensemble,0.535
-"Atlantic, Eastern Central Giant African threadfin",1.163,1.207,1.951,1.291,0.321,0.028,full_ensemble,1.071
-"Atlantic, Eastern Central Large-eye dentex",0.317,0.462,0.114,1.699,0.308,0.005,full_ensemble,0.39
-"Atlantic, Eastern Central Largehead hairtail",0.371,0.981,1.15,1.563,0.216,0.03,full_ensemble,0.824
-"Atlantic, Eastern Central Leerfish",0.378,0.559,0.346,1.25,0.19,0.025,full_ensemble,0.499
-"Atlantic, Eastern Central Lesser African threadfin",1.137,1.297,1.456,1.434,0.204,0.016,full_ensemble,1.006
-"Atlantic, Eastern Central Little tunny",1.281,0.806,1.07,1.294,0.25,0.032,full_ensemble,1.111
-"Atlantic, Eastern Central Madeiran sardinella",0.974,1.147,1.678,1.396,0.157,0.012,full_ensemble,0.718
-"Atlantic, Eastern Central Meagre",1.387,0.821,1.919,1.819,0.14,0.025,full_ensemble,1.32
-"Atlantic, Eastern Central Northern bluefin tuna",0.493,0.624,1.329,1.58,0.085,0.01,full_ensemble,0.918
-"Atlantic, Eastern Central Pouting",0.489,0.493,0.974,0.908,0.134,0.033,full_ensemble,1.01
-"Atlantic, Eastern Central Round sardinella",1.18,0.937,1.549,1.53,0.1,0.009,full_ensemble,1.019
-"Atlantic, Eastern Central Royal threadfin",0.967,0.643,1.091,1.48,0.268,0.026,full_ensemble,0.846
-"Atlantic, Eastern Central Rubberlip grunt",1.222,0.916,1.072,1.462,0.266,0.046,full_ensemble,1.071
-"Atlantic, Eastern Central Senegalese hake",0.393,0.375,0.86,1.769,0.214,0.015,full_ensemble,0.714
-"Atlantic, Eastern Central Silver scabbardfish",0.244,0.821,0.407,0.101,0.172,0.024,full_ensemble,0.402
-"Atlantic, Eastern Central Skipjack tuna",1.139,1.176,1.36,1.161,0.114,0.01,full_ensemble,1.054
-"Atlantic, Eastern Central Sompat grunt",1.249,0.922,0.609,1.666,0.186,0.02,full_ensemble,1.145
-"Atlantic, Eastern Central Southern pink shrimp",0.498,0.588,1.548,1.335,0.048,0.005,full_ensemble,0.69
-"Atlantic, Eastern Central Swordfish",1.195,1.051,1.199,1.531,0.172,0.023,full_ensemble,1.221
-"Atlantic, Eastern Central West African goatfish",0.458,0.69,1.381,1.409,0.083,0.015,full_ensemble,0.721
-"Atlantic, Eastern Central West African ilisha",1.267,0.809,1.412,1.479,0.196,0.027,full_ensemble,1.439
-"Atlantic, Eastern Central West African ladyfish",1.321,1.175,0.861,1.584,0.153,0.031,full_ensemble,1.365
-"Atlantic, Eastern Central White grouper",1.471,1.275,0.932,1.625,0.121,0.017,full_ensemble,1.164
-"Atlantic, Eastern Central Yellowfin tuna",1.239,0.943,0.176,1.143,0.14,0.012,full_ensemble,1.172
-"Atlantic, Eastern Central Zebra seabream",1.221,0.966,1.746,1.482,0.254,0.023,full_ensemble,1.188
-"Atlantic, Northeast Albacore",0.412,0.719,1.86,1.793,0.089,0.01,full_ensemble,0.762
-"Atlantic, Northeast American plaice",0.362,0.413,1.001,0.763,0.236,0.038,full_ensemble,0.804
-"Atlantic, Northeast Angler",1.089,1.998,1.874,1.715,0.074,0.005,full_ensemble,1.327
-"Atlantic, Northeast Atlantic halibut",0.444,0.378,1.6,1.303,0.101,0.008,full_ensemble,0.72
-"Atlantic, Northeast Atlantic pomfret",1.451,1.247,1.34,2.235,0.16,0.044,full_ensemble,0.985
-"Atlantic, Northeast Atlantic salmon",0.312,0.428,0.102,0.729,0.133,0.012,full_ensemble,0.64
-"Atlantic, Northeast Basking shark",0.362,0.778,0.004,0.621,0.205,0.022,full_ensemble,1.252
-"Atlantic, Northeast Bigeye tuna",0.478,0.711,1.048,1.232,0.113,0.036,full_ensemble,0.743
-"Atlantic, Northeast Black scabbardfish",1.036,1.373,1.425,1.385,0.129,0.02,full_ensemble,1.065
-"Atlantic, Northeast Black seabream",1.349,0.786,1.267,1.523,0.2,0.023,full_ensemble,1.033
-"Atlantic, Northeast Blackspot seabream",0.408,0.483,0.068,1.664,0.06,0.013,full_ensemble,0.58
-"Atlantic, Northeast Blue ling",0.483,0.48,1.267,1.454,0.123,0.012,full_ensemble,0.921
-"Atlantic, Northeast Blue mussel",0.395,0.376,1.864,0.966,0.09,0.007,full_ensemble,1.45
-"Atlantic, Northeast Blue shark",1.011,1.792,1.165,3.101,0.351,0.029,full_ensemble,1.324
-"Atlantic, Northeast Bogue",0.504,0.521,1.88,1.678,0.06,0.015,full_ensemble,0.829
-"Atlantic, Northeast Brill",1.271,0.768,1.767,1.668,0.103,0.008,full_ensemble,1.492
-"Atlantic, Northeast Chub mackerel",1.262,0.914,0.731,1.706,0.117,0.027,full_ensemble,1.023
-"Atlantic, Northeast Common cuttlefish",1.47,3.437,0.635,1.96,0.088,0.013,full_ensemble,1.505
-"Atlantic, Northeast Common shrimp",1.464,0.577,0.772,1.802,0.048,0.005,full_ensemble,0.848
-"Atlantic, Northeast Common sole",1.19,0.669,1.804,1.43,0.078,0.009,full_ensemble,1.339
-"Atlantic, Northeast Dab",1.076,0.673,1.723,1.335,0.044,0.01,full_ensemble,0.783
-"Atlantic, Northeast Deepwater redfish",0.933,1.242,1.039,2.86,0.304,0.025,full_ensemble,1.174
-"Atlantic, Northeast Dog cockle",0.979,2.06,1.929,1.286,0.195,0.019,full_ensemble,1.114
-"Atlantic, Northeast Edible crab",1.192,0.867,1.916,1.785,0.056,0.003,full_ensemble,1.414
-"Atlantic, Northeast European conger",0.947,2.386,1.541,1.574,0.034,0.004,full_ensemble,1.247
-"Atlantic, Northeast European eel",0.416,0.394,1.156,0.792,0.066,0.006,full_ensemble,1.002
-"Atlantic, Northeast European flat oyster",0.585,0.96,1.879,1.583,0.135,0.018,full_ensemble,1.296
-"Atlantic, Northeast European hake",0.483,0.45,1.714,1.824,0.064,0.006,full_ensemble,0.704
-"Atlantic, Northeast European lobster",1.411,1.119,1.484,1.984,0.064,0.007,full_ensemble,1.026
-"Atlantic, Northeast European pilchard",0.504,0.706,1.306,1.718,0.06,0.006,full_ensemble,0.806
-"Atlantic, Northeast European seabass",1.082,1.344,1.95,1.599,0.161,0.013,full_ensemble,1.139
-"Atlantic, Northeast European smelt",0.437,0.462,0.406,1.382,0.113,0.014,full_ensemble,0.557
-"Atlantic, Northeast European whitefish",0.467,0.583,1.6,1.751,0.053,0.006,full_ensemble,0.752
-"Atlantic, Northeast Flounder",1.163,0.998,1.872,1.726,0.081,0.007,full_ensemble,1.259
-"Atlantic, Northeast Great Atlantic scallop",1.184,0.862,1.661,1.825,0.132,0.011,full_ensemble,0.957
-"Atlantic, Northeast Greenland halibut",0.526,0.473,1.401,1.094,0.109,0.01,full_ensemble,0.886
-"Atlantic, Northeast Grooved carpet shell",0.326,1.356,1.868,1.554,0.065,0.024,full_ensemble,1.205
-"Atlantic, Northeast Iceland scallop",0.239,0.228,0.001,0.007,0.207,0.017,full_ensemble,0.276
-"Atlantic, Northeast John dory",1.203,2.25,1.209,1.409,0.185,0.015,full_ensemble,1.324
-"Atlantic, Northeast Large-eye dentex",1.123,0.604,1.575,1.588,0.133,0.029,full_ensemble,1.197
-"Atlantic, Northeast Leafscale gulper shark",0.2,0.709,1.153,0.375,0.267,0.034,full_ensemble,0.833
-"Atlantic, Northeast Lemon sole",1.271,0.881,1.886,1.667,0.06,0.005,full_ensemble,1.249
-"Atlantic, Northeast Ling",0.518,0.593,1.064,1.299,0.061,0.005,full_ensemble,0.815
-"Atlantic, Northeast Lumpsucker",1.128,1.377,1.432,1.331,0.2,0.021,full_ensemble,1.075
-"Atlantic, Northeast Megrim",1.22,0.733,1.573,1.441,0.078,0.006,full_ensemble,0.988
-"Atlantic, Northeast Navaga",0.3,0.344,0.077,1.765,0.183,0.03,full_ensemble,0.772
-"Atlantic, Northeast Northern bluefin tuna",0.439,0.582,1.607,1.588,0.118,0.009,full_ensemble,0.674
-"Atlantic, Northeast Northern prawn",0.395,0.479,0.382,1.129,0.141,0.006,full_ensemble,0.625
-"Atlantic, Northeast Norway lobster",1.235,1.047,1.62,1.491,0.074,0.005,full_ensemble,1.211
-"Atlantic, Northeast Norway redfish",0.983,1.665,1.217,1.977,0.245,0.021,full_ensemble,1.258
-"Atlantic, Northeast Orange roughy",0.196,0.741,0.648,0.465,0.176,0.08,full_ensemble,0.925
-"Atlantic, Northeast Piked dogfish",0.388,0.769,0.046,0.396,0.135,0.01,full_ensemble,1.171
-"Atlantic, Northeast Pollack",1.167,0.624,1.585,1.648,0.142,0.012,full_ensemble,0.841
-"Atlantic, Northeast Porbeagle",0.421,0.813,0.478,1.332,0.162,0.03,full_ensemble,0.778
-"Atlantic, Northeast Portuguese dogfish",0.284,0.781,0.172,0.336,0.286,0.03,full_ensemble,0.756
-"Atlantic, Northeast Pouting",0.527,0.552,1.38,1.206,0.088,0.007,full_ensemble,0.787
-"Atlantic, Northeast Pullet carpet shell",0.491,1.265,0.773,1.175,0.249,0.03,full_ensemble,0.98
-"Atlantic, Northeast Red gurnard",0.995,1.454,1.968,1.105,0.506,0.027,full_ensemble,1.042
-"Atlantic, Northeast Roundnose grenadier",0.379,0.432,1.413,0.994,0.129,0.033,full_ensemble,0.63
-"Atlantic, Northeast Silver scabbardfish",0.363,0.899,0.104,1.754,0.174,0.022,full_ensemble,0.82
-"Atlantic, Northeast Skipjack tuna",1.277,1.034,1.902,1.768,0.093,0.036,full_ensemble,1.185
-"Atlantic, Northeast Smallspotted catshark",1.174,1.501,1.444,1.621,0.023,0.009,full_ensemble,1.217
-"Atlantic, Northeast Spinous spider crab",1.203,0.534,1.646,1.557,0.094,0.009,full_ensemble,0.905
-"Atlantic, Northeast Spotted wolffish",1.288,2.178,0.782,1.524,0.107,0.033,full_ensemble,1.669
-"Atlantic, Northeast Striped red mullet",0.994,1.058,1.97,1.65,0.064,0.013,full_ensemble,1.272
-"Atlantic, Northeast Swordfish",0.444,0.739,0.635,1.568,0.098,0.008,full_ensemble,0.691
-"Atlantic, Northeast Thornback ray",1.561,1.595,1.261,1.813,0.129,0.027,full_ensemble,0.302
-"Atlantic, Northeast Tusk",1.261,0.63,1.485,1.526,0.107,0.011,full_ensemble,1.045
-"Atlantic, Northeast Vendace",1.297,0.604,1.331,1.199,0.128,0.024,full_ensemble,1.06
-"Atlantic, Northeast Whelk",1.007,1.663,1.97,1.742,0.174,0.014,full_ensemble,1.435
-"Atlantic, Northeast Whiting",0.313,0.419,0.099,1.596,0.084,0.008,full_ensemble,0.379
-"Atlantic, Northeast Witch",1.051,0.734,1.897,1.581,0.132,0.01,full_ensemble,1.37
-"Atlantic, Northeast Wolf-fish",0.544,1.231,1.433,1.619,0.055,0.038,full_ensemble,0.949
-"Atlantic, Northwest Albacore",0.281,0.569,0.123,1.278,0.247,0.032,full_ensemble,0.487
-"Atlantic, Northwest American lobster",1.286,1.077,1.933,1.937,0.071,0.005,full_ensemble,1.104
-"Atlantic, Northwest American plaice",0.362,0.346,0.022,0.79,0.174,0.005,full_ensemble,1.448
-"Atlantic, Northwest American sea scallop",1.151,0.672,1.935,1.564,0.25,0.006,full_ensemble,1.664
-"Atlantic, Northwest American shad",0.374,0.345,0.076,1.365,0.144,0.007,full_ensemble,1.266
-"Atlantic, Northwest Atlantic croaker",0.523,0.895,0.812,1.327,0.359,0.004,full_ensemble,1.137
-"Atlantic, Northwest Atlantic halibut",0.482,0.452,1.412,1.476,0.097,0.008,full_ensemble,0.773
-"Atlantic, Northwest Atlantic rock crab",0.977,0.951,1.702,1.718,0.092,0.007,full_ensemble,1.149
-"Atlantic, Northwest Atlantic salmon",0.265,0.368,0.001,1.462,0.173,0.013,full_ensemble,0.718
-"Atlantic, Northwest Atlantic surf clam",1.12,2.281,1.473,1.097,0.132,0.011,full_ensemble,1.203
-"Atlantic, Northwest Bigeye tuna",0.31,0.585,0.179,1.459,0.177,0.026,full_ensemble,0.419
-"Atlantic, Northwest Blue crab",1.472,0.594,1.581,1.72,0.062,0.007,full_ensemble,0.996
-"Atlantic, Northwest Blue mussel",0.541,0.367,1.53,1.613,0.098,0.008,full_ensemble,1.128
-"Atlantic, Northwest Deepwater redfish",0.25,0.779,0.222,0.783,0.248,0.021,full_ensemble,0.623
-"Atlantic, Northwest Great Northern tilefish",0.5,1.072,1.234,1.735,0.228,0.021,full_ensemble,0.891
-"Atlantic, Northwest Greenland cod",0.295,0.374,0,1.359,0.241,0.024,full_ensemble,0.711
-"Atlantic, Northwest Greenland halibut",1.09,0.688,1.477,1.147,0.131,0.01,full_ensemble,0.815
-"Atlantic, Northwest Iceland scallop",0.286,0.252,0.91,0.959,0.279,0.029,full_ensemble,1.191
-"Atlantic, Northwest Jonah crab",1.255,0.919,1.973,1.807,0.208,0.019,full_ensemble,1.377
-"Atlantic, Northwest Longfin squid",0.446,1.479,1.122,0.97,0.105,0.021,full_ensemble,1.254
-"Atlantic, Northwest Lumpsucker",1.071,1.912,1.976,1.928,0.185,0.015,full_ensemble,1.219
-"Atlantic, Northwest Northern bluefin tuna",0.45,0.634,0.52,1.351,0.144,0.023,full_ensemble,0.781
-"Atlantic, Northwest Northern prawn",1.002,1.031,1.559,1.394,0.095,0.007,full_ensemble,0.764
-"Atlantic, Northwest Onion-eye grenadier",0.21,0.354,0.057,1.196,0.23,0.043,full_ensemble,0.993
-"Atlantic, Northwest Piked dogfish",0.612,1.379,1.934,3.655,0.167,0.028,full_ensemble,1.318
-"Atlantic, Northwest Queen crab",1.061,0.737,1.603,1.491,0.105,0.008,full_ensemble,0.759
-"Atlantic, Northwest Roundnose grenadier",0.348,0.336,0.564,1.077,0.053,0.014,full_ensemble,1.133
-"Atlantic, Northwest Saithe",0.328,0.381,0.141,1.392,0.218,0.012,full_ensemble,0.356
-"Atlantic, Northwest Sand gaper",0.432,1.405,0.2,1.699,0.093,0.008,full_ensemble,0.815
-"Atlantic, Northwest Silver hake",0.337,0.374,0.086,1.628,0.14,0.014,full_ensemble,0.722
-"Atlantic, Northwest Spot croaker",0.646,0.689,0.536,1.448,0.073,0.017,full_ensemble,1.142
-"Atlantic, Northwest Striped sea-bass",1.32,0.598,0.307,1.436,0.091,0.007,full_ensemble,0.825
-"Atlantic, Northwest Summer flounder",0.509,0.537,1.018,1.433,0.135,0.006,full_ensemble,1.118
-"Atlantic, Northwest Swordfish",0.514,0.66,1.242,1.696,0.098,0.023,full_ensemble,0.878
-"Atlantic, Northwest Tusk",0.381,0.391,0.116,0.973,0.168,0.013,full_ensemble,0.72
-"Atlantic, Northwest White hake",0.397,0.421,0.318,1.114,0.116,0.01,full_ensemble,0.557
-"Atlantic, Northwest Winter flounder",0.366,0.42,0.179,1.5,0.1,0.008,full_ensemble,0.418
-"Atlantic, Northwest Witch",0.378,0.378,0.085,1.193,0.102,0.008,full_ensemble,0.694
-"Atlantic, Northwest Yellowfin tuna",0.453,0.618,1.06,1.553,0.04,0.04,full_ensemble,0.686
-"Atlantic, Southeast Albacore",1.427,1.059,0.338,1.525,0.052,0.06,full_ensemble,1.065
-"Atlantic, Southeast Atlantic pomfret",0.503,0.569,1.276,1.484,0.073,0.023,full_ensemble,0.886
-"Atlantic, Southeast Bigeye grunt",1.051,0.626,1.972,1.165,0.168,0.028,full_ensemble,1.36
-"Atlantic, Southeast Bigeye tuna",0.512,0.865,1.517,1.517,0.159,0.016,full_ensemble,0.894
-"Atlantic, Southeast Bobo croaker",1.032,1.026,1.964,1.607,0.232,0.015,full_ensemble,1.138
-"Atlantic, Southeast Cape Hope squid",1.115,2.746,1.536,1.538,0.191,0.02,full_ensemble,1.378
-"Atlantic, Southeast Cape monk",0.474,1.252,1.088,0.834,0.241,0.025,full_ensemble,0.953
-"Atlantic, Southeast Chub mackerel",0.334,0.589,0.069,1.799,0.06,0.028,full_ensemble,0.495
-"Atlantic, Southeast Cunene horse mackerel",0.335,0.571,0.114,1.666,0.078,0.024,full_ensemble,0.499
-"Atlantic, Southeast Deepwater rose shrimp",0.282,0.322,0.058,0.718,0.227,0.041,full_ensemble,1.066
-"Atlantic, Southeast John dory",0.553,1.16,1.595,1.322,0.193,0.027,full_ensemble,0.897
-"Atlantic, Southeast Kingklip",0.55,1.058,1.333,1.261,0.154,0.023,full_ensemble,1.087
-"Atlantic, Southeast Large-eye dentex",0.284,0.416,0,0.861,0.137,0.017,full_ensemble,0.608
-"Atlantic, Southeast Panga seabream",0.481,0.502,0.659,1.335,0.158,0.018,full_ensemble,0.712
-"Atlantic, Southeast Shallow-water Cape hake",0.837,0.643,1.166,1.934,0.158,0.038,full_ensemble,1.072
-"Atlantic, Southeast Silver scabbardfish",0.513,1.014,1.517,1.072,0.087,0.026,full_ensemble,1.072
-"Atlantic, Southeast Skipjack tuna",0.332,0.529,0.077,1.465,0.292,0.023,full_ensemble,0.59
-"Atlantic, Southeast Snoek",0.499,1.155,1.484,1.599,0.067,0.01,full_ensemble,0.974
-"Atlantic, Southeast Southern bluefin tuna",0.383,0.561,0.869,1.351,0.192,0.018,full_ensemble,0.463
-"Atlantic, Southeast Southern meagre",1.393,1.445,1.936,4.133,0.103,0.011,full_ensemble,0.902
-"Atlantic, Southeast Striped red shrimp",0.298,0.404,0.149,0.92,0.21,0.042,full_ensemble,0.478
-"Atlantic, Southeast Swordfish",1.034,1.01,1.681,1.614,0.094,0.017,full_ensemble,0.972
-"Atlantic, Southeast West African geryon",0.314,0.371,0.121,0.162,0.163,0.044,full_ensemble,0.654
-"Atlantic, Southeast West coast sole",0.571,0.767,0.987,1.744,0.14,0.009,full_ensemble,1.105
-"Atlantic, Southeast Whiteheads round herring",1.499,0.926,1.455,1.54,0.15,0.022,full_ensemble,0.547
-"Atlantic, Southeast Yellowfin tuna",0.632,0.859,1.068,1.6,0.061,0.031,full_ensemble,1.001
-"Atlantic, Southeast Zebra seabream",0.338,0.475,0.773,1.046,0.064,0.064,full_ensemble,1.149
-"Atlantic, Southwest Albacore",0.372,0.695,0.351,1.163,0.09,0.022,full_ensemble,0.658
-"Atlantic, Southwest Argentine anchoita",1.04,1.118,1.675,1.415,0.139,0.022,full_ensemble,0.87
-"Atlantic, Southwest Argentine angelshark",0.866,1.636,1.694,1.697,0.038,0.016,full_ensemble,0.996
-"Atlantic, Southwest Argentine croaker",1.137,1.062,1.96,1.586,0.305,0.028,full_ensemble,1.189
-"Atlantic, Southwest Argentine shortfin squid",0.528,2.282,0.499,0.989,0.179,0.014,full_ensemble,1.205
-"Atlantic, Southwest Atlantic bonito",0.36,0.594,0.05,1.782,0.138,0.017,full_ensemble,0.72
-"Atlantic, Southwest Atlantic seabob",1.283,1.048,1.322,1.133,0.162,0.016,full_ensemble,1.138
-"Atlantic, Southwest Bastard halibut",1.127,0.871,1.425,1.528,0.17,0.013,full_ensemble,1.082
-"Atlantic, Southwest Bigeye tuna",1.178,1.024,1.017,1.423,0.169,0.014,full_ensemble,1.268
-"Atlantic, Southwest Black drum",0.385,0.508,0.199,1.786,0.082,0.013,full_ensemble,0.405
-"Atlantic, Southwest Blackbelly rosefish",0.39,1.142,1.891,2.589,0.233,0.026,full_ensemble,1.122
-"Atlantic, Southwest Blue shark",1.2,2.189,0.655,3.515,0.309,0.032,full_ensemble,1.61
-"Atlantic, Southwest Brazilian codling",1.114,0.784,1.568,1.569,0.205,0.018,full_ensemble,0.931
-"Atlantic, Southwest Brazilian flathead",1.102,1.054,1.936,1.603,0.122,0.009,full_ensemble,1.227
-"Atlantic, Southwest Caribbean spiny lobster",1.212,0.645,1.501,1.403,0.168,0.014,full_ensemble,0.834
-"Atlantic, Southwest Chub mackerel",0.684,0.751,0.826,1.834,0.076,0.009,full_ensemble,1.123
-"Atlantic, Southwest Common dolphinfish",0.952,1.173,1.818,1.697,0.076,0.008,full_ensemble,1.092
-"Atlantic, Southwest Common seabream",1.431,0.746,1.011,1.715,0.132,0.013,full_ensemble,1.201
-"Atlantic, Southwest Dana's swimming crab",0.469,0.445,0.426,1.689,0.18,0.017,full_ensemble,0.768
-"Atlantic, Southwest King mackerel",1.526,1.021,1.462,1.878,0.114,0.065,full_ensemble,0.173
-"Atlantic, Southwest King weakfish",1.298,1.197,1.971,1.728,0.15,0.026,full_ensemble,1.06
-"Atlantic, Southwest Largehead hairtail",1.222,2.105,1.647,1.718,0.09,0.016,full_ensemble,1.35
-"Atlantic, Southwest Narrownose smooth-hound",0.892,1.636,1.505,1.287,0.171,0.021,full_ensemble,1.061
-"Atlantic, Southwest Parona leatherjacket",0.499,0.865,1.29,1.266,0.162,0.018,full_ensemble,0.886
-"Atlantic, Southwest Patagonian grenadier",1.088,0.786,1.29,1.405,0.367,0.031,full_ensemble,1.118
-"Atlantic, Southwest Patagonian squid",0.577,1.538,0.951,1.329,0.169,0.019,full_ensemble,1.428
-"Atlantic, Southwest Patagonian toothfish",0.476,1.026,1.895,1.188,0.195,0.034,full_ensemble,0.894
-"Atlantic, Southwest Pigletfish",0.564,0.687,1.367,1.485,0.149,0.007,full_ensemble,1.07
-"Atlantic, Southwest Pink cusk-eel",1.028,1.644,1.938,1.622,0.056,0.001,full_ensemble,1.237
-"Atlantic, Southwest Red grouper",0.48,0.537,0.856,1.352,0.169,0.016,full_ensemble,0.665
-"Atlantic, Southwest Red searobin",1.032,1.665,1.954,1.432,0.357,0.021,full_ensemble,1.209
-"Atlantic, Southwest Redspotted shrimp",1.164,0.929,1.423,1.495,0.191,0.019,full_ensemble,0.884
-"Atlantic, Southwest Ridge scaled rattail",0.818,0.574,1.964,1.781,0.173,0.072,full_ensemble,1.312
-"Atlantic, Southwest Sea bass",0.453,0.571,0.326,1.544,0.129,0.013,full_ensemble,0.695
-"Atlantic, Southwest Serra Spanish mackerel",0.321,0.532,0.125,1.362,0.232,0.056,full_ensemble,0.471
-"Atlantic, Southwest Skipjack tuna",1.048,1.364,1.272,1.335,0.211,0.016,full_ensemble,1.153
-"Atlantic, Southwest Southern blue whiting",0.331,0.386,0.084,0.943,0.136,0.026,full_ensemble,0.632
-"Atlantic, Southwest Southern hake",0.525,0.509,1.648,1.364,0.228,0.043,full_ensemble,0.775
-"Atlantic, Southwest Southern red snapper",0.533,0.595,1.207,1.368,0.161,0.014,full_ensemble,0.766
-"Atlantic, Southwest Striped weakfish",1.043,0.983,1.671,1.452,0.106,0.005,full_ensemble,0.932
-"Atlantic, Southwest Swordfish",0.529,1.157,1.464,1.334,0.096,0.009,full_ensemble,1.151
-"Atlantic, Southwest Tadpole codling",1.409,0.611,0.014,1.616,0.216,0.046,full_ensemble,1.247
-"Atlantic, Southwest Tarpon",0.437,0.445,1.83,1.664,0.052,0.007,full_ensemble,0.775
-"Atlantic, Southwest Whitemouth croaker",1.235,1.02,1.675,1.562,0.1,0.008,full_ensemble,1.323
-"Atlantic, Southwest Yellowfin tuna",1.001,1.136,1.895,1.448,0.161,0.021,full_ensemble,0.964
-"Atlantic, Southwest Yellowtail snapper",1.193,1.345,1.545,1.538,0.255,0.025,full_ensemble,1.155
-"Atlantic, Western Central Albacore",0.414,0.568,1.995,1.054,0.205,0.042,full_ensemble,1.178
-"Atlantic, Western Central Alewife",0.264,0.356,0.011,0.318,0.172,0.04,full_ensemble,0.975
-"Atlantic, Western Central American cupped oyster",0.468,1.042,1.81,1.366,0.079,0.009,full_ensemble,1.013
-"Atlantic, Western Central Atlantic anchoveta",0.308,0.483,0.024,1.307,0.209,0.012,full_ensemble,0.596
-"Atlantic, Western Central Atlantic bonito",0.427,0.791,0.497,1.351,0.119,0.009,full_ensemble,0.744
-"Atlantic, Western Central Atlantic croaker",0.284,0.431,0.035,1.328,0.126,0.02,full_ensemble,0.517
-"Atlantic, Western Central Atlantic moonfish",0.54,0.9,1.896,1.439,0.053,0.013,full_ensemble,1.166
-"Atlantic, Western Central Atlantic seabob",1.018,0.697,1.873,1.394,0.14,0.011,full_ensemble,1.344
-"Atlantic, Western Central Atlantic thread herring",0.579,0.703,0.916,1.22,0.211,0.061,full_ensemble,1.267
-"Atlantic, Western Central Bastard halibut",0.325,0.37,0.138,1.657,0.262,0.032,full_ensemble,0.589
-"Atlantic, Western Central Bigeye scad",0.502,0.848,1.384,1.144,0.043,0.022,full_ensemble,0.923
-"Atlantic, Western Central Bigeye tuna",0.533,0.694,0.76,1.276,0.171,0.029,full_ensemble,1.091
-"Atlantic, Western Central Black drum",1.014,0.86,0.472,1.497,0.391,0.01,full_ensemble,1.057
-"Atlantic, Western Central Black stone crab",1.085,0.731,1.424,1.18,0.123,0.011,full_ensemble,0.902
-"Atlantic, Western Central Blackfin tuna",1.141,0.944,1.697,1.532,0.097,0.02,full_ensemble,1.027
-"Atlantic, Western Central Blue crab",1.213,0.656,1.766,1.53,0.043,0.013,full_ensemble,1.267
-"Atlantic, Western Central Caribbean spiny lobster",1.166,0.777,1.557,1.308,0.075,0.007,full_ensemble,0.84
-"Atlantic, Western Central Common dolphinfish",1.355,1.523,1.922,1.739,0.053,0.008,full_ensemble,0.968
-"Atlantic, Western Central Common octopus",1.005,1.93,1.295,1.643,0.059,0.01,full_ensemble,1.028
-"Atlantic, Western Central Common snook",0.317,0.537,0.612,0.561,0.154,0.017,full_ensemble,1.194
-"Atlantic, Western Central Flathead mullet",0.446,0.706,1.862,1.566,0.06,0.004,full_ensemble,0.777
-"Atlantic, Western Central King mackerel",1.195,1.26,1.872,1.629,0.05,0.005,full_ensemble,1.118
-"Atlantic, Western Central Lane snapper",0.458,0.59,1.015,1.201,0.249,0.008,full_ensemble,0.766
-"Atlantic, Western Central Largehead hairtail",0.589,1.386,1.979,1.507,0.048,0.01,full_ensemble,0.853
-"Atlantic, Western Central Little tunny",0.305,0.63,0.153,0.498,0.203,0.018,full_ensemble,0.922
-"Atlantic, Western Central Liza",0.487,0.712,1.933,1.372,0.148,0.016,full_ensemble,0.982
-"Atlantic, Western Central Mangrove cupped oyster",0.402,0.829,1.072,1.581,0.096,0.024,full_ensemble,0.7
-"Atlantic, Western Central Northern brown shrimp",0.533,0.678,1.52,1.716,0.032,0.012,full_ensemble,0.752
-"Atlantic, Western Central Northern pink shrimp",0.388,0.449,0.213,1.871,0.059,0.009,full_ensemble,0.309
-"Atlantic, Western Central Northern red snapper",0.481,0.74,1.513,1.013,0.072,0.01,full_ensemble,0.712
-"Atlantic, Western Central Northern white shrimp",1.227,0.933,1.914,1.697,0.054,0.01,full_ensemble,1.335
-"Atlantic, Western Central Red drum",0.232,0.443,0.138,0.086,0.204,0.012,full_ensemble,0.527
-"Atlantic, Western Central Red grouper",0.386,0.44,0.007,1.78,0.096,0.007,full_ensemble,0.52
-"Atlantic, Western Central Rock shrimp",0.382,0.452,1,1.58,0.216,0.095,full_ensemble,0.61
-"Atlantic, Western Central Round sardinella",0.342,0.719,1.681,1.08,0.133,0.012,full_ensemble,1.039
-"Atlantic, Western Central Scaled herring",1.471,0.737,0.895,1.592,0.144,0.02,full_ensemble,1.114
-"Atlantic, Western Central Serra Spanish mackerel",0.502,0.989,1.338,1.314,0.09,0.009,full_ensemble,1.091
-"Atlantic, Western Central Skipjack tuna",0.378,0.663,0.332,1.435,0.161,0.011,full_ensemble,0.647
-"Atlantic, Western Central Southern red snapper",1.493,0.658,1.634,1.765,0.095,0.009,full_ensemble,0.717
-"Atlantic, Western Central Spanish mackerel",1.358,1.12,1.476,1.542,0.085,0.01,full_ensemble,1.068
-"Atlantic, Western Central Spotted weakfish",0.217,0.482,0.177,0.065,0.299,0.007,full_ensemble,0.434
-"Atlantic, Western Central Swordfish",1.132,1.189,1.847,1.6,0.147,0.015,full_ensemble,1.199
-"Atlantic, Western Central Whitemouth croaker",0.438,0.584,0.621,1.577,0.089,0.018,full_ensemble,0.605
-"Atlantic, Western Central Yellowfin tuna",0.479,0.881,1.464,1.4,0.214,0.024,full_ensemble,0.747
-"Atlantic, Western Central Yellowtail snapper",1.297,1.128,1.552,1.66,0.182,0.017,full_ensemble,1.341
-"Indian Ocean, Antarctic Antarctic krill",0.216,0.347,0,2.036,0.394,0.034,full_ensemble,0.699
-"Indian Ocean, Antarctic Marbled rockcod",0.26,0.368,0.281,0.289,0.151,0.06,full_ensemble,0.937
-"Indian Ocean, Antarctic Patagonian toothfish",1.101,1.59,1.351,1.376,0.267,0.023,full_ensemble,1.185
-"Indian Ocean, Eastern Akiami paste shrimp",1.134,0.691,1.634,1.259,0.098,0.009,full_ensemble,0.805
-"Indian Ocean, Eastern Australian ruff",0.314,0.544,0.297,1.242,0.142,0.008,full_ensemble,0.525
-"Indian Ocean, Eastern Australian spiny lobster",0.498,0.644,1.739,1.014,0.049,0.014,full_ensemble,0.89
-"Indian Ocean, Eastern Banana prawn",1.151,1.1,1.948,1.736,0.136,0.011,full_ensemble,1.297
-"Indian Ocean, Eastern Bigeye tuna",0.527,0.961,1.11,1.074,0.162,0.003,full_ensemble,1.066
-"Indian Ocean, Eastern Black marlin",1.066,1.6,0.403,1.511,0.169,0.014,full_ensemble,1.3
-"Indian Ocean, Eastern Blacklip abalone",1.316,1.024,1.051,1.069,0.068,0.034,full_ensemble,1.108
-"Indian Ocean, Eastern Blue grenadier",0.4,0.409,1.154,1.008,0.244,0.024,full_ensemble,0.877
-"Indian Ocean, Eastern Blue swimming crab",1.08,0.871,1.535,1.455,0.184,0.014,full_ensemble,0.734
-"Indian Ocean, Eastern Chacunda gizzard shad",1.099,0.97,1.824,1.648,0.203,0.021,full_ensemble,1.131
-"Indian Ocean, Eastern Chocolate hind",0.97,0.909,1.654,1.545,0.174,0.018,full_ensemble,0.881
-"Indian Ocean, Eastern Daggertooth pike conger",1.079,1.661,1.501,1.362,0.152,0.012,full_ensemble,1.123
-"Indian Ocean, Eastern Dorab wolf-herring",0.405,0.679,0.566,1.179,0.165,0.012,full_ensemble,0.749
-"Indian Ocean, Eastern False trevally",1.446,1.551,1.242,1.892,0.13,0.022,full_ensemble,1.02
-"Indian Ocean, Eastern Giant tiger prawn",1.036,1.094,1.982,1.611,0.09,0.007,full_ensemble,1.131
-"Indian Ocean, Eastern Great barracuda",0.514,0.919,1.397,1.178,0.224,0.013,full_ensemble,1.082
-"Indian Ocean, Eastern Greater lizardfish",1.215,1.438,1.98,1.891,0.128,0.011,full_ensemble,1.078
-"Indian Ocean, Eastern Indian mackerel",1.148,1.661,1.967,1.769,0.132,0.01,full_ensemble,1.255
-"Indian Ocean, Eastern Indian oil sardine",1.595,0.879,0.159,1.353,0.142,0.053,full_ensemble,0.696
-"Indian Ocean, Eastern Indian pellona",1.029,0.938,1.428,1.323,0.203,0.017,full_ensemble,1.033
-"Indian Ocean, Eastern Indian scad",1.033,1.481,1.964,1.66,0.173,0.013,full_ensemble,1.173
-"Indian Ocean, Eastern Indian spiny turbot",0.95,0.938,1.903,1.523,0.144,0.011,full_ensemble,1.296
-"Indian Ocean, Eastern Indo-Pacific king mackerel",1.173,1.75,1.943,1.684,0.144,0.011,full_ensemble,0.985
-"Indian Ocean, Eastern Indo-Pacific sailfish",0.921,1.019,1.964,1.547,0.067,0.016,full_ensemble,1.098
-"Indian Ocean, Eastern Indo-Pacific swamp crab",1.171,0.614,1.085,1.557,0.122,0.013,full_ensemble,0.851
-"Indian Ocean, Eastern Largehead hairtail",0.494,1.237,1.905,1.388,0.091,0.008,full_ensemble,0.792
-"Indian Ocean, Eastern Longtail tuna",1.106,1.86,1.593,1.786,0.127,0.009,full_ensemble,1.19
-"Indian Ocean, Eastern Mangrove red snapper",0.417,0.554,0.5,1.741,0.124,0.01,full_ensemble,0.582
-"Indian Ocean, Eastern Narrow-barred Spanish mackerel",1.112,1.765,1.899,1.788,0.103,0.008,full_ensemble,0.973
-"Indian Ocean, Eastern Orange roughy",0.244,0.77,1.542,1.259,0.26,0.033,full_ensemble,0.947
-"Indian Ocean, Eastern Rainbow runner",1.082,0.948,1.812,1.587,0.049,0.036,full_ensemble,1.11
-"Indian Ocean, Eastern Rainbow sardine",1.044,1.031,1.407,1.401,0.189,0.015,full_ensemble,1
-"Indian Ocean, Eastern Red seabream",0.49,0.813,1.889,1.132,0.074,0.005,full_ensemble,1.054
-"Indian Ocean, Eastern Silky shark",0.308,0.848,0.1,0.297,0.145,0.014,full_ensemble,0.701
-"Indian Ocean, Eastern Silver pomfret",1.193,1.653,1.627,1.826,0.153,0.013,full_ensemble,1.234
-"Indian Ocean, Eastern Silver sillago",0.452,0.798,1.968,1.105,0.182,0.005,full_ensemble,1.21
-"Indian Ocean, Eastern Skipjack tuna",1.115,1.804,1.634,1.739,0.124,0.009,full_ensemble,1.061
-"Indian Ocean, Eastern Southern bluefin tuna",0.427,0.631,0.916,1.478,0.197,0.021,full_ensemble,0.72
-"Indian Ocean, Eastern Southern rock lobster",1.323,0.582,1.297,1.377,0.037,0.013,full_ensemble,1.184
-"Indian Ocean, Eastern Striped marlin",0.513,0.796,1.968,0.92,0.145,0.023,full_ensemble,1.113
-"Indian Ocean, Eastern Swordfish",0.898,0.914,1.16,1.127,0.062,0.005,full_ensemble,1.193
-"Indian Ocean, Eastern Torpedo scad",1.178,1.721,1.959,1.77,0.145,0.012,full_ensemble,1.164
-"Indian Ocean, Eastern Yellowfin tuna",1.03,1.268,1.019,1.553,0.111,0.008,full_ensemble,1.116
-"Indian Ocean, Western Albacore",1.112,1.198,0.245,0.922,0.165,0.017,full_ensemble,1.405
-"Indian Ocean, Western Atlantic blue marlin",0.439,0.907,0.675,1.553,0.171,0.028,full_ensemble,0.743
-"Indian Ocean, Western Black pomfret",1.396,1.485,0.443,1.71,0.113,0.02,full_ensemble,1.307
-"Indian Ocean, Western Blue swimming crab",1.182,0.913,1.396,1.476,0.165,0.013,full_ensemble,0.954
-"Indian Ocean, Western Bluespot mullet",1.279,0.705,1.34,1.668,0.232,0.048,full_ensemble,1.212
-"Indian Ocean, Western Bombay duck",1.187,1.247,1.699,1.473,0.106,0.012,full_ensemble,1.264
-"Indian Ocean, Western Chub mackerel",0.316,0.594,0.908,1.011,0.173,0.064,full_ensemble,0.727
-"Indian Ocean, Western Cobia",1.153,1.503,1.957,1.754,0.193,0.017,full_ensemble,1.162
-"Indian Ocean, Western Common dolphinfish",0.552,0.797,1.168,1.223,0.165,0.017,full_ensemble,0.983
-"Indian Ocean, Western Dorab wolf-herring",0.376,0.507,0.382,1.435,0.135,0.032,full_ensemble,0.545
-"Indian Ocean, Western False trevally",1.282,1.395,1.811,1.599,0.09,0.032,full_ensemble,1.468
-"Indian Ocean, Western Giant tiger prawn",1.046,0.685,1.414,1.227,0.208,0.016,full_ensemble,0.866
-"Indian Ocean, Western Giant trevally",1.15,1.357,1.922,1.335,0.323,0.026,full_ensemble,0.988
-"Indian Ocean, Western Golden trevally",0.568,0.817,1.861,1.426,0.157,0.019,full_ensemble,1.579
-"Indian Ocean, Western Greater lizardfish",1.009,0.674,1.178,1.2,0.345,0.037,full_ensemble,0.779
-"Indian Ocean, Western Green tiger prawn",1.163,1.247,1.976,1.844,0.216,0.008,full_ensemble,1.19
-"Indian Ocean, Western Hilsa shad",1.689,0.485,0.389,1.771,0.094,0.019,full_ensemble,0.662
-"Indian Ocean, Western Indian mackerel",0.495,0.843,0.917,1.525,0.11,0.019,full_ensemble,0.937
-"Indian Ocean, Western Indian spiny turbot",1.137,1.011,1.967,1.607,0.213,0.017,full_ensemble,1.192
-"Indian Ocean, Western Indo-Pacific king mackerel",1.056,1.139,1.944,1.663,0.083,0.008,full_ensemble,1.212
-"Indian Ocean, Western Indo-Pacific sailfish",1.017,1.39,1.965,1.58,0.122,0.009,full_ensemble,1.064
-"Indian Ocean, Western King soldierbream",1.01,0.837,1.739,1.445,0.575,0.004,full_ensemble,1.223
-"Indian Ocean, Western Knife shrimp",0.463,0.461,1.164,1.486,0.225,0.009,full_ensemble,0.997
-"Indian Ocean, Western Largehead hairtail",1.111,1.497,1.933,1.594,0.231,0.019,full_ensemble,1.221
-"Indian Ocean, Western Longtail tuna",1.172,1.787,1.616,1.692,0.132,0.011,full_ensemble,1.173
-"Indian Ocean, Western Mangrove red snapper",1.067,0.693,1.197,1.75,0.114,0.024,full_ensemble,0.971
-"Indian Ocean, Western Narrow-barred Spanish mackerel",1.131,1.338,1.753,1.602,0.108,0.008,full_ensemble,1.263
-"Indian Ocean, Western Pharaoh cuttlefish",1.041,2.603,1.271,1.058,0.255,0.013,full_ensemble,1.301
-"Indian Ocean, Western Silver pomfret",0.487,0.827,1.843,1.371,0.131,0.01,full_ensemble,1.108
-"Indian Ocean, Western Skipjack tuna",0.93,1.237,1.965,1.468,0.093,0.004,full_ensemble,0.746
-"Indian Ocean, Western Southern bluefin tuna",0.439,0.549,1.151,1.187,0.066,0.04,full_ensemble,0.728
-"Indian Ocean, Western Striped marlin",0.35,0.603,0.836,1.426,0.139,0.022,full_ensemble,0.6
-"Indian Ocean, Western Swordfish",0.458,1.123,1.698,1.109,0.173,0.003,full_ensemble,0.81
-"Indian Ocean, Western Torpedo scad",0.86,0.972,1.114,1.499,0.19,0.041,full_ensemble,1
-"Indian Ocean, Western Yellowstripe scad",0.512,0.888,1.96,1.161,0.232,0.02,full_ensemble,1.068
-Mediterranean and Black Sea Albacore,0.616,1.028,1.886,1.554,0.26,0.006,full_ensemble,1.074
-Mediterranean and Black Sea Atlantic bonito,0.531,0.864,0.804,1.026,0.082,0.037,full_ensemble,1.081
-Mediterranean and Black Sea Atlantic horse mackerel,0.55,0.781,0.82,1.404,0.078,0.023,full_ensemble,1.074
-Mediterranean and Black Sea Atlantic mackerel,0.737,0.762,0.9,1.573,0.164,0.014,full_ensemble,1.166
-Mediterranean and Black Sea Big-scale sand smelt,0.377,0.513,0,1.824,0.287,0.007,full_ensemble,0.621
-Mediterranean and Black Sea Blue and red shrimp,0.813,0.719,1.558,1.506,0.119,0.016,full_ensemble,0.94
-Mediterranean and Black Sea Blue whiting,0.366,0.533,1.662,1.124,0.109,0.011,full_ensemble,0.506
-Mediterranean and Black Sea Bogue,1.308,1.172,1.673,1.477,0.079,0.006,full_ensemble,1.312
-Mediterranean and Black Sea Broadtail shortfin squid,0.54,1.904,0.697,1.604,0.131,0.011,full_ensemble,1.125
-Mediterranean and Black Sea Caramote prawn,1.004,0.894,1.671,1.53,0.163,0.013,full_ensemble,1.133
-Mediterranean and Black Sea Chub mackerel,0.436,0.745,1.86,1.305,0.222,0.009,full_ensemble,0.794
-Mediterranean and Black Sea Common cuttlefish,1.103,2.294,1.949,1.629,0.149,0.012,full_ensemble,1.377
-Mediterranean and Black Sea Common dentex,0.494,0.622,0.836,1.451,0.117,0.015,full_ensemble,0.976
-Mediterranean and Black Sea Common octopus,0.438,1.716,1.321,1.291,0.067,0.005,full_ensemble,0.888
-Mediterranean and Black Sea Common pandora,1.459,1.123,1.518,1.808,0.164,0.015,full_ensemble,0.817
-Mediterranean and Black Sea Common seabream,1.233,1.509,1.706,1.742,0.196,0.017,full_ensemble,1.495
-Mediterranean and Black Sea Common sole,1.294,0.652,1.49,1.48,0.107,0.008,full_ensemble,1.182
-Mediterranean and Black Sea Deepwater rose shrimp,1.401,0.737,1.875,1.695,0.101,0.01,full_ensemble,1.287
-Mediterranean and Black Sea Dusky grouper,0.398,0.58,0.408,1.125,0.187,0.003,full_ensemble,0.879
-Mediterranean and Black Sea European conger,0.964,1.771,1.732,2.043,0.104,0.017,full_ensemble,1.161
-Mediterranean and Black Sea European eel,0.383,0.369,1.147,0.679,0.106,0.008,full_ensemble,1.212
-Mediterranean and Black Sea European flat oyster,0.265,0.651,0.098,1.318,0.243,0.017,full_ensemble,0.497
-Mediterranean and Black Sea European hake,0.548,0.701,1.532,1.475,0.119,0.006,full_ensemble,0.869
-Mediterranean and Black Sea European pilchard,1.245,0.979,1.745,1.764,0.053,0.004,full_ensemble,1.707
-Mediterranean and Black Sea European seabass,0.501,0.725,1.638,1.204,0.157,0.014,full_ensemble,0.827
-Mediterranean and Black Sea European sprat,1.179,1.019,1.619,1.487,0.329,0.023,full_ensemble,0.834
-Mediterranean and Black Sea Flathead mullet,0.497,0.743,1.874,1.793,0.097,0.011,full_ensemble,0.733
-Mediterranean and Black Sea Leerfish,0.446,0.658,0.293,1.179,0.217,0.024,full_ensemble,0.655
-Mediterranean and Black Sea Little tunny,1.295,1.877,1.888,1.825,0.117,0.011,full_ensemble,0.797
-Mediterranean and Black Sea Mediterranean horse mackerel,0.41,0.692,0.307,1.557,0.165,0.008,full_ensemble,0.642
-Mediterranean and Black Sea Mediterranean mussel,0.235,0.278,0.345,0.049,0.151,0.013,full_ensemble,0.34
-Mediterranean and Black Sea Northern bluefin tuna,0.467,0.941,1.881,1.032,0.159,0.005,full_ensemble,0.912
-Mediterranean and Black Sea Norway lobster,1.374,0.748,1.744,1.6,0.084,0.006,full_ensemble,1.325
-Mediterranean and Black Sea Poor cod,1.039,0.667,1.885,1.532,0.1,0.016,full_ensemble,1.358
-Mediterranean and Black Sea Red mullet,1.151,1.327,1.92,1.751,0.17,0.014,full_ensemble,1.35
-Mediterranean and Black Sea Round sardinella,1.108,1.388,1.623,1.527,0.082,0.009,full_ensemble,0.886
-Mediterranean and Black Sea Salema,1.149,1.142,1.925,1.699,0.166,0.013,full_ensemble,0.887
-Mediterranean and Black Sea Silver scabbardfish,1.333,2.03,1.917,1.515,0.372,0.091,full_ensemble,1.195
-Mediterranean and Black Sea So-iuy mullet,0.806,0.955,0.03,0.862,0.383,0.042,full_ensemble,1.204
-Mediterranean and Black Sea Striped red mullet,1.119,1.335,1.582,1.58,0.187,0.014,full_ensemble,1.096
-Mediterranean and Black Sea Swordfish,1.076,1.107,1.707,1.484,0.106,0.008,full_ensemble,0.904
-Mediterranean and Black Sea Whiting,0.541,0.543,0.483,1.506,0.217,0.021,full_ensemble,1.092
-Mediterranean and Black Sea Zebra seabream,0.449,0.656,1.322,1.252,0.122,0.01,full_ensemble,0.808
-"Pacific, Eastern Central Albacore",1.135,0.942,1.241,1.33,0.104,0.016,full_ensemble,1.167
-"Pacific, Eastern Central Atlantic blue marlin",0.442,0.74,1.383,1.532,0.08,0.021,full_ensemble,0.613
-"Pacific, Eastern Central Bigeye tuna",1.245,1.082,1.734,1.489,0.117,0.011,full_ensemble,1.426
-"Pacific, Eastern Central Crystal shrimp",0.495,0.532,0.529,1.574,0.144,0.017,full_ensemble,0.99
-"Pacific, Eastern Central Dungeness crab",1.555,0.371,0.365,1.822,0.241,0.027,full_ensemble,0.711
-"Pacific, Eastern Central Eastern Pacific bonito",1.551,1.364,0.13,1.877,0.204,0.038,full_ensemble,0.489
-"Pacific, Eastern Central Indo-Pacific sailfish",0.388,0.601,0.222,1.667,0.102,0.011,full_ensemble,0.564
-"Pacific, Eastern Central Jumbo flying squid",0.53,1.839,1.945,1.254,0.308,0.031,full_ensemble,1.174
-"Pacific, Eastern Central North Pacific hake",0.589,0.326,1.995,1.456,0.027,0.027,full_ensemble,1.25
-"Pacific, Eastern Central Pacific bluefin tuna",0.513,0.772,1.523,1.95,0.137,0.031,full_ensemble,0.889
-"Pacific, Eastern Central Pacific cupped oyster",0.67,1.34,0.333,1.67,0.139,0.029,full_ensemble,1.123
-"Pacific, Eastern Central Pacific jack mackerel",0.375,0.468,0.007,2.084,0.197,0.029,full_ensemble,0.563
-"Pacific, Eastern Central Pacific seabob",0.434,0.555,1.189,1.324,0.214,0.024,full_ensemble,0.75
-"Pacific, Eastern Central Pacific sierra",1.25,1.364,1.875,1.649,0.175,0.018,full_ensemble,1.129
-"Pacific, Eastern Central Pacific thread herring",1.012,1.289,1.986,1.667,0.171,0.016,full_ensemble,1.137
-"Pacific, Eastern Central Sablefish",0.472,0.944,0.319,1.675,0.072,0.008,full_ensemble,0.822
-"Pacific, Eastern Central Skipjack tuna",1.348,1.661,1.815,1.755,0.098,0.021,full_ensemble,1.097
-"Pacific, Eastern Central Swordfish",1.087,1.356,1.417,1.511,0.207,0.017,full_ensemble,1.099
-"Pacific, Eastern Central Totoaba",0.29,0.388,1.025,0.819,1.028,0.009,full_ensemble,0.94
-"Pacific, Eastern Central Yellow snapper",0.305,0.432,0.069,0.014,0.163,0.023,full_ensemble,0.359
-"Pacific, Eastern Central Yellowfin tuna",1.08,0.963,1.794,1.381,0.089,0.007,full_ensemble,1.059
-"Pacific, Eastern Central Yellowleg shrimp",1.273,1.234,0.869,2.153,0.275,0.009,full_ensemble,1.376
-"Pacific, Northeast Albacore",1.116,1.061,1.321,1.583,0.239,0.026,full_ensemble,1.187
-"Pacific, Northeast Arrowtooth flounder",1.366,1.049,1.911,1.975,0.205,0.028,full_ensemble,1.039
-"Pacific, Northeast Atka mackerel",1.224,0.956,1.075,1.435,0.186,0.016,full_ensemble,1.039
-"Pacific, Northeast Butter clam",0.364,1.371,0.984,1.584,0.181,0.019,full_ensemble,1.038
-"Pacific, Northeast Chinook salmon",0.388,0.477,0.244,1.349,0.092,0.007,full_ensemble,0.428
-"Pacific, Northeast Chum salmon",0.578,0.637,1.255,1.707,0.04,0.017,full_ensemble,0.976
-"Pacific, Northeast Coho salmon",0.463,0.563,1.809,1.577,0.083,0.014,full_ensemble,0.859
-"Pacific, Northeast Dungeness crab",1.081,0.724,1.858,1.521,0.134,0.014,full_ensemble,1.43
-"Pacific, Northeast Lingcod",0.426,0.575,0.378,1.343,0.094,0.009,full_ensemble,0.64
-"Pacific, Northeast North Pacific hake",1.096,0.753,0.979,1.111,0.262,0.033,full_ensemble,1.262
-"Pacific, Northeast Pacific cod",1.049,0.842,1.635,1.456,0.107,0.008,full_ensemble,0.767
-"Pacific, Northeast Pacific geoduck",1.262,3.12,1.19,1.164,0.201,0.014,full_ensemble,1.462
-"Pacific, Northeast Pacific halibut",1.146,0.657,1.11,1.121,0.16,0.009,full_ensemble,0.842
-"Pacific, Northeast Pacific ocean perch",0.444,0.854,1.695,1.57,0.196,0.004,full_ensemble,0.771
-"Pacific, Northeast Piked dogfish",0.404,1.442,1.522,2.103,0.276,0.037,full_ensemble,0.743
-"Pacific, Northeast Pink salmon",1.211,0.808,1.928,1.637,0.092,0.011,full_ensemble,1.468
-"Pacific, Northeast Rock sole",1.308,0.687,1.945,1.771,0.177,0.04,full_ensemble,1.349
-"Pacific, Northeast Sablefish",0.498,1.168,0.902,1.435,0.151,0.012,full_ensemble,1.059
-"Pacific, Northeast Skipjack tuna",0.372,0.607,1.265,1.098,0.082,0.082,full_ensemble,0.366
-"Pacific, Northeast Sockeye salmon",1.358,0.701,1.885,1.665,0.131,0.006,full_ensemble,1.236
-"Pacific, Northeast Weathervane scallop",0.398,0.256,1.343,0.899,0.052,0.027,full_ensemble,1.446
-"Pacific, Northeast Yellowfin sole",1.319,0.602,1.41,1.738,0.135,0.02,full_ensemble,1.384
-"Pacific, Northwest Albacore",0.574,0.896,1.312,1.69,0.045,0.019,full_ensemble,0.946
-"Pacific, Northwest Atlantic blue marlin",0.796,1.506,1.653,1.522,0.175,0.007,full_ensemble,0.868
-"Pacific, Northwest Bartail flathead",1.214,0.699,0.665,1.723,0.157,0.018,full_ensemble,1.109
-"Pacific, Northwest Bastard halibut",1.509,0.736,1.757,1.671,0.045,0.006,full_ensemble,1.163
-"Pacific, Northwest Blue swimming crab",1.212,0.785,1.303,1.479,0.277,0.023,full_ensemble,1.134
-"Pacific, Northwest Chinese gizzard shad",1.526,0.7,0.67,1.672,0.134,0.013,full_ensemble,0.754
-"Pacific, Northwest Chinook salmon",0.321,0.447,0.123,1.988,0.188,0.011,full_ensemble,0.307
-"Pacific, Northwest Chum salmon",0.564,0.776,1.931,0.413,0.094,0.009,full_ensemble,1.141
-"Pacific, Northwest Common dolphinfish",0.385,0.831,1.534,0.927,0.103,0.023,full_ensemble,0.555
-"Pacific, Northwest Daggertooth pike conger",1.079,2.515,1.962,1.879,0.133,0.01,full_ensemble,1.399
-"Pacific, Northwest Elongate ilisha",1.085,1.031,1.854,1.54,0.143,0.01,full_ensemble,0.985
-"Pacific, Northwest Flathead mullet",0.915,0.854,1.976,1.536,0.104,0.008,full_ensemble,1.287
-"Pacific, Northwest Flathead sole",0.261,0.373,0.059,0.105,0.072,0.017,full_ensemble,0.469
-"Pacific, Northwest Fleshy prawn",1.186,1,1.942,1.626,0.215,0.019,full_ensemble,1.466
-"Pacific, Northwest Fourfinger threadfin",0.301,0.5,0.077,1.699,0.135,0.012,full_ensemble,0.546
-"Pacific, Northwest Gazami crab",1.026,1.052,1.957,1.591,0.169,0.013,full_ensemble,1.131
-"Pacific, Northwest Greater lizardfish",0.291,0.443,0.061,0.023,0.123,0.009,full_ensemble,0.387
-"Pacific, Northwest Half-crenated ark",0.383,1.175,0.291,1.922,0.19,0.02,full_ensemble,0.809
-"Pacific, Northwest Horned turban",0.499,1.206,1.561,1.242,0.109,0.009,full_ensemble,0.81
-"Pacific, Northwest Imperial surf clam",0.255,1.188,0.246,0.026,0.202,0.007,full_ensemble,0.212
-"Pacific, Northwest Indian scad",0.229,0.456,0.013,1.351,0.114,0.088,full_ensemble,0.547
-"Pacific, Northwest Indo-Pacific sailfish",0.434,0.783,1.071,1.654,0.12,0.048,full_ensemble,0.743
-"Pacific, Northwest Japanese halfbeak",0.345,0.543,0.136,1.412,0.077,0.027,full_ensemble,0.488
-"Pacific, Northwest Japanese sardinella",0.236,0.543,0.091,1.452,0.197,0.034,full_ensemble,0.508
-"Pacific, Northwest Japanese sea cucumber",0.375,0.673,0.281,0.199,0.123,0.014,full_ensemble,0.805
-"Pacific, Northwest Japanese seaperch",1.175,0.938,1.721,1.531,0.08,0.006,full_ensemble,1.276
-"Pacific, Northwest Japanese Spanish mackerel",1.074,1.571,1.578,1.609,0.129,0.011,full_ensemble,1.483
-"Pacific, Northwest Korean mussel",0.433,0.304,0.168,1.978,0.089,0.007,full_ensemble,0.614
-"Pacific, Northwest Kuruma prawn",0.355,0.465,0.148,1.223,0.159,0.014,full_ensemble,0.409
-"Pacific, Northwest Large yellow croaker",0.461,0.568,0.353,1.517,0.082,0.007,full_ensemble,0.78
-"Pacific, Northwest Longlegged spiny lobster",1.312,1.045,1.523,1.785,0.062,0.007,full_ensemble,1.044
-"Pacific, Northwest Longtail tuna",0.347,0.605,0.161,1.047,0.163,0.021,full_ensemble,0.719
-"Pacific, Northwest Mangrove whipray",0.45,0.871,1.879,1.683,0.064,0.006,full_ensemble,0.878
-"Pacific, Northwest Melon seed",0.332,1.064,1.464,1.529,0.102,0.019,full_ensemble,0.972
-"Pacific, Northwest Narrow-barred Spanish mackerel",0.324,0.5,0.286,0.77,0.197,0.042,full_ensemble,0.893
-"Pacific, Northwest Nibe croaker",1.639,0.637,1.704,1.34,0.087,0.019,full_ensemble,0.868
-"Pacific, Northwest Oilfish",0.849,2.011,1.969,2.151,0.173,0.014,full_ensemble,1.36
-"Pacific, Northwest Pacific bluefin tuna",0.555,0.774,0.9,0.906,0.114,0.031,full_ensemble,1.142
-"Pacific, Northwest Pacific cod",1.159,0.573,1.53,1.53,0.092,0.007,full_ensemble,0.821
-"Pacific, Northwest Pacific cupped oyster",1.092,1.919,1.623,1.533,0.186,0.016,full_ensemble,1.095
-"Pacific, Northwest Pacific ocean perch",0.389,0.821,1.333,1.047,0.127,0.021,full_ensemble,0.584
-"Pacific, Northwest Pacific sandeel",1.076,0.892,1.427,1.493,0.18,0.024,full_ensemble,0.976
-"Pacific, Northwest Red bigeye",0.315,0.434,0.121,1.697,0.117,0.013,full_ensemble,0.368
-"Pacific, Northwest Red seabream",1.275,0.691,1.635,1.348,0.036,0.003,full_ensemble,0.973
-"Pacific, Northwest Red-eye round herring",1.514,0.852,1.739,1.706,0.256,0.008,full_ensemble,0.957
-"Pacific, Northwest Redtail prawn",0.285,0.36,0.061,0.956,0.18,0.015,full_ensemble,1.056
-"Pacific, Northwest Sablefish",0.255,0.745,0.003,0.297,0.673,0.018,full_ensemble,0.676
-"Pacific, Northwest Saffron cod",1.459,0.719,1.597,1.478,0.121,0.021,full_ensemble,1.047
-"Pacific, Northwest Sailfin sandfish",0.454,0.992,0.308,1.77,0.157,0.003,full_ensemble,0.886
-"Pacific, Northwest Sand Crayfish",1.699,0.826,1.966,1.939,0.039,0.039,full_ensemble,0.85
-"Pacific, Northwest Shiba shrimp",0.342,0.407,0.158,1.244,0.137,0.02,full_ensemble,0.311
-"Pacific, Northwest Silver pomfret",0.256,0.529,0.032,0.967,0.18,0.028,full_ensemble,0.65
-"Pacific, Northwest Skipjack tuna",1.151,0.888,1.515,1.676,0.068,0.013,full_ensemble,1.012
-"Pacific, Northwest Sockeye salmon",0.543,0.512,0.529,1.875,0.136,0.011,full_ensemble,1.091
-"Pacific, Northwest Southern rough shrimp",1.047,0.904,1.53,1.479,0.162,0.016,full_ensemble,0.84
-"Pacific, Northwest Striped marlin",0.346,0.633,0.246,1.576,0.176,0.02,full_ensemble,0.61
-"Pacific, Northwest Swordfish",0.583,0.987,1.684,1.733,0.084,0.014,full_ensemble,0.966
-"Pacific, Northwest Thread-sail filefish",0.257,0.421,0,1.583,0.244,0.021,full_ensemble,0.483
-"Pacific, Northwest Whitespotted conger",0.579,1.365,1.339,1.494,0.151,0.014,full_ensemble,1.018
-"Pacific, Northwest Yellowfin tuna",0.501,0.68,0.82,1.693,0.147,0.035,full_ensemble,1.242
-"Pacific, Southeast Albacore",0.572,0.942,0.807,1.346,0.14,0.031,full_ensemble,1.177
-"Pacific, Southeast Bigeye tuna",0.673,1.094,1.911,1.492,0.189,0.018,full_ensemble,0.913
-"Pacific, Southeast Black cusk-eel",0.251,0.741,0.051,0.725,0.234,0.024,full_ensemble,0.643
-"Pacific, Southeast Cabinza grunt",0.611,0.713,1.739,1.371,0.114,0.019,full_ensemble,1.162
-"Pacific, Southeast Carrot squat lobster",0.373,0.589,1.238,1.341,0.041,0.041,full_ensemble,0.389
-"Pacific, Southeast Carrot Squat Lobster",0.636,1.001,0.925,1.559,0.142,0.044,full_ensemble,1.112
-"Pacific, Southeast Chilean mussel",0.312,0.308,0.095,1.421,0.087,0.043,full_ensemble,0.87
-"Pacific, Southeast Chilean sea urchin",0.938,1.089,1.92,1.48,0.11,0.008,full_ensemble,0.926
-"Pacific, Southeast Cholga mussel",0.487,0.348,0.782,1.73,0.083,0.013,full_ensemble,1.053
-"Pacific, Southeast Corvina",1.6,0.611,0.812,1.711,0.12,0.024,full_ensemble,0.748
-"Pacific, Southeast Elephantfish",0.446,1.052,0.41,1.553,0.126,0.015,full_ensemble,0.738
-"Pacific, Southeast False abalone",0.43,0.832,0.23,1.663,0.075,0.012,full_ensemble,0.855
-"Pacific, Southeast Jumbo flying squid",1.116,2.743,1.065,1.293,0.62,0.014,full_ensemble,1.329
-"Pacific, Southeast Macha clam",0.388,1.442,0.188,1.077,0.169,0.01,full_ensemble,0.921
-"Pacific, Southeast Pacific menhaden",0.841,0.868,0.859,1.215,0.151,0.026,full_ensemble,1.161
-"Pacific, Southeast Pacific seabob",0.467,0.427,0.468,1.775,0.09,0.028,full_ensemble,0.584
-"Pacific, Southeast Pacific thread herring",0.392,0.59,0.292,1.712,0.091,0.042,full_ensemble,0.559
-"Pacific, Southeast Patagonian grenadier",0.416,0.425,0.934,1.339,0.136,0.035,full_ensemble,0.78
-"Pacific, Southeast Patagonian squid",0.497,1.638,1.951,1.389,0.098,0.021,full_ensemble,0.969
-"Pacific, Southeast Patagonian toothfish",0.426,0.882,0.972,0.8,0.167,0.017,full_ensemble,1.126
-"Pacific, Southeast Peruvian banded croaker",0.319,0.493,0.088,1.549,0.05,0.011,full_ensemble,0.529
-"Pacific, Southeast Peruvian calico scallop",1.395,0.577,1.82,1.839,0.102,0.027,full_ensemble,1.384
-"Pacific, Southeast Peruvian rock seabass",0.387,0.544,0.844,1.735,0.161,0.032,full_ensemble,0.48
-"Pacific, Southeast Peruvian weakfish",0.399,0.604,1.784,1.413,0.111,0.037,full_ensemble,0.988
-"Pacific, Southeast Pink cusk-eel",0.45,1.018,0.822,1.307,0.196,0.013,full_ensemble,0.919
-"Pacific, Southeast Red cusk-eel",0.428,0.822,0.205,1.901,0.105,0.008,full_ensemble,0.813
-"Pacific, Southeast Red sea squirt",0.347,0.708,0.177,1.541,0.189,0.019,full_ensemble,0.617
-"Pacific, Southeast Silverside",0.462,0.719,1.951,1.132,0.044,0.023,full_ensemble,1.04
-"Pacific, Southeast Skipjack tuna",0.714,1.464,1.802,1.625,0.112,0.011,full_ensemble,1.231
-"Pacific, Southeast Softshell red crab",0.457,0.788,1.769,1.269,0.143,0.047,full_ensemble,1.119
-"Pacific, Southeast Southern blue whiting",1.098,0.759,1.854,1.542,0.215,0.023,full_ensemble,1.363
-"Pacific, Southeast Southern hake",0.495,0.462,1.7,1.45,0.092,0.01,full_ensemble,0.775
-"Pacific, Southeast Swordfish",1.089,1.232,0.802,1.672,0.179,0.017,full_ensemble,1.186
-"Pacific, Southeast Taca clam",0.5,1.773,0.382,1.807,0.09,0.016,full_ensemble,0.927
-"Pacific, Southeast Tadpole codling",0.429,0.402,1.983,1.513,0.421,0.06,full_ensemble,0.939
-"Pacific, Southeast Western white shrimp",0.436,0.476,0.673,1.567,0.128,0.034,full_ensemble,0.812
-"Pacific, Southeast Whiteleg shrimp",0.267,0.433,0.021,1.819,0.198,0.013,full_ensemble,0.448
-"Pacific, Southeast Yellowfin tuna",0.485,0.909,1.965,1.392,0.081,0.004,full_ensemble,1.101
-"Pacific, Southwest Albacore",0.401,0.655,1.848,1.256,0.064,0.026,full_ensemble,1.118
-"Pacific, Southwest Antarctic butterfish",1.103,1.646,1.316,1.461,0.217,0.031,full_ensemble,1.225
-"Pacific, Southwest Bigeye tuna",0.424,0.606,0.259,1.786,0.067,0.008,full_ensemble,0.519
-"Pacific, Southwest Blue cod",0.579,0.526,1.927,1.637,0.037,0.024,full_ensemble,1.126
-"Pacific, Southwest Blue grenadier",0.438,0.492,1.128,0.918,0.165,0.012,full_ensemble,0.823
-"Pacific, Southwest Blue mackerel",0.578,0.917,1.206,1.144,0.186,0.021,full_ensemble,1.082
-"Pacific, Southwest Bluefin gurnard",0.653,1.195,1.59,1.479,0.014,0.014,full_ensemble,0.925
-"Pacific, Southwest Bulls-eye",0.298,1.021,1.397,1.181,0.053,0.053,full_ensemble,0.813
-"Pacific, Southwest Common warehou",0.973,1.28,1.155,1.383,0.207,0.034,full_ensemble,1.017
-"Pacific, Southwest Dark ghost shark",1.011,1.51,1.742,1.544,0.067,0.02,full_ensemble,1.188
-"Pacific, Southwest Giant stargazer",0.658,1.099,1.4,1.419,0.068,0.014,full_ensemble,0.985
-"Pacific, Southwest Hapuka",0.95,1.601,1.596,1.535,0.06,0.007,full_ensemble,1.024
-"Pacific, Southwest John dory",0.53,1.511,1.467,1.276,0.108,0.011,full_ensemble,1.246
-"Pacific, Southwest New Zealand dredge oyster",0.292,0.652,0.041,2.137,0.17,0.013,full_ensemble,0.633
-"Pacific, Southwest New Zealand scallop",0.292,0.298,0.119,1.178,0.092,0.012,full_ensemble,0.922
-"Pacific, Southwest Orange roughy",0.325,0.876,0.289,0.833,0.158,0.014,full_ensemble,0.77
-"Pacific, Southwest Piked dogfish",0.863,1.233,0.863,1.682,0.133,0.048,full_ensemble,1.097
-"Pacific, Southwest Pink cusk-eel",0.909,1.658,1.964,1.339,0.077,0.008,full_ensemble,0.982
-"Pacific, Southwest Red codling",0.457,0.51,0.524,1.245,0.18,0.039,full_ensemble,0.774
-"Pacific, Southwest Red rock lobster",0.448,0.398,0.41,1.64,0.122,0.004,full_ensemble,0.48
-"Pacific, Southwest Red seabream",0.482,0.636,0.797,1.221,0.052,0.004,full_ensemble,1.027
-"Pacific, Southwest Silver gemfish",0.338,0.853,0.776,0.825,0.376,0.007,full_ensemble,0.988
-"Pacific, Southwest Silver scabbardfish",0.495,1.249,1.204,0.998,0.389,0.038,full_ensemble,0.977
-"Pacific, Southwest Silver warehou",0.917,1.836,1.976,1.59,0.141,0.004,full_ensemble,1.205
-"Pacific, Southwest Skipjack tuna",1.259,0.895,1.41,1.281,0.265,0.017,full_ensemble,1.162
-"Pacific, Southwest Southern blue whiting",0.545,0.481,1.701,1.527,0.129,0.03,full_ensemble,0.895
-"Pacific, Southwest Southern bluefin tuna",0.381,0.533,0.756,0.958,0.104,0.024,full_ensemble,0.677
-"Pacific, Southwest Southern hake",0.536,0.538,0.971,0.96,0.253,0.022,full_ensemble,1.371
-"Pacific, Southwest Spotted estuary smooth-hound",0.442,1.156,1.326,1.303,0.114,0.011,full_ensemble,0.985
-"Pacific, Southwest Swordfish",0.785,1.401,1.928,1.765,0.115,0.011,full_ensemble,1.414
-"Pacific, Southwest Tarakihi",0.582,1.102,1.588,1.504,0.08,0.01,full_ensemble,0.797
-"Pacific, Southwest Tope shark",0.93,1.593,1.534,1.935,0.137,0.01,full_ensemble,1.151
-"Pacific, Southwest Wellington flying squid",0.584,2.065,0.999,1.228,0.265,0.033,full_ensemble,1.366
-"Pacific, Southwest White trevally",1.304,0.846,1.089,1.189,0.115,0.009,full_ensemble,1.094
-"Pacific, Southwest White warehou",1.073,1.358,1.304,1.48,0.158,0.023,full_ensemble,1.125
-"Pacific, Southwest Yellowfin tuna",0.325,0.541,0.24,1.551,0.198,0.026,full_ensemble,0.529
-"Pacific, Western Central Albacore",1.166,1.89,1.596,1.69,0.178,0.016,full_ensemble,1.235
-"Pacific, Western Central Bali sardinella",1.23,1.042,1.569,1.683,0.09,0.009,full_ensemble,1.138
-"Pacific, Western Central Banana prawn",1.092,0.988,1.526,1.591,0.074,0.006,full_ensemble,0.972
-"Pacific, Western Central Bigeye scad",1.138,1.509,1.969,1.831,0.13,0.01,full_ensemble,1.188
-"Pacific, Western Central Bigeye tuna",1.168,1.5,1.929,1.765,0.126,0.01,full_ensemble,1.222
-"Pacific, Western Central Black pomfret",1.014,1.389,1.545,1.855,0.119,0.009,full_ensemble,1.114
-"Pacific, Western Central Blood cockle",0.556,2.052,1.869,1.339,0.094,0.01,full_ensemble,1.224
-"Pacific, Western Central Blue swimming crab",1.072,0.894,1.38,1.332,0.096,0.009,full_ensemble,1.093
-"Pacific, Western Central Chacunda gizzard shad",1.408,1.229,1.643,1.915,0.141,0.016,full_ensemble,1.167
-"Pacific, Western Central Chocolate hind",1.226,1.093,0.585,1.924,0.16,0.018,full_ensemble,1.209
-"Pacific, Western Central Chub mackerel",0.523,0.671,1.555,1.629,0.122,0.023,full_ensemble,0.879
-"Pacific, Western Central Cobia",1.273,1.299,1.884,1.587,0.088,0.016,full_ensemble,1.119
-"Pacific, Western Central Common dolphinfish",1.442,1.252,1.229,1.489,0.254,0.046,full_ensemble,1.002
-"Pacific, Western Central Daggertooth pike conger",1.052,2.122,1.774,1.427,0.165,0.012,full_ensemble,1.09
-"Pacific, Western Central Dorab wolf-herring",0.41,0.619,1.249,1.366,0.155,0.022,full_ensemble,0.808
-"Pacific, Western Central Endeavour shrimp",0.559,0.613,1.388,1.239,0.101,0.016,full_ensemble,0.848
-"Pacific, Western Central Flathead lobster",0.4,0.454,1.795,1.144,0.131,0.022,full_ensemble,0.908
-"Pacific, Western Central Giant tiger prawn",0.951,0.818,1.479,1.7,0.102,0.008,full_ensemble,1.066
-"Pacific, Western Central Goldstripe sardinella",1.132,1.324,1.572,1.578,0.114,0.008,full_ensemble,1.105
-"Pacific, Western Central Great barracuda",0.458,0.825,0.751,1.571,0.137,0.012,full_ensemble,0.746
-"Pacific, Western Central Greater lizardfish",1,1.243,1.969,1.612,0.136,0.01,full_ensemble,1.048
-"Pacific, Western Central Green tiger prawn",1.298,0.576,0.779,1.529,0.116,0.013,full_ensemble,1.117
-"Pacific, Western Central Indian mackerel",1.085,1.416,1.814,1.661,0.088,0.008,full_ensemble,1.461
-"Pacific, Western Central Indian pellona",0.898,0.854,1.946,1.492,0.14,0.011,full_ensemble,1.259
-"Pacific, Western Central Indian scad",0.482,0.961,1.897,1.269,0.189,0.015,full_ensemble,0.868
-"Pacific, Western Central Indian spiny turbot",1.141,1.025,1.571,1.676,0.205,0.023,full_ensemble,1.024
-"Pacific, Western Central Indo-Pacific king mackerel",0.993,1.33,1.652,1.695,0.102,0.008,full_ensemble,1.137
-"Pacific, Western Central Indo-Pacific swamp crab",1.191,1.092,1.587,1.888,0.15,0.013,full_ensemble,1.011
-"Pacific, Western Central Kawakawa",0.908,1.187,1.965,1.657,0.083,0.006,full_ensemble,1.216
-"Pacific, Western Central Largehead hairtail",0.513,1.525,1.591,1.208,0.093,0.007,full_ensemble,1.343
-"Pacific, Western Central Longtail tuna",0.982,1.214,0.708,1.221,0.188,0.015,full_ensemble,1.173
-"Pacific, Western Central Mangrove red snapper",1.098,0.701,1.386,1.431,0.202,0.037,full_ensemble,0.86
-"Pacific, Western Central Moonfish",1.19,1.287,1.396,1.663,0.196,0.018,full_ensemble,1.379
-"Pacific, Western Central Narrow-barred Spanish mackerel",1.155,1.786,1.544,1.875,0.107,0.008,full_ensemble,1.225
-"Pacific, Western Central Rainbow runner",1.14,1.253,1.501,1.427,0.134,0.014,full_ensemble,0.939
-"Pacific, Western Central Short mackerel",1.154,1.677,1.446,1.85,0.105,0.008,full_ensemble,1.136
-"Pacific, Western Central Silver pomfret",1.106,1.51,1.341,1.874,0.15,0.004,full_ensemble,1.123
-"Pacific, Western Central Striped marlin",1.45,0.948,1.128,1.57,0.094,0.054,full_ensemble,0.844
-"Pacific, Western Central Swordfish",1.063,1.301,0.601,1.378,0.124,0.01,full_ensemble,1.242
-"Pacific, Western Central Toli shad",0.549,0.754,1.621,1.402,0.12,0.012,full_ensemble,0.918
-"Pacific, Western Central Torpedo scad",1.024,1.419,1.65,1.532,0.18,0.014,full_ensemble,1.055
-"Pacific, Western Central Western king prawn",0.547,0.627,1.335,1.299,0.098,0.012,full_ensemble,1.008
-"Pacific, Western Central Yellowfin tuna",1.084,1.662,1.638,1.575,0.135,0.01,full_ensemble,1.011
-"Pacific, Western Central Yellowstripe scad",1.059,1.28,1.688,1.608,0.079,0.006,full_ensemble,0.997
-"Atlantic, Eastern Central African moonfish",NA,0.59,0.344,1.41,0.077,0.044,fao_cmsy,0.685
-"Atlantic, Eastern Central Common cuttlefish",NA,1.087,0,1.428,0.2,0.018,fao_cmsy,1.349
-"Atlantic, Eastern Central West African Spanish mackerel",NA,0.675,0.283,1.801,0.12,0.024,fao_cmsy,0.684
-"Atlantic, Northeast Common pandora",NA,0.397,0.024,1.958,0.067,0.014,fao_cmsy,0.507
-"Atlantic, Northeast European anchovy",NA,0.486,0.084,1.637,0.126,0.01,fao_cmsy,0.762
-"Atlantic, Northeast Garfish",NA,0.519,1.962,1.793,0.092,0.012,fao_cmsy,1.219
-"Atlantic, Northeast Pacific cupped oyster",NA,0.631,0.076,1.416,0.114,0.029,fao_cmsy,1.002
-"Atlantic, Northwest Alewife",NA,0.393,0.085,1.915,0.125,0.01,fao_cmsy,0.353
-"Atlantic, Northwest American butterfish",NA,0.482,0.001,1.267,0.214,0.039,fao_cmsy,0.773
-"Atlantic, Northwest American cupped oyster",NA,0.608,0.053,1.823,0.126,0.009,fao_cmsy,1.126
-"Atlantic, Northwest Black seabass",NA,0.395,1.914,1.685,0.135,0.008,fao_cmsy,0.98
-"Atlantic, Northwest Haddock",NA,0.367,0.154,1.566,0.095,0.013,fao_cmsy,0.65
-"Atlantic, Northwest Northern quahog",NA,0.973,0.013,1.678,0.18,0.015,fao_cmsy,1.597
-"Atlantic, Northwest Red hake",NA,0.336,0.074,1.259,0.066,0.015,fao_cmsy,1.343
-"Atlantic, Northwest Scup",NA,0.489,0.142,1.857,0.077,0.006,fao_cmsy,0.607
-"Atlantic, Southeast Cape anchovy",NA,0.618,0.326,1.289,0.104,0.021,fao_cmsy,0.646
-"Atlantic, Southeast Cape rock lobster",NA,0.327,0.102,1.906,0.145,0.004,fao_cmsy,0.73
-"Atlantic, Southeast Little tunny",NA,0.647,0.103,0.627,0.041,0.022,fao_cmsy,1.08
-"Atlantic, Southwest Brazilian menhaden",NA,0.607,0.132,1.549,0.141,0.025,fao_cmsy,0.604
-"Atlantic, Southwest Brazilian sardinella",NA,0.647,0.226,1.352,0.108,0.009,fao_cmsy,0.763
-"Atlantic, Southwest River Plata mussel",NA,0.241,0.009,1.998,0.125,0.009,fao_cmsy,0.788
-"Atlantic, Western Central Blue runner",NA,1.773,1.963,1.79,0.335,0.011,fao_cmsy,0.778
-"Atlantic, Western Central Gray weakfish",NA,0.444,0.023,1.778,0.105,0.011,fao_cmsy,0.695
-"Atlantic, Western Central Gulf kingcroaker",NA,0.467,0.266,1.552,0.125,0.01,fao_cmsy,0.557
-"Atlantic, Western Central Spot croaker",NA,0.441,0.097,1.842,0.16,0.025,fao_cmsy,0.403
-"Indian Ocean, Eastern Bali sardinella",NA,1.36,1.678,1.554,0.123,0.031,fao_cmsy,0.814
-"Indian Ocean, Eastern Black pomfret",NA,1.673,1.645,1.832,0.148,0.011,fao_cmsy,1.108
-"Indian Ocean, Eastern Bombay duck",NA,1.362,1.984,1.66,0.155,0.014,fao_cmsy,0.977
-"Indian Ocean, Eastern Goldstripe sardinella",NA,1.558,1.498,1.661,0.161,0.012,fao_cmsy,1.111
-"Indian Ocean, Eastern Hilsa shad",NA,1.151,1.972,1.557,0.14,0.01,fao_cmsy,0.894
-"Indian Ocean, Eastern Kawakawa",NA,1.888,1.974,1.698,0.117,0.009,fao_cmsy,1.104
-"Indian Ocean, Eastern Short mackerel",NA,1.606,1.544,1.576,0.112,0.008,fao_cmsy,1.295
-"Indian Ocean, Eastern Snoek",NA,0.799,0.038,1.814,0.182,0.015,fao_cmsy,1.283
-"Indian Ocean, Eastern Yellowstripe scad",NA,1.758,1.823,1.819,0.129,0.01,fao_cmsy,1.028
-"Indian Ocean, Western Kawakawa",NA,1.755,1.968,1.496,0.133,0.01,fao_cmsy,1.119
-"Indian Ocean, Western Spotted codlet",NA,0.337,1.953,1.355,0.093,0.015,fao_cmsy,1.389
-Mediterranean and Black Sea Garfish,NA,0.596,0.322,1.591,0.121,0.015,fao_cmsy,0.559
-"Pacific, Eastern Central Chinook salmon",NA,0.341,1.942,1.018,0.158,0.019,fao_cmsy,1.398
-"Pacific, Eastern Central Common dolphinfish",NA,0.828,1.994,1.473,0.158,0.027,fao_cmsy,1.382
-"Pacific, Eastern Central Pacific anchoveta",NA,0.718,1.349,1.428,0.104,0.018,fao_cmsy,0.812
-"Pacific, Eastern Central Striped marlin",NA,0.541,0.174,1.753,0.115,0.009,fao_cmsy,0.808
-"Pacific, Northeast Pacific herring",NA,0.533,1.945,1.807,0.111,0.007,fao_cmsy,1.211
-"Pacific, Northwest Bigeye tuna",NA,0.598,0.298,1.899,0.126,0.012,fao_cmsy,0.587
-"Pacific, Northwest Black marlin",NA,0.586,0.133,1.859,0.159,0.014,fao_cmsy,0.71
-"Pacific, Northwest Black pomfret",NA,0.535,0.124,1.713,0.136,0.018,fao_cmsy,0.844
-"Pacific, Northwest Blood cockle",NA,1.273,0.239,1.407,0.073,0.019,fao_cmsy,0.99
-"Pacific, Northwest Coho salmon",NA,0.381,0.085,2.062,0.136,0.01,fao_cmsy,0.444
-"Pacific, Northwest Golden threadfin bream",NA,0.471,0.413,1.586,0.117,0.016,fao_cmsy,0.62
-"Pacific, Northwest Japanese hard clam",NA,1.155,0.229,1.541,0.033,0.008,fao_cmsy,1.09
-"Pacific, Northwest Japanese scad",NA,0.729,1.306,1.621,0.165,0.024,fao_cmsy,0.899
-"Pacific, Northwest Korean sandeel",NA,0.572,0.209,1.249,0.066,0.018,fao_cmsy,0.617
-"Pacific, Northwest Moonfish",NA,0.55,0.263,1.605,0.082,0.017,fao_cmsy,0.578
-"Pacific, Northwest Silver sillago",NA,0.4,0.942,1.604,0.029,0.029,fao_cmsy,1.153
-"Pacific, Northwest Silverstriped round herring",NA,0.428,0.019,2.116,0.178,0.014,fao_cmsy,0.695
-"Pacific, Southeast Common dolphinfish",NA,0.843,0.723,1.44,0.356,0.045,fao_cmsy,0.952
-"Pacific, Southeast Pacific anchoveta",NA,0.549,1.268,1.263,0.148,0.06,fao_cmsy,0.797
-"Pacific, Southeast Snoek",NA,0.807,0.088,1.846,0.187,0.011,fao_cmsy,1.055
-"Pacific, Western Central Atlantic blue marlin",NA,0.588,0.087,0.151,0.147,0.014,fao_cmsy,0.669
-"Pacific, Western Central Bombay duck",NA,0.701,0.661,1.469,0.187,0.015,fao_cmsy,0.992
-"Pacific, Western Central False trevally",NA,1.743,1.993,2.202,0.084,0.017,fao_cmsy,0.96
-"Pacific, Western Central Rainbow sardine",NA,0.731,1.026,1.398,0.148,0.012,fao_cmsy,0.801
-"Pacific, Western Central Silver sillago",NA,1.232,1.493,1.373,0.108,0.008,fao_cmsy,1.028
-"Atlantic, Antarctic Mackerel icefish",0.293,0.773,NA,1.963,0.085,0.112,fao_comsir,0.748
-"Atlantic, Eastern Central Cunene horse mackerel",0.258,0.545,NA,0.931,0.228,0.049,fao_comsir,0.667
-"Atlantic, Eastern Central European pilchard",1.284,1.001,NA,1.52,0.221,0.013,fao_comsir,1.371
-"Atlantic, Northeast Atlantic cod",0.463,0.453,NA,1.638,0.096,0.006,fao_comsir,0.784
-"Atlantic, Northeast Atlantic herring",1.434,0.758,NA,1.024,0.121,0.002,fao_comsir,1.229
-"Atlantic, Northeast Atlantic horse mackerel",0.478,0.857,NA,1.573,0.158,0.003,fao_comsir,0.699
-"Atlantic, Northeast Atlantic mackerel",1.396,0.898,NA,1.517,0.238,0.017,fao_comsir,1.187
-"Atlantic, Northeast Blue whiting",0.457,0.68,NA,0.997,0.153,0.007,fao_comsir,0.987
-"Atlantic, Northeast Capelin",0.365,0.543,NA,1.283,0.174,0.022,fao_comsir,0.444
-"Atlantic, Northeast European sprat",1.08,0.792,NA,1.181,0.159,0.009,fao_comsir,0.992
-"Atlantic, Northeast Haddock",0.557,0.52,NA,1.635,0.042,0.018,fao_comsir,1.002
-"Atlantic, Northeast Norway pout",0.316,0.363,NA,2.085,0.169,0.017,fao_comsir,0.657
-"Atlantic, Northeast Saithe",1.389,0.6,NA,1.532,0.065,0.005,fao_comsir,1.212
-"Atlantic, Northwest American angler",0.413,1.28,NA,1.096,0.2,0.006,fao_comsir,0.987
-"Atlantic, Northwest Atlantic herring",0.473,0.572,NA,1.426,0.143,0.003,fao_comsir,0.638
-"Atlantic, Northwest Atlantic mackerel",0.438,0.61,NA,1.137,0.497,0.003,fao_comsir,0.725
-"Atlantic, Northwest Atlantic menhaden",0.497,0.613,NA,1.599,0.118,0.012,fao_comsir,1.005
-"Atlantic, Northwest Capelin",0.378,0.558,NA,1.559,0.275,0.01,fao_comsir,0.46
-"Atlantic, Northwest Northern shortfin squid",0.418,1.279,NA,1.623,0.165,0.005,fao_comsir,0.929
-"Atlantic, Northwest Ocean quahog",1.031,2.332,NA,1.263,0.101,0.007,fao_comsir,1.065
-"Atlantic, Northwest Stimpson surf clam",0.941,2.879,NA,1.359,0.13,0.024,fao_comsir,0.978
-"Atlantic, Northwest Windowpane",0.253,0.366,NA,1.243,0.255,0.033,fao_comsir,0.826
-"Atlantic, Southeast Cape horse mackerel",0.411,0.77,NA,1.591,0.16,0.013,fao_comsir,0.684
-"Atlantic, Southeast Largehead hairtail",0.291,0.778,NA,1.303,0.195,0.029,fao_comsir,0.85
-"Atlantic, Southwest Argentine hake",1.049,0.638,NA,1.369,0.21,0.019,fao_comsir,0.919
-"Atlantic, Southwest Argentine red shrimp",1.139,0.863,NA,1.699,0.196,0.024,fao_comsir,1.181
-"Atlantic, Western Central Atlantic menhaden",0.279,0.508,NA,0.005,0.091,0.01,fao_comsir,0.369
-"Atlantic, Western Central Northern bluefin tuna",0.411,0.515,NA,1.446,0.141,0.02,fao_comsir,0.901
-"Indian Ocean, Eastern Albacore",1.26,1.748,NA,1.637,0.161,0.023,fao_comsir,1.546
-"Indian Ocean, Eastern Atlantic blue marlin",1.079,1.435,NA,1.592,0.059,0.023,fao_comsir,1.159
-"Indian Ocean, Eastern Blood cockle",0.504,1.765,NA,1.396,0.119,0.058,fao_comsir,1.246
-"Indian Ocean, Western Bigeye tuna",0.53,1.202,NA,0.948,0.076,0.005,fao_comsir,1.193
-"Indian Ocean, Western Indian oil sardine",1.144,1.313,NA,1.363,0.211,0.024,fao_comsir,0.916
-"Indian Ocean, Western Yellowfin tuna",0.513,1.076,NA,1.194,0.079,0.006,fao_comsir,0.953
-Mediterranean and Black Sea Black Sea sprat,0.364,0.414,NA,1.404,0.245,0.03,fao_comsir,0.4
-Mediterranean and Black Sea European anchovy,1.315,0.892,NA,1.466,0.104,0.011,fao_comsir,1.239
-"Pacific, Eastern Central Californian anchovy",0.313,0.55,NA,1.566,0.136,0.011,fao_comsir,0.674
-"Pacific, Eastern Central Chub mackerel",0.353,0.709,NA,1.102,0.194,0.019,fao_comsir,0.829
-"Pacific, Eastern Central Pacific herring",0.288,0.521,NA,2.242,0.181,0.019,fao_comsir,0.616
-"Pacific, Eastern Central South American pilchard",1.145,1.301,NA,1.662,0.131,0.025,fao_comsir,1.035
-"Pacific, Northeast Alaska pollack",1.046,0.666,NA,1.055,0.179,0.008,fao_comsir,0.768
-"Pacific, Northeast Flathead sole",1.189,1.05,NA,1.368,0.196,0.036,fao_comsir,0.993
-"Pacific, Northwest Akiami paste shrimp",1.037,1.113,NA,1.624,0.101,0.007,fao_comsir,0.965
-"Pacific, Northwest Alaska pollack",0.451,0.464,NA,1.337,0.184,0.003,fao_comsir,0.751
-"Pacific, Northwest Capelin",0.332,0.569,NA,1.388,0.112,0.012,fao_comsir,0.622
-"Pacific, Northwest Chub mackerel",1.397,0.88,NA,1.359,0.104,0.009,fao_comsir,1.006
-"Pacific, Northwest Japanese anchovy",0.91,0.975,NA,1.749,0.063,0.005,fao_comsir,1.482
-"Pacific, Northwest Japanese flying squid",0.593,1.726,NA,1.575,0.088,0.016,fao_comsir,1.069
-"Pacific, Northwest Largehead hairtail",1.201,2.498,NA,1.701,0.093,0.007,fao_comsir,1.34
-"Pacific, Northwest Okhostk atka mackerel",1.16,0.792,NA,1.446,0.119,0.015,fao_comsir,1.448
-"Pacific, Northwest Pacific herring",1.406,0.714,NA,1.176,0.206,0.018,fao_comsir,1.24
-"Pacific, Northwest Pacific saury",1.252,1.443,NA,1.427,0.097,0.026,fao_comsir,1.416
-"Pacific, Northwest Pink salmon",1.057,1.059,NA,1.71,0.043,0.007,fao_comsir,0.961
-"Pacific, Northwest South American pilchard",0.278,0.51,NA,1.449,0.22,0.001,fao_comsir,0.782
-"Pacific, Northwest Yellow croaker",1.185,1.505,NA,1.933,0.122,0.01,fao_comsir,2.02
-"Pacific, Southeast Anchoveta",0.584,0.623,NA,1.05,0.285,0.03,fao_comsir,1.296
-"Pacific, Southeast Chub mackerel",0.493,0.775,NA,0.971,0.339,0.014,fao_comsir,0.927
-"Pacific, Southeast Inca scad",0.409,0.711,NA,0.658,0.134,0.007,fao_comsir,0.995
-"Pacific, Southeast South American pilchard",0.249,0.428,NA,0.18,0.127,0.011,fao_comsir,0.618
-"Pacific, Southwest Snoek",1.045,1.614,NA,1.457,0.076,0.014,fao_comsir,1.23
-"Pacific, Western Central Skipjack tuna",1.08,1.745,NA,1.745,0.112,0.008,fao_comsir,1.118
-"Atlantic, Eastern Central Bluefish",0.291,NA,0.002,1.179,0.131,0.015,fao_costello,0.691
-"Atlantic, Eastern Central Red pandora",1.229,NA,1.098,1.159,0.192,0.029,fao_costello,1.07
-"Atlantic, Northeast Common edible cockle",0.317,NA,0.286,1.238,0.168,0.015,fao_costello,0.409
-"Atlantic, Northeast Cuckoo ray",1.308,NA,1.217,1.596,0.223,0.034,fao_costello,1.061
-"Atlantic, Northeast European plaice",0.447,NA,1.063,1.087,0.052,0.004,fao_costello,0.902
-"Atlantic, Northeast Grey gurnard",0.257,NA,1.597,0.739,0.164,0.035,fao_costello,1.035
-"Atlantic, Northeast Queen scallop",1.166,NA,1.551,1.525,0.091,0.014,fao_costello,0.856
-"Atlantic, Northeast Striped venus",0.506,NA,0.976,1.301,0.46,0.005,fao_costello,1.091
-"Atlantic, Northeast Turbot",1.283,NA,1.749,1.12,0.168,0.003,fao_costello,1.135
-"Atlantic, Northwest Bluefish",0.508,NA,1.213,1.72,0.07,0.006,fao_costello,0.918
-"Atlantic, Northwest Rainbow smelt",0.437,NA,1.849,1.831,0.123,0.016,fao_costello,0.907
-"Atlantic, Northwest Red crab",0.509,NA,1.08,1.287,0.164,0.054,fao_costello,1.091
-"Atlantic, Southeast Red pandora",0.301,NA,0.008,0.431,0.162,0.019,fao_costello,0.844
-"Atlantic, Southwest Bluefish",0.422,NA,0.32,1.647,0.057,0.002,fao_costello,0.572
-"Atlantic, Southwest White morwong",0.395,NA,0.674,1.454,0.078,0.035,fao_costello,0.765
-"Atlantic, Western Central Bluefish",0.378,NA,0.187,1.479,0.166,0.013,fao_costello,0.637
-"Indian Ocean, Antarctic Grey rockcod",0.305,NA,0.049,2.568,0.059,0.059,fao_costello,0.55
-Mediterranean and Black Sea Bluefish,0.456,NA,0.994,1.067,0.209,0.028,fao_costello,0.871
-Mediterranean and Black Sea Gilthead seabream,1.082,NA,1.578,1.411,0.121,0.009,fao_costello,0.871
-Mediterranean and Black Sea Spottail mantis squillid,1.181,NA,1.645,1.667,0.111,0.009,fao_costello,0.771
-Mediterranean and Black Sea Striped venus,1.101,NA,1.629,1.564,0.099,0.024,fao_costello,0.949
-Mediterranean and Black Sea Turbot,0.389,NA,0.326,1.216,0.139,0.034,fao_costello,0.42
-"Pacific, Eastern Central Pacific calico scallop",1.303,NA,0.986,1.617,0.124,0.051,fao_costello,1.399
-"Pacific, Northeast Kamchatka flounder",0.316,NA,0.485,0.916,0.162,0.023,fao_costello,0.675
-"Pacific, Northwest Littlemouth flounder",1.44,NA,1.086,1.489,0.099,0.008,fao_costello,0.748
-"Pacific, Southeast Southern king crab",1.124,NA,1.571,1.616,0.113,0.011,fao_costello,1.177
-"Atlantic, Northeast Common periwinkle",0.39,0.952,1.272,NA,0.18,0.009,fao_sscom,0.659
-"Atlantic, Northeast Northern shortfin squid",1.594,1.694,1.042,NA,0.133,0.054,fao_sscom,0.476
-"Atlantic, Northwest Yellowtail flounder",0.331,0.372,0.113,NA,0.127,0.007,fao_sscom,0.838
-"Atlantic, Southwest Barred grunt",0.304,0.461,0.03,NA,0.155,0.019,fao_sscom,0.524
-"Pacific, Northwest Blackmouth croaker",0.29,0.463,0.022,NA,0.105,0.008,fao_sscom,0.653
-"Pacific, Northwest Giant abalone",0.391,0.799,0.202,NA,0.067,0.005,fao_sscom,0.853
-"Pacific, Northwest Japanese carpet shell",0.41,1.539,0.18,NA,0.1,0.008,fao_sscom,0.516
-"Pacific, Northwest Red king crab",0.285,0.616,0.061,NA,0.146,0.011,fao_sscom,0.808
-"Pacific, Southwest Greenback horse mackerel",0.308,0.521,0.005,NA,0.183,0.048,fao_sscom,0.58
+stock,CMSY,mPRM,COMSIR,SSCOM,ensemble_method,ensemble
+"Atlantic, Antarctic Patagonian toothfish",0.576,1.227,1.615,1.448,full_ensemble,0.774
+"Atlantic, Eastern Central African sicklefish",0.902,0.943,1.209,1.744,full_ensemble,0.957
+"Atlantic, Eastern Central Albacore",0.333,0.551,0.152,1.483,full_ensemble,0.509
+"Atlantic, Eastern Central Angola dentex",0.734,0.901,1.943,1.447,full_ensemble,1.228
+"Atlantic, Eastern Central Atlantic blue marlin",1.237,1.255,1.566,1.649,full_ensemble,1.363
+"Atlantic, Eastern Central Atlantic bonito",1.424,1.199,1.192,1.513,full_ensemble,0.978
+"Atlantic, Eastern Central Atlantic bumper",1.106,1.318,1.612,1.56,full_ensemble,0.874
+"Atlantic, Eastern Central Atlantic horse mackerel",0.265,0.516,0.009,1.65,full_ensemble,0.615
+"Atlantic, Eastern Central Atlantic sailfish",0.569,0.756,1.042,1.542,full_ensemble,1.122
+"Atlantic, Eastern Central Bearded brotula",1.344,1.432,1.285,1.504,full_ensemble,1.217
+"Atlantic, Eastern Central Bigeye grunt",1.246,1.025,1.468,1.41,full_ensemble,1.189
+"Atlantic, Eastern Central Bigeye tuna",1.021,1.071,1.477,1.289,full_ensemble,0.896
+"Atlantic, Eastern Central Black scabbardfish",0.466,1.069,1.253,1.321,full_ensemble,0.938
+"Atlantic, Eastern Central Black seabream",1.451,0.714,1.512,1.479,full_ensemble,0.906
+"Atlantic, Eastern Central Blue butterfish",1.09,1.355,0.698,1.597,full_ensemble,1.337
+"Atlantic, Eastern Central Bobo croaker",1.14,1.164,1.488,1.293,full_ensemble,0.993
+"Atlantic, Eastern Central Boe drum",0.651,0.608,1.225,1.466,full_ensemble,0.987
+"Atlantic, Eastern Central Bogue",1.008,1.221,1.978,1.729,full_ensemble,1.485
+"Atlantic, Eastern Central Bonga shad",1.159,1.572,1.697,1.66,full_ensemble,1.221
+"Atlantic, Eastern Central Cassava croaker",1.182,1.116,0.85,1.392,full_ensemble,1.354
+"Atlantic, Eastern Central Chub mackerel",1.163,0.974,1.115,1.132,full_ensemble,1.133
+"Atlantic, Eastern Central Common dentex",0.364,0.36,0.053,0.753,full_ensemble,1.563
+"Atlantic, Eastern Central Common octopus",0.332,1.124,0.047,1.267,full_ensemble,0.854
+"Atlantic, Eastern Central Common pandora",0.354,0.406,0.025,1.066,full_ensemble,0.704
+"Atlantic, Eastern Central Common sole",0.509,0.501,1.297,1.324,full_ensemble,0.917
+"Atlantic, Eastern Central Crevalle jack",0.885,0.763,1.177,1.602,full_ensemble,1.023
+"Atlantic, Eastern Central Deepwater rose shrimp",0.301,0.35,0,0.8,full_ensemble,0.999
+"Atlantic, Eastern Central European anchovy",0.52,0.707,0.937,1.287,full_ensemble,1.126
+"Atlantic, Eastern Central European conger",0.92,1.519,1.392,1.206,full_ensemble,1.13
+"Atlantic, Eastern Central European hake",0.598,0.548,1.519,1.366,full_ensemble,0.827
+"Atlantic, Eastern Central False scad",0.302,0.529,1.109,1.178,full_ensemble,0.908
+"Atlantic, Eastern Central Frigate tuna",0.341,0.624,0.307,1.215,full_ensemble,0.535
+"Atlantic, Eastern Central Giant African threadfin",1.163,1.207,1.951,1.291,full_ensemble,1.071
+"Atlantic, Eastern Central Large-eye dentex",0.317,0.462,0.114,1.699,full_ensemble,0.39
+"Atlantic, Eastern Central Largehead hairtail",0.371,0.981,1.15,1.563,full_ensemble,0.824
+"Atlantic, Eastern Central Leerfish",0.378,0.559,0.346,1.25,full_ensemble,0.499
+"Atlantic, Eastern Central Lesser African threadfin",1.137,1.297,1.456,1.434,full_ensemble,1.006
+"Atlantic, Eastern Central Little tunny",1.281,0.806,1.07,1.294,full_ensemble,1.111
+"Atlantic, Eastern Central Madeiran sardinella",0.974,1.147,1.678,1.396,full_ensemble,0.718
+"Atlantic, Eastern Central Meagre",1.387,0.821,1.919,1.819,full_ensemble,1.32
+"Atlantic, Eastern Central Northern bluefin tuna",0.493,0.624,1.329,1.58,full_ensemble,0.918
+"Atlantic, Eastern Central Pouting",0.489,0.493,0.974,0.908,full_ensemble,1.01
+"Atlantic, Eastern Central Round sardinella",1.18,0.937,1.549,1.53,full_ensemble,1.019
+"Atlantic, Eastern Central Royal threadfin",0.967,0.643,1.091,1.48,full_ensemble,0.846
+"Atlantic, Eastern Central Rubberlip grunt",1.222,0.916,1.072,1.462,full_ensemble,1.071
+"Atlantic, Eastern Central Senegalese hake",0.393,0.375,0.86,1.769,full_ensemble,0.714
+"Atlantic, Eastern Central Silver scabbardfish",0.244,0.821,0.407,0.101,full_ensemble,0.402
+"Atlantic, Eastern Central Skipjack tuna",1.139,1.176,1.36,1.161,full_ensemble,1.054
+"Atlantic, Eastern Central Sompat grunt",1.249,0.922,0.609,1.666,full_ensemble,1.145
+"Atlantic, Eastern Central Southern pink shrimp",0.498,0.588,1.548,1.335,full_ensemble,0.69
+"Atlantic, Eastern Central Swordfish",1.195,1.051,1.199,1.531,full_ensemble,1.221
+"Atlantic, Eastern Central West African goatfish",0.458,0.69,1.381,1.409,full_ensemble,0.721
+"Atlantic, Eastern Central West African ilisha",1.267,0.809,1.412,1.479,full_ensemble,1.439
+"Atlantic, Eastern Central West African ladyfish",1.321,1.175,0.861,1.584,full_ensemble,1.365
+"Atlantic, Eastern Central White grouper",1.471,1.275,0.932,1.625,full_ensemble,1.164
+"Atlantic, Eastern Central Yellowfin tuna",1.239,0.943,0.176,1.143,full_ensemble,1.172
+"Atlantic, Eastern Central Zebra seabream",1.221,0.966,1.746,1.482,full_ensemble,1.188
+"Atlantic, Northeast Albacore",0.412,0.719,1.86,1.793,full_ensemble,0.762
+"Atlantic, Northeast American plaice",0.362,0.413,1.001,0.763,full_ensemble,0.804
+"Atlantic, Northeast Angler",1.089,1.998,1.874,1.715,full_ensemble,1.327
+"Atlantic, Northeast Atlantic halibut",0.444,0.378,1.6,1.303,full_ensemble,0.72
+"Atlantic, Northeast Atlantic pomfret",1.451,1.247,1.34,2.235,full_ensemble,0.985
+"Atlantic, Northeast Atlantic salmon",0.312,0.428,0.102,0.729,full_ensemble,0.64
+"Atlantic, Northeast Basking shark",0.362,0.778,0.004,0.621,full_ensemble,1.252
+"Atlantic, Northeast Bigeye tuna",0.478,0.711,1.048,1.232,full_ensemble,0.743
+"Atlantic, Northeast Black scabbardfish",1.036,1.373,1.425,1.385,full_ensemble,1.065
+"Atlantic, Northeast Black seabream",1.349,0.786,1.267,1.523,full_ensemble,1.033
+"Atlantic, Northeast Blackspot seabream",0.408,0.483,0.068,1.664,full_ensemble,0.58
+"Atlantic, Northeast Blue ling",0.483,0.48,1.267,1.454,full_ensemble,0.921
+"Atlantic, Northeast Blue mussel",0.395,0.376,1.864,0.966,full_ensemble,1.45
+"Atlantic, Northeast Blue shark",1.011,1.792,1.165,3.101,full_ensemble,1.324
+"Atlantic, Northeast Bogue",0.504,0.521,1.88,1.678,full_ensemble,0.829
+"Atlantic, Northeast Brill",1.271,0.768,1.767,1.668,full_ensemble,1.492
+"Atlantic, Northeast Chub mackerel",1.262,0.914,0.731,1.706,full_ensemble,1.023
+"Atlantic, Northeast Common cuttlefish",1.47,3.437,0.635,1.96,full_ensemble,1.505
+"Atlantic, Northeast Common shrimp",1.464,0.577,0.772,1.802,full_ensemble,0.848
+"Atlantic, Northeast Common sole",1.19,0.669,1.804,1.43,full_ensemble,1.339
+"Atlantic, Northeast Dab",1.076,0.673,1.723,1.335,full_ensemble,0.783
+"Atlantic, Northeast Deepwater redfish",0.933,1.242,1.039,2.86,full_ensemble,1.174
+"Atlantic, Northeast Dog cockle",0.979,2.06,1.929,1.286,full_ensemble,1.114
+"Atlantic, Northeast Edible crab",1.192,0.867,1.916,1.785,full_ensemble,1.414
+"Atlantic, Northeast European conger",0.947,2.386,1.541,1.574,full_ensemble,1.247
+"Atlantic, Northeast European eel",0.416,0.394,1.156,0.792,full_ensemble,1.002
+"Atlantic, Northeast European flat oyster",0.585,0.96,1.879,1.583,full_ensemble,1.296
+"Atlantic, Northeast European hake",0.483,0.45,1.714,1.824,full_ensemble,0.704
+"Atlantic, Northeast European lobster",1.411,1.119,1.484,1.984,full_ensemble,1.026
+"Atlantic, Northeast European pilchard",0.504,0.706,1.306,1.718,full_ensemble,0.806
+"Atlantic, Northeast European seabass",1.082,1.344,1.95,1.599,full_ensemble,1.139
+"Atlantic, Northeast European smelt",0.437,0.462,0.406,1.382,full_ensemble,0.557
+"Atlantic, Northeast European whitefish",0.467,0.583,1.6,1.751,full_ensemble,0.752
+"Atlantic, Northeast Flounder",1.163,0.998,1.872,1.726,full_ensemble,1.259
+"Atlantic, Northeast Great Atlantic scallop",1.184,0.862,1.661,1.825,full_ensemble,0.957
+"Atlantic, Northeast Greenland halibut",0.526,0.473,1.401,1.094,full_ensemble,0.886
+"Atlantic, Northeast Grooved carpet shell",0.326,1.356,1.868,1.554,full_ensemble,1.205
+"Atlantic, Northeast Iceland scallop",0.239,0.228,0.001,0.007,full_ensemble,0.276
+"Atlantic, Northeast John dory",1.203,2.25,1.209,1.409,full_ensemble,1.324
+"Atlantic, Northeast Large-eye dentex",1.123,0.604,1.575,1.588,full_ensemble,1.197
+"Atlantic, Northeast Leafscale gulper shark",0.2,0.709,1.153,0.375,full_ensemble,0.833
+"Atlantic, Northeast Lemon sole",1.271,0.881,1.886,1.667,full_ensemble,1.249
+"Atlantic, Northeast Ling",0.518,0.593,1.064,1.299,full_ensemble,0.815
+"Atlantic, Northeast Lumpsucker",1.128,1.377,1.432,1.331,full_ensemble,1.075
+"Atlantic, Northeast Megrim",1.22,0.733,1.573,1.441,full_ensemble,0.988
+"Atlantic, Northeast Navaga",0.3,0.344,0.077,1.765,full_ensemble,0.772
+"Atlantic, Northeast Northern bluefin tuna",0.439,0.582,1.607,1.588,full_ensemble,0.674
+"Atlantic, Northeast Northern prawn",0.395,0.479,0.382,1.129,full_ensemble,0.625
+"Atlantic, Northeast Norway lobster",1.235,1.047,1.62,1.491,full_ensemble,1.211
+"Atlantic, Northeast Norway redfish",0.983,1.665,1.217,1.977,full_ensemble,1.258
+"Atlantic, Northeast Orange roughy",0.196,0.741,0.648,0.465,full_ensemble,0.925
+"Atlantic, Northeast Piked dogfish",0.388,0.769,0.046,0.396,full_ensemble,1.171
+"Atlantic, Northeast Pollack",1.167,0.624,1.585,1.648,full_ensemble,0.841
+"Atlantic, Northeast Porbeagle",0.421,0.813,0.478,1.332,full_ensemble,0.778
+"Atlantic, Northeast Portuguese dogfish",0.284,0.781,0.172,0.336,full_ensemble,0.756
+"Atlantic, Northeast Pouting",0.527,0.552,1.38,1.206,full_ensemble,0.787
+"Atlantic, Northeast Pullet carpet shell",0.491,1.265,0.773,1.175,full_ensemble,0.98
+"Atlantic, Northeast Red gurnard",0.995,1.454,1.968,1.105,full_ensemble,1.042
+"Atlantic, Northeast Roundnose grenadier",0.379,0.432,1.413,0.994,full_ensemble,0.63
+"Atlantic, Northeast Silver scabbardfish",0.363,0.899,0.104,1.754,full_ensemble,0.82
+"Atlantic, Northeast Skipjack tuna",1.277,1.034,1.902,1.768,full_ensemble,1.185
+"Atlantic, Northeast Smallspotted catshark",1.174,1.501,1.444,1.621,full_ensemble,1.217
+"Atlantic, Northeast Spinous spider crab",1.203,0.534,1.646,1.557,full_ensemble,0.905
+"Atlantic, Northeast Spotted wolffish",1.288,2.178,0.782,1.524,full_ensemble,1.669
+"Atlantic, Northeast Striped red mullet",0.994,1.058,1.97,1.65,full_ensemble,1.272
+"Atlantic, Northeast Swordfish",0.444,0.739,0.635,1.568,full_ensemble,0.691
+"Atlantic, Northeast Thornback ray",1.561,1.595,1.261,1.813,full_ensemble,0.302
+"Atlantic, Northeast Tusk",1.261,0.63,1.485,1.526,full_ensemble,1.045
+"Atlantic, Northeast Vendace",1.297,0.604,1.331,1.199,full_ensemble,1.06
+"Atlantic, Northeast Whelk",1.007,1.663,1.97,1.742,full_ensemble,1.435
+"Atlantic, Northeast Whiting",0.313,0.419,0.099,1.596,full_ensemble,0.379
+"Atlantic, Northeast Witch",1.051,0.734,1.897,1.581,full_ensemble,1.37
+"Atlantic, Northeast Wolf-fish",0.544,1.231,1.433,1.619,full_ensemble,0.949
+"Atlantic, Northwest Albacore",0.281,0.569,0.123,1.278,full_ensemble,0.487
+"Atlantic, Northwest American lobster",1.286,1.077,1.933,1.937,full_ensemble,1.104
+"Atlantic, Northwest American plaice",0.362,0.346,0.022,0.79,full_ensemble,1.448
+"Atlantic, Northwest American sea scallop",1.151,0.672,1.935,1.564,full_ensemble,1.664
+"Atlantic, Northwest American shad",0.374,0.345,0.076,1.365,full_ensemble,1.266
+"Atlantic, Northwest Atlantic croaker",0.523,0.895,0.812,1.327,full_ensemble,1.137
+"Atlantic, Northwest Atlantic halibut",0.482,0.452,1.412,1.476,full_ensemble,0.773
+"Atlantic, Northwest Atlantic rock crab",0.977,0.951,1.702,1.718,full_ensemble,1.149
+"Atlantic, Northwest Atlantic salmon",0.265,0.368,0.001,1.462,full_ensemble,0.718
+"Atlantic, Northwest Atlantic surf clam",1.12,2.281,1.473,1.097,full_ensemble,1.203
+"Atlantic, Northwest Bigeye tuna",0.31,0.585,0.179,1.459,full_ensemble,0.419
+"Atlantic, Northwest Blue crab",1.472,0.594,1.581,1.72,full_ensemble,0.996
+"Atlantic, Northwest Blue mussel",0.541,0.367,1.53,1.613,full_ensemble,1.128
+"Atlantic, Northwest Deepwater redfish",0.25,0.779,0.222,0.783,full_ensemble,0.623
+"Atlantic, Northwest Great Northern tilefish",0.5,1.072,1.234,1.735,full_ensemble,0.891
+"Atlantic, Northwest Greenland cod",0.295,0.374,0,1.359,full_ensemble,0.711
+"Atlantic, Northwest Greenland halibut",1.09,0.688,1.477,1.147,full_ensemble,0.815
+"Atlantic, Northwest Iceland scallop",0.286,0.252,0.91,0.959,full_ensemble,1.191
+"Atlantic, Northwest Jonah crab",1.255,0.919,1.973,1.807,full_ensemble,1.377
+"Atlantic, Northwest Longfin squid",0.446,1.479,1.122,0.97,full_ensemble,1.254
+"Atlantic, Northwest Lumpsucker",1.071,1.912,1.976,1.928,full_ensemble,1.219
+"Atlantic, Northwest Northern bluefin tuna",0.45,0.634,0.52,1.351,full_ensemble,0.781
+"Atlantic, Northwest Northern prawn",1.002,1.031,1.559,1.394,full_ensemble,0.764
+"Atlantic, Northwest Onion-eye grenadier",0.21,0.354,0.057,1.196,full_ensemble,0.993
+"Atlantic, Northwest Piked dogfish",0.612,1.379,1.934,3.655,full_ensemble,1.318
+"Atlantic, Northwest Queen crab",1.061,0.737,1.603,1.491,full_ensemble,0.759
+"Atlantic, Northwest Roundnose grenadier",0.348,0.336,0.564,1.077,full_ensemble,1.133
+"Atlantic, Northwest Saithe",0.328,0.381,0.141,1.392,full_ensemble,0.356
+"Atlantic, Northwest Sand gaper",0.432,1.405,0.2,1.699,full_ensemble,0.815
+"Atlantic, Northwest Silver hake",0.337,0.374,0.086,1.628,full_ensemble,0.722
+"Atlantic, Northwest Spot croaker",0.646,0.689,0.536,1.448,full_ensemble,1.142
+"Atlantic, Northwest Striped sea-bass",1.32,0.598,0.307,1.436,full_ensemble,0.825
+"Atlantic, Northwest Summer flounder",0.509,0.537,1.018,1.433,full_ensemble,1.118
+"Atlantic, Northwest Swordfish",0.514,0.66,1.242,1.696,full_ensemble,0.878
+"Atlantic, Northwest Tusk",0.381,0.391,0.116,0.973,full_ensemble,0.72
+"Atlantic, Northwest White hake",0.397,0.421,0.318,1.114,full_ensemble,0.557
+"Atlantic, Northwest Winter flounder",0.366,0.42,0.179,1.5,full_ensemble,0.418
+"Atlantic, Northwest Witch",0.378,0.378,0.085,1.193,full_ensemble,0.694
+"Atlantic, Northwest Yellowfin tuna",0.453,0.618,1.06,1.553,full_ensemble,0.686
+"Atlantic, Southeast Albacore",1.427,1.059,0.338,1.525,full_ensemble,1.065
+"Atlantic, Southeast Atlantic pomfret",0.503,0.569,1.276,1.484,full_ensemble,0.886
+"Atlantic, Southeast Bigeye grunt",1.051,0.626,1.972,1.165,full_ensemble,1.36
+"Atlantic, Southeast Bigeye tuna",0.512,0.865,1.517,1.517,full_ensemble,0.894
+"Atlantic, Southeast Bobo croaker",1.032,1.026,1.964,1.607,full_ensemble,1.138
+"Atlantic, Southeast Cape Hope squid",1.115,2.746,1.536,1.538,full_ensemble,1.378
+"Atlantic, Southeast Cape monk",0.474,1.252,1.088,0.834,full_ensemble,0.953
+"Atlantic, Southeast Chub mackerel",0.334,0.589,0.069,1.799,full_ensemble,0.495
+"Atlantic, Southeast Cunene horse mackerel",0.335,0.571,0.114,1.666,full_ensemble,0.499
+"Atlantic, Southeast Deepwater rose shrimp",0.282,0.322,0.058,0.718,full_ensemble,1.066
+"Atlantic, Southeast John dory",0.553,1.16,1.595,1.322,full_ensemble,0.897
+"Atlantic, Southeast Kingklip",0.55,1.058,1.333,1.261,full_ensemble,1.087
+"Atlantic, Southeast Large-eye dentex",0.284,0.416,0,0.861,full_ensemble,0.608
+"Atlantic, Southeast Panga seabream",0.481,0.502,0.659,1.335,full_ensemble,0.712
+"Atlantic, Southeast Shallow-water Cape hake",0.837,0.643,1.166,1.934,full_ensemble,1.072
+"Atlantic, Southeast Silver scabbardfish",0.513,1.014,1.517,1.072,full_ensemble,1.072
+"Atlantic, Southeast Skipjack tuna",0.332,0.529,0.077,1.465,full_ensemble,0.59
+"Atlantic, Southeast Snoek",0.499,1.155,1.484,1.599,full_ensemble,0.974
+"Atlantic, Southeast Southern bluefin tuna",0.383,0.561,0.869,1.351,full_ensemble,0.463
+"Atlantic, Southeast Southern meagre",1.393,1.445,1.936,4.133,full_ensemble,0.902
+"Atlantic, Southeast Striped red shrimp",0.298,0.404,0.149,0.92,full_ensemble,0.478
+"Atlantic, Southeast Swordfish",1.034,1.01,1.681,1.614,full_ensemble,0.972
+"Atlantic, Southeast West African geryon",0.314,0.371,0.121,0.162,full_ensemble,0.654
+"Atlantic, Southeast West coast sole",0.571,0.767,0.987,1.744,full_ensemble,1.105
+"Atlantic, Southeast Whiteheads round herring",1.499,0.926,1.455,1.54,full_ensemble,0.547
+"Atlantic, Southeast Yellowfin tuna",0.632,0.859,1.068,1.6,full_ensemble,1.001
+"Atlantic, Southeast Zebra seabream",0.338,0.475,0.773,1.046,full_ensemble,1.149
+"Atlantic, Southwest Albacore",0.372,0.695,0.351,1.163,full_ensemble,0.658
+"Atlantic, Southwest Argentine anchoita",1.04,1.118,1.675,1.415,full_ensemble,0.87
+"Atlantic, Southwest Argentine angelshark",0.866,1.636,1.694,1.697,full_ensemble,0.996
+"Atlantic, Southwest Argentine croaker",1.137,1.062,1.96,1.586,full_ensemble,1.189
+"Atlantic, Southwest Argentine shortfin squid",0.528,2.282,0.499,0.989,full_ensemble,1.205
+"Atlantic, Southwest Atlantic bonito",0.36,0.594,0.05,1.782,full_ensemble,0.72
+"Atlantic, Southwest Atlantic seabob",1.283,1.048,1.322,1.133,full_ensemble,1.138
+"Atlantic, Southwest Bastard halibut",1.127,0.871,1.425,1.528,full_ensemble,1.082
+"Atlantic, Southwest Bigeye tuna",1.178,1.024,1.017,1.423,full_ensemble,1.268
+"Atlantic, Southwest Black drum",0.385,0.508,0.199,1.786,full_ensemble,0.405
+"Atlantic, Southwest Blackbelly rosefish",0.39,1.142,1.891,2.589,full_ensemble,1.122
+"Atlantic, Southwest Blue shark",1.2,2.189,0.655,3.515,full_ensemble,1.61
+"Atlantic, Southwest Brazilian codling",1.114,0.784,1.568,1.569,full_ensemble,0.931
+"Atlantic, Southwest Brazilian flathead",1.102,1.054,1.936,1.603,full_ensemble,1.227
+"Atlantic, Southwest Caribbean spiny lobster",1.212,0.645,1.501,1.403,full_ensemble,0.834
+"Atlantic, Southwest Chub mackerel",0.684,0.751,0.826,1.834,full_ensemble,1.123
+"Atlantic, Southwest Common dolphinfish",0.952,1.173,1.818,1.697,full_ensemble,1.092
+"Atlantic, Southwest Common seabream",1.431,0.746,1.011,1.715,full_ensemble,1.201
+"Atlantic, Southwest Dana's swimming crab",0.469,0.445,0.426,1.689,full_ensemble,0.768
+"Atlantic, Southwest King mackerel",1.526,1.021,1.462,1.878,full_ensemble,0.173
+"Atlantic, Southwest King weakfish",1.298,1.197,1.971,1.728,full_ensemble,1.06
+"Atlantic, Southwest Largehead hairtail",1.222,2.105,1.647,1.718,full_ensemble,1.35
+"Atlantic, Southwest Narrownose smooth-hound",0.892,1.636,1.505,1.287,full_ensemble,1.061
+"Atlantic, Southwest Parona leatherjacket",0.499,0.865,1.29,1.266,full_ensemble,0.886
+"Atlantic, Southwest Patagonian grenadier",1.088,0.786,1.29,1.405,full_ensemble,1.118
+"Atlantic, Southwest Patagonian squid",0.577,1.538,0.951,1.329,full_ensemble,1.428
+"Atlantic, Southwest Patagonian toothfish",0.476,1.026,1.895,1.188,full_ensemble,0.894
+"Atlantic, Southwest Pigletfish",0.564,0.687,1.367,1.485,full_ensemble,1.07
+"Atlantic, Southwest Pink cusk-eel",1.028,1.644,1.938,1.622,full_ensemble,1.237
+"Atlantic, Southwest Red grouper",0.48,0.537,0.856,1.352,full_ensemble,0.665
+"Atlantic, Southwest Red searobin",1.032,1.665,1.954,1.432,full_ensemble,1.209
+"Atlantic, Southwest Redspotted shrimp",1.164,0.929,1.423,1.495,full_ensemble,0.884
+"Atlantic, Southwest Ridge scaled rattail",0.818,0.574,1.964,1.781,full_ensemble,1.312
+"Atlantic, Southwest Sea bass",0.453,0.571,0.326,1.544,full_ensemble,0.695
+"Atlantic, Southwest Serra Spanish mackerel",0.321,0.532,0.125,1.362,full_ensemble,0.471
+"Atlantic, Southwest Skipjack tuna",1.048,1.364,1.272,1.335,full_ensemble,1.153
+"Atlantic, Southwest Southern blue whiting",0.331,0.386,0.084,0.943,full_ensemble,0.632
+"Atlantic, Southwest Southern hake",0.525,0.509,1.648,1.364,full_ensemble,0.775
+"Atlantic, Southwest Southern red snapper",0.533,0.595,1.207,1.368,full_ensemble,0.766
+"Atlantic, Southwest Striped weakfish",1.043,0.983,1.671,1.452,full_ensemble,0.932
+"Atlantic, Southwest Swordfish",0.529,1.157,1.464,1.334,full_ensemble,1.151
+"Atlantic, Southwest Tadpole codling",1.409,0.611,0.014,1.616,full_ensemble,1.247
+"Atlantic, Southwest Tarpon",0.437,0.445,1.83,1.664,full_ensemble,0.775
+"Atlantic, Southwest Whitemouth croaker",1.235,1.02,1.675,1.562,full_ensemble,1.323
+"Atlantic, Southwest Yellowfin tuna",1.001,1.136,1.895,1.448,full_ensemble,0.964
+"Atlantic, Southwest Yellowtail snapper",1.193,1.345,1.545,1.538,full_ensemble,1.155
+"Atlantic, Western Central Albacore",0.414,0.568,1.995,1.054,full_ensemble,1.178
+"Atlantic, Western Central Alewife",0.264,0.356,0.011,0.318,full_ensemble,0.975
+"Atlantic, Western Central American cupped oyster",0.468,1.042,1.81,1.366,full_ensemble,1.013
+"Atlantic, Western Central Atlantic anchoveta",0.308,0.483,0.024,1.307,full_ensemble,0.596
+"Atlantic, Western Central Atlantic bonito",0.427,0.791,0.497,1.351,full_ensemble,0.744
+"Atlantic, Western Central Atlantic croaker",0.284,0.431,0.035,1.328,full_ensemble,0.517
+"Atlantic, Western Central Atlantic moonfish",0.54,0.9,1.896,1.439,full_ensemble,1.166
+"Atlantic, Western Central Atlantic seabob",1.018,0.697,1.873,1.394,full_ensemble,1.344
+"Atlantic, Western Central Atlantic thread herring",0.579,0.703,0.916,1.22,full_ensemble,1.267
+"Atlantic, Western Central Bastard halibut",0.325,0.37,0.138,1.657,full_ensemble,0.589
+"Atlantic, Western Central Bigeye scad",0.502,0.848,1.384,1.144,full_ensemble,0.923
+"Atlantic, Western Central Bigeye tuna",0.533,0.694,0.76,1.276,full_ensemble,1.091
+"Atlantic, Western Central Black drum",1.014,0.86,0.472,1.497,full_ensemble,1.057
+"Atlantic, Western Central Black stone crab",1.085,0.731,1.424,1.18,full_ensemble,0.902
+"Atlantic, Western Central Blackfin tuna",1.141,0.944,1.697,1.532,full_ensemble,1.027
+"Atlantic, Western Central Blue crab",1.213,0.656,1.766,1.53,full_ensemble,1.267
+"Atlantic, Western Central Caribbean spiny lobster",1.166,0.777,1.557,1.308,full_ensemble,0.84
+"Atlantic, Western Central Common dolphinfish",1.355,1.523,1.922,1.739,full_ensemble,0.968
+"Atlantic, Western Central Common octopus",1.005,1.93,1.295,1.643,full_ensemble,1.028
+"Atlantic, Western Central Common snook",0.317,0.537,0.612,0.561,full_ensemble,1.194
+"Atlantic, Western Central Flathead mullet",0.446,0.706,1.862,1.566,full_ensemble,0.777
+"Atlantic, Western Central King mackerel",1.195,1.26,1.872,1.629,full_ensemble,1.118
+"Atlantic, Western Central Lane snapper",0.458,0.59,1.015,1.201,full_ensemble,0.766
+"Atlantic, Western Central Largehead hairtail",0.589,1.386,1.979,1.507,full_ensemble,0.853
+"Atlantic, Western Central Little tunny",0.305,0.63,0.153,0.498,full_ensemble,0.922
+"Atlantic, Western Central Liza",0.487,0.712,1.933,1.372,full_ensemble,0.982
+"Atlantic, Western Central Mangrove cupped oyster",0.402,0.829,1.072,1.581,full_ensemble,0.7
+"Atlantic, Western Central Northern brown shrimp",0.533,0.678,1.52,1.716,full_ensemble,0.752
+"Atlantic, Western Central Northern pink shrimp",0.388,0.449,0.213,1.871,full_ensemble,0.309
+"Atlantic, Western Central Northern red snapper",0.481,0.74,1.513,1.013,full_ensemble,0.712
+"Atlantic, Western Central Northern white shrimp",1.227,0.933,1.914,1.697,full_ensemble,1.335
+"Atlantic, Western Central Red drum",0.232,0.443,0.138,0.086,full_ensemble,0.527
+"Atlantic, Western Central Red grouper",0.386,0.44,0.007,1.78,full_ensemble,0.52
+"Atlantic, Western Central Rock shrimp",0.382,0.452,1,1.58,full_ensemble,0.61
+"Atlantic, Western Central Round sardinella",0.342,0.719,1.681,1.08,full_ensemble,1.039
+"Atlantic, Western Central Scaled herring",1.471,0.737,0.895,1.592,full_ensemble,1.114
+"Atlantic, Western Central Serra Spanish mackerel",0.502,0.989,1.338,1.314,full_ensemble,1.091
+"Atlantic, Western Central Skipjack tuna",0.378,0.663,0.332,1.435,full_ensemble,0.647
+"Atlantic, Western Central Southern red snapper",1.493,0.658,1.634,1.765,full_ensemble,0.717
+"Atlantic, Western Central Spanish mackerel",1.358,1.12,1.476,1.542,full_ensemble,1.068
+"Atlantic, Western Central Spotted weakfish",0.217,0.482,0.177,0.065,full_ensemble,0.434
+"Atlantic, Western Central Swordfish",1.132,1.189,1.847,1.6,full_ensemble,1.199
+"Atlantic, Western Central Whitemouth croaker",0.438,0.584,0.621,1.577,full_ensemble,0.605
+"Atlantic, Western Central Yellowfin tuna",0.479,0.881,1.464,1.4,full_ensemble,0.747
+"Atlantic, Western Central Yellowtail snapper",1.297,1.128,1.552,1.66,full_ensemble,1.341
+"Indian Ocean, Antarctic Antarctic krill",0.216,0.347,0,2.036,full_ensemble,0.699
+"Indian Ocean, Antarctic Marbled rockcod",0.26,0.368,0.281,0.289,full_ensemble,0.937
+"Indian Ocean, Antarctic Patagonian toothfish",1.101,1.59,1.351,1.376,full_ensemble,1.185
+"Indian Ocean, Eastern Akiami paste shrimp",1.134,0.691,1.634,1.259,full_ensemble,0.805
+"Indian Ocean, Eastern Australian ruff",0.314,0.544,0.297,1.242,full_ensemble,0.525
+"Indian Ocean, Eastern Australian spiny lobster",0.498,0.644,1.739,1.014,full_ensemble,0.89
+"Indian Ocean, Eastern Banana prawn",1.151,1.1,1.948,1.736,full_ensemble,1.297
+"Indian Ocean, Eastern Bigeye tuna",0.527,0.961,1.11,1.074,full_ensemble,1.066
+"Indian Ocean, Eastern Black marlin",1.066,1.6,0.403,1.511,full_ensemble,1.3
+"Indian Ocean, Eastern Blacklip abalone",1.316,1.024,1.051,1.069,full_ensemble,1.108
+"Indian Ocean, Eastern Blue grenadier",0.4,0.409,1.154,1.008,full_ensemble,0.877
+"Indian Ocean, Eastern Blue swimming crab",1.08,0.871,1.535,1.455,full_ensemble,0.734
+"Indian Ocean, Eastern Chacunda gizzard shad",1.099,0.97,1.824,1.648,full_ensemble,1.131
+"Indian Ocean, Eastern Chocolate hind",0.97,0.909,1.654,1.545,full_ensemble,0.881
+"Indian Ocean, Eastern Daggertooth pike conger",1.079,1.661,1.501,1.362,full_ensemble,1.123
+"Indian Ocean, Eastern Dorab wolf-herring",0.405,0.679,0.566,1.179,full_ensemble,0.749
+"Indian Ocean, Eastern False trevally",1.446,1.551,1.242,1.892,full_ensemble,1.02
+"Indian Ocean, Eastern Giant tiger prawn",1.036,1.094,1.982,1.611,full_ensemble,1.131
+"Indian Ocean, Eastern Great barracuda",0.514,0.919,1.397,1.178,full_ensemble,1.082
+"Indian Ocean, Eastern Greater lizardfish",1.215,1.438,1.98,1.891,full_ensemble,1.078
+"Indian Ocean, Eastern Indian mackerel",1.148,1.661,1.967,1.769,full_ensemble,1.255
+"Indian Ocean, Eastern Indian oil sardine",1.595,0.879,0.159,1.353,full_ensemble,0.696
+"Indian Ocean, Eastern Indian pellona",1.029,0.938,1.428,1.323,full_ensemble,1.033
+"Indian Ocean, Eastern Indian scad",1.033,1.481,1.964,1.66,full_ensemble,1.173
+"Indian Ocean, Eastern Indian spiny turbot",0.95,0.938,1.903,1.523,full_ensemble,1.296
+"Indian Ocean, Eastern Indo-Pacific king mackerel",1.173,1.75,1.943,1.684,full_ensemble,0.985
+"Indian Ocean, Eastern Indo-Pacific sailfish",0.921,1.019,1.964,1.547,full_ensemble,1.098
+"Indian Ocean, Eastern Indo-Pacific swamp crab",1.171,0.614,1.085,1.557,full_ensemble,0.851
+"Indian Ocean, Eastern Largehead hairtail",0.494,1.237,1.905,1.388,full_ensemble,0.792
+"Indian Ocean, Eastern Longtail tuna",1.106,1.86,1.593,1.786,full_ensemble,1.19
+"Indian Ocean, Eastern Mangrove red snapper",0.417,0.554,0.5,1.741,full_ensemble,0.582
+"Indian Ocean, Eastern Narrow-barred Spanish mackerel",1.112,1.765,1.899,1.788,full_ensemble,0.973
+"Indian Ocean, Eastern Orange roughy",0.244,0.77,1.542,1.259,full_ensemble,0.947
+"Indian Ocean, Eastern Rainbow runner",1.082,0.948,1.812,1.587,full_ensemble,1.11
+"Indian Ocean, Eastern Rainbow sardine",1.044,1.031,1.407,1.401,full_ensemble,1
+"Indian Ocean, Eastern Red seabream",0.49,0.813,1.889,1.132,full_ensemble,1.054
+"Indian Ocean, Eastern Silky shark",0.308,0.848,0.1,0.297,full_ensemble,0.701
+"Indian Ocean, Eastern Silver pomfret",1.193,1.653,1.627,1.826,full_ensemble,1.234
+"Indian Ocean, Eastern Silver sillago",0.452,0.798,1.968,1.105,full_ensemble,1.21
+"Indian Ocean, Eastern Skipjack tuna",1.115,1.804,1.634,1.739,full_ensemble,1.061
+"Indian Ocean, Eastern Southern bluefin tuna",0.427,0.631,0.916,1.478,full_ensemble,0.72
+"Indian Ocean, Eastern Southern rock lobster",1.323,0.582,1.297,1.377,full_ensemble,1.184
+"Indian Ocean, Eastern Striped marlin",0.513,0.796,1.968,0.92,full_ensemble,1.113
+"Indian Ocean, Eastern Swordfish",0.898,0.914,1.16,1.127,full_ensemble,1.193
+"Indian Ocean, Eastern Torpedo scad",1.178,1.721,1.959,1.77,full_ensemble,1.164
+"Indian Ocean, Eastern Yellowfin tuna",1.03,1.268,1.019,1.553,full_ensemble,1.116
+"Indian Ocean, Western Albacore",1.112,1.198,0.245,0.922,full_ensemble,1.405
+"Indian Ocean, Western Atlantic blue marlin",0.439,0.907,0.675,1.553,full_ensemble,0.743
+"Indian Ocean, Western Black pomfret",1.396,1.485,0.443,1.71,full_ensemble,1.307
+"Indian Ocean, Western Blue swimming crab",1.182,0.913,1.396,1.476,full_ensemble,0.954
+"Indian Ocean, Western Bluespot mullet",1.279,0.705,1.34,1.668,full_ensemble,1.212
+"Indian Ocean, Western Bombay duck",1.187,1.247,1.699,1.473,full_ensemble,1.264
+"Indian Ocean, Western Chub mackerel",0.316,0.594,0.908,1.011,full_ensemble,0.727
+"Indian Ocean, Western Cobia",1.153,1.503,1.957,1.754,full_ensemble,1.162
+"Indian Ocean, Western Common dolphinfish",0.552,0.797,1.168,1.223,full_ensemble,0.983
+"Indian Ocean, Western Dorab wolf-herring",0.376,0.507,0.382,1.435,full_ensemble,0.545
+"Indian Ocean, Western False trevally",1.282,1.395,1.811,1.599,full_ensemble,1.468
+"Indian Ocean, Western Giant tiger prawn",1.046,0.685,1.414,1.227,full_ensemble,0.866
+"Indian Ocean, Western Giant trevally",1.15,1.357,1.922,1.335,full_ensemble,0.988
+"Indian Ocean, Western Golden trevally",0.568,0.817,1.861,1.426,full_ensemble,1.579
+"Indian Ocean, Western Greater lizardfish",1.009,0.674,1.178,1.2,full_ensemble,0.779
+"Indian Ocean, Western Green tiger prawn",1.163,1.247,1.976,1.844,full_ensemble,1.19
+"Indian Ocean, Western Hilsa shad",1.689,0.485,0.389,1.771,full_ensemble,0.662
+"Indian Ocean, Western Indian mackerel",0.495,0.843,0.917,1.525,full_ensemble,0.937
+"Indian Ocean, Western Indian spiny turbot",1.137,1.011,1.967,1.607,full_ensemble,1.192
+"Indian Ocean, Western Indo-Pacific king mackerel",1.056,1.139,1.944,1.663,full_ensemble,1.212
+"Indian Ocean, Western Indo-Pacific sailfish",1.017,1.39,1.965,1.58,full_ensemble,1.064
+"Indian Ocean, Western King soldierbream",1.01,0.837,1.739,1.445,full_ensemble,1.223
+"Indian Ocean, Western Knife shrimp",0.463,0.461,1.164,1.486,full_ensemble,0.997
+"Indian Ocean, Western Largehead hairtail",1.111,1.497,1.933,1.594,full_ensemble,1.221
+"Indian Ocean, Western Longtail tuna",1.172,1.787,1.616,1.692,full_ensemble,1.173
+"Indian Ocean, Western Mangrove red snapper",1.067,0.693,1.197,1.75,full_ensemble,0.971
+"Indian Ocean, Western Narrow-barred Spanish mackerel",1.131,1.338,1.753,1.602,full_ensemble,1.263
+"Indian Ocean, Western Pharaoh cuttlefish",1.041,2.603,1.271,1.058,full_ensemble,1.301
+"Indian Ocean, Western Silver pomfret",0.487,0.827,1.843,1.371,full_ensemble,1.108
+"Indian Ocean, Western Skipjack tuna",0.93,1.237,1.965,1.468,full_ensemble,0.746
+"Indian Ocean, Western Southern bluefin tuna",0.439,0.549,1.151,1.187,full_ensemble,0.728
+"Indian Ocean, Western Striped marlin",0.35,0.603,0.836,1.426,full_ensemble,0.6
+"Indian Ocean, Western Swordfish",0.458,1.123,1.698,1.109,full_ensemble,0.81
+"Indian Ocean, Western Torpedo scad",0.86,0.972,1.114,1.499,full_ensemble,1
+"Indian Ocean, Western Yellowstripe scad",0.512,0.888,1.96,1.161,full_ensemble,1.068
+Mediterranean and Black Sea Albacore,0.616,1.028,1.886,1.554,full_ensemble,1.074
+Mediterranean and Black Sea Atlantic bonito,0.531,0.864,0.804,1.026,full_ensemble,1.081
+Mediterranean and Black Sea Atlantic horse mackerel,0.55,0.781,0.82,1.404,full_ensemble,1.074
+Mediterranean and Black Sea Atlantic mackerel,0.737,0.762,0.9,1.573,full_ensemble,1.166
+Mediterranean and Black Sea Big-scale sand smelt,0.377,0.513,0,1.824,full_ensemble,0.621
+Mediterranean and Black Sea Blue and red shrimp,0.813,0.719,1.558,1.506,full_ensemble,0.94
+Mediterranean and Black Sea Blue whiting,0.366,0.533,1.662,1.124,full_ensemble,0.506
+Mediterranean and Black Sea Bogue,1.308,1.172,1.673,1.477,full_ensemble,1.312
+Mediterranean and Black Sea Broadtail shortfin squid,0.54,1.904,0.697,1.604,full_ensemble,1.125
+Mediterranean and Black Sea Caramote prawn,1.004,0.894,1.671,1.53,full_ensemble,1.133
+Mediterranean and Black Sea Chub mackerel,0.436,0.745,1.86,1.305,full_ensemble,0.794
+Mediterranean and Black Sea Common cuttlefish,1.103,2.294,1.949,1.629,full_ensemble,1.377
+Mediterranean and Black Sea Common dentex,0.494,0.622,0.836,1.451,full_ensemble,0.976
+Mediterranean and Black Sea Common octopus,0.438,1.716,1.321,1.291,full_ensemble,0.888
+Mediterranean and Black Sea Common pandora,1.459,1.123,1.518,1.808,full_ensemble,0.817
+Mediterranean and Black Sea Common seabream,1.233,1.509,1.706,1.742,full_ensemble,1.495
+Mediterranean and Black Sea Common sole,1.294,0.652,1.49,1.48,full_ensemble,1.182
+Mediterranean and Black Sea Deepwater rose shrimp,1.401,0.737,1.875,1.695,full_ensemble,1.287
+Mediterranean and Black Sea Dusky grouper,0.398,0.58,0.408,1.125,full_ensemble,0.879
+Mediterranean and Black Sea European conger,0.964,1.771,1.732,2.043,full_ensemble,1.161
+Mediterranean and Black Sea European eel,0.383,0.369,1.147,0.679,full_ensemble,1.212
+Mediterranean and Black Sea European flat oyster,0.265,0.651,0.098,1.318,full_ensemble,0.497
+Mediterranean and Black Sea European hake,0.548,0.701,1.532,1.475,full_ensemble,0.869
+Mediterranean and Black Sea European pilchard,1.245,0.979,1.745,1.764,full_ensemble,1.707
+Mediterranean and Black Sea European seabass,0.501,0.725,1.638,1.204,full_ensemble,0.827
+Mediterranean and Black Sea European sprat,1.179,1.019,1.619,1.487,full_ensemble,0.834
+Mediterranean and Black Sea Flathead mullet,0.497,0.743,1.874,1.793,full_ensemble,0.733
+Mediterranean and Black Sea Leerfish,0.446,0.658,0.293,1.179,full_ensemble,0.655
+Mediterranean and Black Sea Little tunny,1.295,1.877,1.888,1.825,full_ensemble,0.797
+Mediterranean and Black Sea Mediterranean horse mackerel,0.41,0.692,0.307,1.557,full_ensemble,0.642
+Mediterranean and Black Sea Mediterranean mussel,0.235,0.278,0.345,0.049,full_ensemble,0.34
+Mediterranean and Black Sea Northern bluefin tuna,0.467,0.941,1.881,1.032,full_ensemble,0.912
+Mediterranean and Black Sea Norway lobster,1.374,0.748,1.744,1.6,full_ensemble,1.325
+Mediterranean and Black Sea Poor cod,1.039,0.667,1.885,1.532,full_ensemble,1.358
+Mediterranean and Black Sea Red mullet,1.151,1.327,1.92,1.751,full_ensemble,1.35
+Mediterranean and Black Sea Round sardinella,1.108,1.388,1.623,1.527,full_ensemble,0.886
+Mediterranean and Black Sea Salema,1.149,1.142,1.925,1.699,full_ensemble,0.887
+Mediterranean and Black Sea Silver scabbardfish,1.333,2.03,1.917,1.515,full_ensemble,1.195
+Mediterranean and Black Sea So-iuy mullet,0.806,0.955,0.03,0.862,full_ensemble,1.204
+Mediterranean and Black Sea Striped red mullet,1.119,1.335,1.582,1.58,full_ensemble,1.096
+Mediterranean and Black Sea Swordfish,1.076,1.107,1.707,1.484,full_ensemble,0.904
+Mediterranean and Black Sea Whiting,0.541,0.543,0.483,1.506,full_ensemble,1.092
+Mediterranean and Black Sea Zebra seabream,0.449,0.656,1.322,1.252,full_ensemble,0.808
+"Pacific, Eastern Central Albacore",1.135,0.942,1.241,1.33,full_ensemble,1.167
+"Pacific, Eastern Central Atlantic blue marlin",0.442,0.74,1.383,1.532,full_ensemble,0.613
+"Pacific, Eastern Central Bigeye tuna",1.245,1.082,1.734,1.489,full_ensemble,1.426
+"Pacific, Eastern Central Crystal shrimp",0.495,0.532,0.529,1.574,full_ensemble,0.99
+"Pacific, Eastern Central Dungeness crab",1.555,0.371,0.365,1.822,full_ensemble,0.711
+"Pacific, Eastern Central Eastern Pacific bonito",1.551,1.364,0.13,1.877,full_ensemble,0.489
+"Pacific, Eastern Central Indo-Pacific sailfish",0.388,0.601,0.222,1.667,full_ensemble,0.564
+"Pacific, Eastern Central Jumbo flying squid",0.53,1.839,1.945,1.254,full_ensemble,1.174
+"Pacific, Eastern Central North Pacific hake",0.589,0.326,1.995,1.456,full_ensemble,1.25
+"Pacific, Eastern Central Pacific bluefin tuna",0.513,0.772,1.523,1.95,full_ensemble,0.889
+"Pacific, Eastern Central Pacific cupped oyster",0.67,1.34,0.333,1.67,full_ensemble,1.123
+"Pacific, Eastern Central Pacific jack mackerel",0.375,0.468,0.007,2.084,full_ensemble,0.563
+"Pacific, Eastern Central Pacific seabob",0.434,0.555,1.189,1.324,full_ensemble,0.75
+"Pacific, Eastern Central Pacific sierra",1.25,1.364,1.875,1.649,full_ensemble,1.129
+"Pacific, Eastern Central Pacific thread herring",1.012,1.289,1.986,1.667,full_ensemble,1.137
+"Pacific, Eastern Central Sablefish",0.472,0.944,0.319,1.675,full_ensemble,0.822
+"Pacific, Eastern Central Skipjack tuna",1.348,1.661,1.815,1.755,full_ensemble,1.097
+"Pacific, Eastern Central Swordfish",1.087,1.356,1.417,1.511,full_ensemble,1.099
+"Pacific, Eastern Central Totoaba",0.29,0.388,1.025,0.819,full_ensemble,0.94
+"Pacific, Eastern Central Yellow snapper",0.305,0.432,0.069,0.014,full_ensemble,0.359
+"Pacific, Eastern Central Yellowfin tuna",1.08,0.963,1.794,1.381,full_ensemble,1.059
+"Pacific, Eastern Central Yellowleg shrimp",1.273,1.234,0.869,2.153,full_ensemble,1.376
+"Pacific, Northeast Albacore",1.116,1.061,1.321,1.583,full_ensemble,1.187
+"Pacific, Northeast Arrowtooth flounder",1.366,1.049,1.911,1.975,full_ensemble,1.039
+"Pacific, Northeast Atka mackerel",1.224,0.956,1.075,1.435,full_ensemble,1.039
+"Pacific, Northeast Butter clam",0.364,1.371,0.984,1.584,full_ensemble,1.038
+"Pacific, Northeast Chinook salmon",0.388,0.477,0.244,1.349,full_ensemble,0.428
+"Pacific, Northeast Chum salmon",0.578,0.637,1.255,1.707,full_ensemble,0.976
+"Pacific, Northeast Coho salmon",0.463,0.563,1.809,1.577,full_ensemble,0.859
+"Pacific, Northeast Dungeness crab",1.081,0.724,1.858,1.521,full_ensemble,1.43
+"Pacific, Northeast Lingcod",0.426,0.575,0.378,1.343,full_ensemble,0.64
+"Pacific, Northeast North Pacific hake",1.096,0.753,0.979,1.111,full_ensemble,1.262
+"Pacific, Northeast Pacific cod",1.049,0.842,1.635,1.456,full_ensemble,0.767
+"Pacific, Northeast Pacific geoduck",1.262,3.12,1.19,1.164,full_ensemble,1.462
+"Pacific, Northeast Pacific halibut",1.146,0.657,1.11,1.121,full_ensemble,0.842
+"Pacific, Northeast Pacific ocean perch",0.444,0.854,1.695,1.57,full_ensemble,0.771
+"Pacific, Northeast Piked dogfish",0.404,1.442,1.522,2.103,full_ensemble,0.743
+"Pacific, Northeast Pink salmon",1.211,0.808,1.928,1.637,full_ensemble,1.468
+"Pacific, Northeast Rock sole",1.308,0.687,1.945,1.771,full_ensemble,1.349
+"Pacific, Northeast Sablefish",0.498,1.168,0.902,1.435,full_ensemble,1.059
+"Pacific, Northeast Skipjack tuna",0.372,0.607,1.265,1.098,full_ensemble,0.366
+"Pacific, Northeast Sockeye salmon",1.358,0.701,1.885,1.665,full_ensemble,1.236
+"Pacific, Northeast Weathervane scallop",0.398,0.256,1.343,0.899,full_ensemble,1.446
+"Pacific, Northeast Yellowfin sole",1.319,0.602,1.41,1.738,full_ensemble,1.384
+"Pacific, Northwest Albacore",0.574,0.896,1.312,1.69,full_ensemble,0.946
+"Pacific, Northwest Atlantic blue marlin",0.796,1.506,1.653,1.522,full_ensemble,0.868
+"Pacific, Northwest Bartail flathead",1.214,0.699,0.665,1.723,full_ensemble,1.109
+"Pacific, Northwest Bastard halibut",1.509,0.736,1.757,1.671,full_ensemble,1.163
+"Pacific, Northwest Blue swimming crab",1.212,0.785,1.303,1.479,full_ensemble,1.134
+"Pacific, Northwest Chinese gizzard shad",1.526,0.7,0.67,1.672,full_ensemble,0.754
+"Pacific, Northwest Chinook salmon",0.321,0.447,0.123,1.988,full_ensemble,0.307
+"Pacific, Northwest Chum salmon",0.564,0.776,1.931,0.413,full_ensemble,1.141
+"Pacific, Northwest Common dolphinfish",0.385,0.831,1.534,0.927,full_ensemble,0.555
+"Pacific, Northwest Daggertooth pike conger",1.079,2.515,1.962,1.879,full_ensemble,1.399
+"Pacific, Northwest Elongate ilisha",1.085,1.031,1.854,1.54,full_ensemble,0.985
+"Pacific, Northwest Flathead mullet",0.915,0.854,1.976,1.536,full_ensemble,1.287
+"Pacific, Northwest Flathead sole",0.261,0.373,0.059,0.105,full_ensemble,0.469
+"Pacific, Northwest Fleshy prawn",1.186,1,1.942,1.626,full_ensemble,1.466
+"Pacific, Northwest Fourfinger threadfin",0.301,0.5,0.077,1.699,full_ensemble,0.546
+"Pacific, Northwest Gazami crab",1.026,1.052,1.957,1.591,full_ensemble,1.131
+"Pacific, Northwest Greater lizardfish",0.291,0.443,0.061,0.023,full_ensemble,0.387
+"Pacific, Northwest Half-crenated ark",0.383,1.175,0.291,1.922,full_ensemble,0.809
+"Pacific, Northwest Horned turban",0.499,1.206,1.561,1.242,full_ensemble,0.81
+"Pacific, Northwest Imperial surf clam",0.255,1.188,0.246,0.026,full_ensemble,0.212
+"Pacific, Northwest Indian scad",0.229,0.456,0.013,1.351,full_ensemble,0.547
+"Pacific, Northwest Indo-Pacific sailfish",0.434,0.783,1.071,1.654,full_ensemble,0.743
+"Pacific, Northwest Japanese halfbeak",0.345,0.543,0.136,1.412,full_ensemble,0.488
+"Pacific, Northwest Japanese sardinella",0.236,0.543,0.091,1.452,full_ensemble,0.508
+"Pacific, Northwest Japanese sea cucumber",0.375,0.673,0.281,0.199,full_ensemble,0.805
+"Pacific, Northwest Japanese seaperch",1.175,0.938,1.721,1.531,full_ensemble,1.276
+"Pacific, Northwest Japanese Spanish mackerel",1.074,1.571,1.578,1.609,full_ensemble,1.483
+"Pacific, Northwest Korean mussel",0.433,0.304,0.168,1.978,full_ensemble,0.614
+"Pacific, Northwest Kuruma prawn",0.355,0.465,0.148,1.223,full_ensemble,0.409
+"Pacific, Northwest Large yellow croaker",0.461,0.568,0.353,1.517,full_ensemble,0.78
+"Pacific, Northwest Longlegged spiny lobster",1.312,1.045,1.523,1.785,full_ensemble,1.044
+"Pacific, Northwest Longtail tuna",0.347,0.605,0.161,1.047,full_ensemble,0.719
+"Pacific, Northwest Mangrove whipray",0.45,0.871,1.879,1.683,full_ensemble,0.878
+"Pacific, Northwest Melon seed",0.332,1.064,1.464,1.529,full_ensemble,0.972
+"Pacific, Northwest Narrow-barred Spanish mackerel",0.324,0.5,0.286,0.77,full_ensemble,0.893
+"Pacific, Northwest Nibe croaker",1.639,0.637,1.704,1.34,full_ensemble,0.868
+"Pacific, Northwest Oilfish",0.849,2.011,1.969,2.151,full_ensemble,1.36
+"Pacific, Northwest Pacific bluefin tuna",0.555,0.774,0.9,0.906,full_ensemble,1.142
+"Pacific, Northwest Pacific cod",1.159,0.573,1.53,1.53,full_ensemble,0.821
+"Pacific, Northwest Pacific cupped oyster",1.092,1.919,1.623,1.533,full_ensemble,1.095
+"Pacific, Northwest Pacific ocean perch",0.389,0.821,1.333,1.047,full_ensemble,0.584
+"Pacific, Northwest Pacific sandeel",1.076,0.892,1.427,1.493,full_ensemble,0.976
+"Pacific, Northwest Red bigeye",0.315,0.434,0.121,1.697,full_ensemble,0.368
+"Pacific, Northwest Red seabream",1.275,0.691,1.635,1.348,full_ensemble,0.973
+"Pacific, Northwest Red-eye round herring",1.514,0.852,1.739,1.706,full_ensemble,0.957
+"Pacific, Northwest Redtail prawn",0.285,0.36,0.061,0.956,full_ensemble,1.056
+"Pacific, Northwest Sablefish",0.255,0.745,0.003,0.297,full_ensemble,0.676
+"Pacific, Northwest Saffron cod",1.459,0.719,1.597,1.478,full_ensemble,1.047
+"Pacific, Northwest Sailfin sandfish",0.454,0.992,0.308,1.77,full_ensemble,0.886
+"Pacific, Northwest Sand Crayfish",1.699,0.826,1.966,1.939,full_ensemble,0.85
+"Pacific, Northwest Shiba shrimp",0.342,0.407,0.158,1.244,full_ensemble,0.311
+"Pacific, Northwest Silver pomfret",0.256,0.529,0.032,0.967,full_ensemble,0.65
+"Pacific, Northwest Skipjack tuna",1.151,0.888,1.515,1.676,full_ensemble,1.012
+"Pacific, Northwest Sockeye salmon",0.543,0.512,0.529,1.875,full_ensemble,1.091
+"Pacific, Northwest Southern rough shrimp",1.047,0.904,1.53,1.479,full_ensemble,0.84
+"Pacific, Northwest Striped marlin",0.346,0.633,0.246,1.576,full_ensemble,0.61
+"Pacific, Northwest Swordfish",0.583,0.987,1.684,1.733,full_ensemble,0.966
+"Pacific, Northwest Thread-sail filefish",0.257,0.421,0,1.583,full_ensemble,0.483
+"Pacific, Northwest Whitespotted conger",0.579,1.365,1.339,1.494,full_ensemble,1.018
+"Pacific, Northwest Yellowfin tuna",0.501,0.68,0.82,1.693,full_ensemble,1.242
+"Pacific, Southeast Albacore",0.572,0.942,0.807,1.346,full_ensemble,1.177
+"Pacific, Southeast Bigeye tuna",0.673,1.094,1.911,1.492,full_ensemble,0.913
+"Pacific, Southeast Black cusk-eel",0.251,0.741,0.051,0.725,full_ensemble,0.643
+"Pacific, Southeast Cabinza grunt",0.611,0.713,1.739,1.371,full_ensemble,1.162
+"Pacific, Southeast Carrot squat lobster",0.373,0.589,1.238,1.341,full_ensemble,0.389
+"Pacific, Southeast Carrot Squat Lobster",0.636,1.001,0.925,1.559,full_ensemble,1.112
+"Pacific, Southeast Chilean mussel",0.312,0.308,0.095,1.421,full_ensemble,0.87
+"Pacific, Southeast Chilean sea urchin",0.938,1.089,1.92,1.48,full_ensemble,0.926
+"Pacific, Southeast Cholga mussel",0.487,0.348,0.782,1.73,full_ensemble,1.053
+"Pacific, Southeast Corvina",1.6,0.611,0.812,1.711,full_ensemble,0.748
+"Pacific, Southeast Elephantfish",0.446,1.052,0.41,1.553,full_ensemble,0.738
+"Pacific, Southeast False abalone",0.43,0.832,0.23,1.663,full_ensemble,0.855
+"Pacific, Southeast Jumbo flying squid",1.116,2.743,1.065,1.293,full_ensemble,1.329
+"Pacific, Southeast Macha clam",0.388,1.442,0.188,1.077,full_ensemble,0.921
+"Pacific, Southeast Pacific menhaden",0.841,0.868,0.859,1.215,full_ensemble,1.161
+"Pacific, Southeast Pacific seabob",0.467,0.427,0.468,1.775,full_ensemble,0.584
+"Pacific, Southeast Pacific thread herring",0.392,0.59,0.292,1.712,full_ensemble,0.559
+"Pacific, Southeast Patagonian grenadier",0.416,0.425,0.934,1.339,full_ensemble,0.78
+"Pacific, Southeast Patagonian squid",0.497,1.638,1.951,1.389,full_ensemble,0.969
+"Pacific, Southeast Patagonian toothfish",0.426,0.882,0.972,0.8,full_ensemble,1.126
+"Pacific, Southeast Peruvian banded croaker",0.319,0.493,0.088,1.549,full_ensemble,0.529
+"Pacific, Southeast Peruvian calico scallop",1.395,0.577,1.82,1.839,full_ensemble,1.384
+"Pacific, Southeast Peruvian rock seabass",0.387,0.544,0.844,1.735,full_ensemble,0.48
+"Pacific, Southeast Peruvian weakfish",0.399,0.604,1.784,1.413,full_ensemble,0.988
+"Pacific, Southeast Pink cusk-eel",0.45,1.018,0.822,1.307,full_ensemble,0.919
+"Pacific, Southeast Red cusk-eel",0.428,0.822,0.205,1.901,full_ensemble,0.813
+"Pacific, Southeast Red sea squirt",0.347,0.708,0.177,1.541,full_ensemble,0.617
+"Pacific, Southeast Silverside",0.462,0.719,1.951,1.132,full_ensemble,1.04
+"Pacific, Southeast Skipjack tuna",0.714,1.464,1.802,1.625,full_ensemble,1.231
+"Pacific, Southeast Softshell red crab",0.457,0.788,1.769,1.269,full_ensemble,1.119
+"Pacific, Southeast Southern blue whiting",1.098,0.759,1.854,1.542,full_ensemble,1.363
+"Pacific, Southeast Southern hake",0.495,0.462,1.7,1.45,full_ensemble,0.775
+"Pacific, Southeast Swordfish",1.089,1.232,0.802,1.672,full_ensemble,1.186
+"Pacific, Southeast Taca clam",0.5,1.773,0.382,1.807,full_ensemble,0.927
+"Pacific, Southeast Tadpole codling",0.429,0.402,1.983,1.513,full_ensemble,0.939
+"Pacific, Southeast Western white shrimp",0.436,0.476,0.673,1.567,full_ensemble,0.812
+"Pacific, Southeast Whiteleg shrimp",0.267,0.433,0.021,1.819,full_ensemble,0.448
+"Pacific, Southeast Yellowfin tuna",0.485,0.909,1.965,1.392,full_ensemble,1.101
+"Pacific, Southwest Albacore",0.401,0.655,1.848,1.256,full_ensemble,1.118
+"Pacific, Southwest Antarctic butterfish",1.103,1.646,1.316,1.461,full_ensemble,1.225
+"Pacific, Southwest Bigeye tuna",0.424,0.606,0.259,1.786,full_ensemble,0.519
+"Pacific, Southwest Blue cod",0.579,0.526,1.927,1.637,full_ensemble,1.126
+"Pacific, Southwest Blue grenadier",0.438,0.492,1.128,0.918,full_ensemble,0.823
+"Pacific, Southwest Blue mackerel",0.578,0.917,1.206,1.144,full_ensemble,1.082
+"Pacific, Southwest Bluefin gurnard",0.653,1.195,1.59,1.479,full_ensemble,0.925
+"Pacific, Southwest Bulls-eye",0.298,1.021,1.397,1.181,full_ensemble,0.813
+"Pacific, Southwest Common warehou",0.973,1.28,1.155,1.383,full_ensemble,1.017
+"Pacific, Southwest Dark ghost shark",1.011,1.51,1.742,1.544,full_ensemble,1.188
+"Pacific, Southwest Giant stargazer",0.658,1.099,1.4,1.419,full_ensemble,0.985
+"Pacific, Southwest Hapuka",0.95,1.601,1.596,1.535,full_ensemble,1.024
+"Pacific, Southwest John dory",0.53,1.511,1.467,1.276,full_ensemble,1.246
+"Pacific, Southwest New Zealand dredge oyster",0.292,0.652,0.041,2.137,full_ensemble,0.633
+"Pacific, Southwest New Zealand scallop",0.292,0.298,0.119,1.178,full_ensemble,0.922
+"Pacific, Southwest Orange roughy",0.325,0.876,0.289,0.833,full_ensemble,0.77
+"Pacific, Southwest Piked dogfish",0.863,1.233,0.863,1.682,full_ensemble,1.097
+"Pacific, Southwest Pink cusk-eel",0.909,1.658,1.964,1.339,full_ensemble,0.982
+"Pacific, Southwest Red codling",0.457,0.51,0.524,1.245,full_ensemble,0.774
+"Pacific, Southwest Red rock lobster",0.448,0.398,0.41,1.64,full_ensemble,0.48
+"Pacific, Southwest Red seabream",0.482,0.636,0.797,1.221,full_ensemble,1.027
+"Pacific, Southwest Silver gemfish",0.338,0.853,0.776,0.825,full_ensemble,0.988
+"Pacific, Southwest Silver scabbardfish",0.495,1.249,1.204,0.998,full_ensemble,0.977
+"Pacific, Southwest Silver warehou",0.917,1.836,1.976,1.59,full_ensemble,1.205
+"Pacific, Southwest Skipjack tuna",1.259,0.895,1.41,1.281,full_ensemble,1.162
+"Pacific, Southwest Southern blue whiting",0.545,0.481,1.701,1.527,full_ensemble,0.895
+"Pacific, Southwest Southern bluefin tuna",0.381,0.533,0.756,0.958,full_ensemble,0.677
+"Pacific, Southwest Southern hake",0.536,0.538,0.971,0.96,full_ensemble,1.371
+"Pacific, Southwest Spotted estuary smooth-hound",0.442,1.156,1.326,1.303,full_ensemble,0.985
+"Pacific, Southwest Swordfish",0.785,1.401,1.928,1.765,full_ensemble,1.414
+"Pacific, Southwest Tarakihi",0.582,1.102,1.588,1.504,full_ensemble,0.797
+"Pacific, Southwest Tope shark",0.93,1.593,1.534,1.935,full_ensemble,1.151
+"Pacific, Southwest Wellington flying squid",0.584,2.065,0.999,1.228,full_ensemble,1.366
+"Pacific, Southwest White trevally",1.304,0.846,1.089,1.189,full_ensemble,1.094
+"Pacific, Southwest White warehou",1.073,1.358,1.304,1.48,full_ensemble,1.125
+"Pacific, Southwest Yellowfin tuna",0.325,0.541,0.24,1.551,full_ensemble,0.529
+"Pacific, Western Central Albacore",1.166,1.89,1.596,1.69,full_ensemble,1.235
+"Pacific, Western Central Bali sardinella",1.23,1.042,1.569,1.683,full_ensemble,1.138
+"Pacific, Western Central Banana prawn",1.092,0.988,1.526,1.591,full_ensemble,0.972
+"Pacific, Western Central Bigeye scad",1.138,1.509,1.969,1.831,full_ensemble,1.188
+"Pacific, Western Central Bigeye tuna",1.168,1.5,1.929,1.765,full_ensemble,1.222
+"Pacific, Western Central Black pomfret",1.014,1.389,1.545,1.855,full_ensemble,1.114
+"Pacific, Western Central Blood cockle",0.556,2.052,1.869,1.339,full_ensemble,1.224
+"Pacific, Western Central Blue swimming crab",1.072,0.894,1.38,1.332,full_ensemble,1.093
+"Pacific, Western Central Chacunda gizzard shad",1.408,1.229,1.643,1.915,full_ensemble,1.167
+"Pacific, Western Central Chocolate hind",1.226,1.093,0.585,1.924,full_ensemble,1.209
+"Pacific, Western Central Chub mackerel",0.523,0.671,1.555,1.629,full_ensemble,0.879
+"Pacific, Western Central Cobia",1.273,1.299,1.884,1.587,full_ensemble,1.119
+"Pacific, Western Central Common dolphinfish",1.442,1.252,1.229,1.489,full_ensemble,1.002
+"Pacific, Western Central Daggertooth pike conger",1.052,2.122,1.774,1.427,full_ensemble,1.09
+"Pacific, Western Central Dorab wolf-herring",0.41,0.619,1.249,1.366,full_ensemble,0.808
+"Pacific, Western Central Endeavour shrimp",0.559,0.613,1.388,1.239,full_ensemble,0.848
+"Pacific, Western Central Flathead lobster",0.4,0.454,1.795,1.144,full_ensemble,0.908
+"Pacific, Western Central Giant tiger prawn",0.951,0.818,1.479,1.7,full_ensemble,1.066
+"Pacific, Western Central Goldstripe sardinella",1.132,1.324,1.572,1.578,full_ensemble,1.105
+"Pacific, Western Central Great barracuda",0.458,0.825,0.751,1.571,full_ensemble,0.746
+"Pacific, Western Central Greater lizardfish",1,1.243,1.969,1.612,full_ensemble,1.048
+"Pacific, Western Central Green tiger prawn",1.298,0.576,0.779,1.529,full_ensemble,1.117
+"Pacific, Western Central Indian mackerel",1.085,1.416,1.814,1.661,full_ensemble,1.461
+"Pacific, Western Central Indian pellona",0.898,0.854,1.946,1.492,full_ensemble,1.259
+"Pacific, Western Central Indian scad",0.482,0.961,1.897,1.269,full_ensemble,0.868
+"Pacific, Western Central Indian spiny turbot",1.141,1.025,1.571,1.676,full_ensemble,1.024
+"Pacific, Western Central Indo-Pacific king mackerel",0.993,1.33,1.652,1.695,full_ensemble,1.137
+"Pacific, Western Central Indo-Pacific swamp crab",1.191,1.092,1.587,1.888,full_ensemble,1.011
+"Pacific, Western Central Kawakawa",0.908,1.187,1.965,1.657,full_ensemble,1.216
+"Pacific, Western Central Largehead hairtail",0.513,1.525,1.591,1.208,full_ensemble,1.343
+"Pacific, Western Central Longtail tuna",0.982,1.214,0.708,1.221,full_ensemble,1.173
+"Pacific, Western Central Mangrove red snapper",1.098,0.701,1.386,1.431,full_ensemble,0.86
+"Pacific, Western Central Moonfish",1.19,1.287,1.396,1.663,full_ensemble,1.379
+"Pacific, Western Central Narrow-barred Spanish mackerel",1.155,1.786,1.544,1.875,full_ensemble,1.225
+"Pacific, Western Central Rainbow runner",1.14,1.253,1.501,1.427,full_ensemble,0.939
+"Pacific, Western Central Short mackerel",1.154,1.677,1.446,1.85,full_ensemble,1.136
+"Pacific, Western Central Silver pomfret",1.106,1.51,1.341,1.874,full_ensemble,1.123
+"Pacific, Western Central Striped marlin",1.45,0.948,1.128,1.57,full_ensemble,0.844
+"Pacific, Western Central Swordfish",1.063,1.301,0.601,1.378,full_ensemble,1.242
+"Pacific, Western Central Toli shad",0.549,0.754,1.621,1.402,full_ensemble,0.918
+"Pacific, Western Central Torpedo scad",1.024,1.419,1.65,1.532,full_ensemble,1.055
+"Pacific, Western Central Western king prawn",0.547,0.627,1.335,1.299,full_ensemble,1.008
+"Pacific, Western Central Yellowfin tuna",1.084,1.662,1.638,1.575,full_ensemble,1.011
+"Pacific, Western Central Yellowstripe scad",1.059,1.28,1.688,1.608,full_ensemble,0.997
+"Atlantic, Eastern Central African moonfish",NA,0.59,0.344,1.41,fao_cmsy,0.685
+"Atlantic, Eastern Central Common cuttlefish",NA,1.087,0,1.428,fao_cmsy,1.349
+"Atlantic, Eastern Central West African Spanish mackerel",NA,0.675,0.283,1.801,fao_cmsy,0.684
+"Atlantic, Northeast Common pandora",NA,0.397,0.024,1.958,fao_cmsy,0.507
+"Atlantic, Northeast European anchovy",NA,0.486,0.084,1.637,fao_cmsy,0.762
+"Atlantic, Northeast Garfish",NA,0.519,1.962,1.793,fao_cmsy,1.219
+"Atlantic, Northeast Pacific cupped oyster",NA,0.631,0.076,1.416,fao_cmsy,1.002
+"Atlantic, Northwest Alewife",NA,0.393,0.085,1.915,fao_cmsy,0.353
+"Atlantic, Northwest American butterfish",NA,0.482,0.001,1.267,fao_cmsy,0.773
+"Atlantic, Northwest American cupped oyster",NA,0.608,0.053,1.823,fao_cmsy,1.126
+"Atlantic, Northwest Black seabass",NA,0.395,1.914,1.685,fao_cmsy,0.98
+"Atlantic, Northwest Haddock",NA,0.367,0.154,1.566,fao_cmsy,0.65
+"Atlantic, Northwest Northern quahog",NA,0.973,0.013,1.678,fao_cmsy,1.597
+"Atlantic, Northwest Red hake",NA,0.336,0.074,1.259,fao_cmsy,1.343
+"Atlantic, Northwest Scup",NA,0.489,0.142,1.857,fao_cmsy,0.607
+"Atlantic, Southeast Cape anchovy",NA,0.618,0.326,1.289,fao_cmsy,0.646
+"Atlantic, Southeast Cape rock lobster",NA,0.327,0.102,1.906,fao_cmsy,0.73
+"Atlantic, Southeast Little tunny",NA,0.647,0.103,0.627,fao_cmsy,1.08
+"Atlantic, Southwest Brazilian menhaden",NA,0.607,0.132,1.549,fao_cmsy,0.604
+"Atlantic, Southwest Brazilian sardinella",NA,0.647,0.226,1.352,fao_cmsy,0.763
+"Atlantic, Southwest River Plata mussel",NA,0.241,0.009,1.998,fao_cmsy,0.788
+"Atlantic, Western Central Blue runner",NA,1.773,1.963,1.79,fao_cmsy,0.778
+"Atlantic, Western Central Gray weakfish",NA,0.444,0.023,1.778,fao_cmsy,0.695
+"Atlantic, Western Central Gulf kingcroaker",NA,0.467,0.266,1.552,fao_cmsy,0.557
+"Atlantic, Western Central Spot croaker",NA,0.441,0.097,1.842,fao_cmsy,0.403
+"Indian Ocean, Eastern Bali sardinella",NA,1.36,1.678,1.554,fao_cmsy,0.814
+"Indian Ocean, Eastern Black pomfret",NA,1.673,1.645,1.832,fao_cmsy,1.108
+"Indian Ocean, Eastern Bombay duck",NA,1.362,1.984,1.66,fao_cmsy,0.977
+"Indian Ocean, Eastern Goldstripe sardinella",NA,1.558,1.498,1.661,fao_cmsy,1.111
+"Indian Ocean, Eastern Hilsa shad",NA,1.151,1.972,1.557,fao_cmsy,0.894
+"Indian Ocean, Eastern Kawakawa",NA,1.888,1.974,1.698,fao_cmsy,1.104
+"Indian Ocean, Eastern Short mackerel",NA,1.606,1.544,1.576,fao_cmsy,1.295
+"Indian Ocean, Eastern Snoek",NA,0.799,0.038,1.814,fao_cmsy,1.283
+"Indian Ocean, Eastern Yellowstripe scad",NA,1.758,1.823,1.819,fao_cmsy,1.028
+"Indian Ocean, Western Kawakawa",NA,1.755,1.968,1.496,fao_cmsy,1.119
+"Indian Ocean, Western Spotted codlet",NA,0.337,1.953,1.355,fao_cmsy,1.389
+Mediterranean and Black Sea Garfish,NA,0.596,0.322,1.591,fao_cmsy,0.559
+"Pacific, Eastern Central Chinook salmon",NA,0.341,1.942,1.018,fao_cmsy,1.398
+"Pacific, Eastern Central Common dolphinfish",NA,0.828,1.994,1.473,fao_cmsy,1.382
+"Pacific, Eastern Central Pacific anchoveta",NA,0.718,1.349,1.428,fao_cmsy,0.812
+"Pacific, Eastern Central Striped marlin",NA,0.541,0.174,1.753,fao_cmsy,0.808
+"Pacific, Northeast Pacific herring",NA,0.533,1.945,1.807,fao_cmsy,1.211
+"Pacific, Northwest Bigeye tuna",NA,0.598,0.298,1.899,fao_cmsy,0.587
+"Pacific, Northwest Black marlin",NA,0.586,0.133,1.859,fao_cmsy,0.71
+"Pacific, Northwest Black pomfret",NA,0.535,0.124,1.713,fao_cmsy,0.844
+"Pacific, Northwest Blood cockle",NA,1.273,0.239,1.407,fao_cmsy,0.99
+"Pacific, Northwest Coho salmon",NA,0.381,0.085,2.062,fao_cmsy,0.444
+"Pacific, Northwest Golden threadfin bream",NA,0.471,0.413,1.586,fao_cmsy,0.62
+"Pacific, Northwest Japanese hard clam",NA,1.155,0.229,1.541,fao_cmsy,1.09
+"Pacific, Northwest Japanese scad",NA,0.729,1.306,1.621,fao_cmsy,0.899
+"Pacific, Northwest Korean sandeel",NA,0.572,0.209,1.249,fao_cmsy,0.617
+"Pacific, Northwest Moonfish",NA,0.55,0.263,1.605,fao_cmsy,0.578
+"Pacific, Northwest Silver sillago",NA,0.4,0.942,1.604,fao_cmsy,1.153
+"Pacific, Northwest Silverstriped round herring",NA,0.428,0.019,2.116,fao_cmsy,0.695
+"Pacific, Southeast Common dolphinfish",NA,0.843,0.723,1.44,fao_cmsy,0.952
+"Pacific, Southeast Pacific anchoveta",NA,0.549,1.268,1.263,fao_cmsy,0.797
+"Pacific, Southeast Snoek",NA,0.807,0.088,1.846,fao_cmsy,1.055
+"Pacific, Western Central Atlantic blue marlin",NA,0.588,0.087,0.151,fao_cmsy,0.669
+"Pacific, Western Central Bombay duck",NA,0.701,0.661,1.469,fao_cmsy,0.992
+"Pacific, Western Central False trevally",NA,1.743,1.993,2.202,fao_cmsy,0.96
+"Pacific, Western Central Rainbow sardine",NA,0.731,1.026,1.398,fao_cmsy,0.801
+"Pacific, Western Central Silver sillago",NA,1.232,1.493,1.373,fao_cmsy,1.028
+"Atlantic, Antarctic Mackerel icefish",0.293,0.773,NA,1.963,fao_comsir,0.748
+"Atlantic, Eastern Central Cunene horse mackerel",0.258,0.545,NA,0.931,fao_comsir,0.667
+"Atlantic, Eastern Central European pilchard",1.284,1.001,NA,1.52,fao_comsir,1.371
+"Atlantic, Northeast Atlantic cod",0.463,0.453,NA,1.638,fao_comsir,0.784
+"Atlantic, Northeast Atlantic herring",1.434,0.758,NA,1.024,fao_comsir,1.229
+"Atlantic, Northeast Atlantic horse mackerel",0.478,0.857,NA,1.573,fao_comsir,0.699
+"Atlantic, Northeast Atlantic mackerel",1.396,0.898,NA,1.517,fao_comsir,1.187
+"Atlantic, Northeast Blue whiting",0.457,0.68,NA,0.997,fao_comsir,0.987
+"Atlantic, Northeast Capelin",0.365,0.543,NA,1.283,fao_comsir,0.444
+"Atlantic, Northeast European sprat",1.08,0.792,NA,1.181,fao_comsir,0.992
+"Atlantic, Northeast Haddock",0.557,0.52,NA,1.635,fao_comsir,1.002
+"Atlantic, Northeast Norway pout",0.316,0.363,NA,2.085,fao_comsir,0.657
+"Atlantic, Northeast Saithe",1.389,0.6,NA,1.532,fao_comsir,1.212
+"Atlantic, Northwest American angler",0.413,1.28,NA,1.096,fao_comsir,0.987
+"Atlantic, Northwest Atlantic herring",0.473,0.572,NA,1.426,fao_comsir,0.638
+"Atlantic, Northwest Atlantic mackerel",0.438,0.61,NA,1.137,fao_comsir,0.725
+"Atlantic, Northwest Atlantic menhaden",0.497,0.613,NA,1.599,fao_comsir,1.005
+"Atlantic, Northwest Capelin",0.378,0.558,NA,1.559,fao_comsir,0.46
+"Atlantic, Northwest Northern shortfin squid",0.418,1.279,NA,1.623,fao_comsir,0.929
+"Atlantic, Northwest Ocean quahog",1.031,2.332,NA,1.263,fao_comsir,1.065
+"Atlantic, Northwest Stimpson surf clam",0.941,2.879,NA,1.359,fao_comsir,0.978
+"Atlantic, Northwest Windowpane",0.253,0.366,NA,1.243,fao_comsir,0.826
+"Atlantic, Southeast Cape horse mackerel",0.411,0.77,NA,1.591,fao_comsir,0.684
+"Atlantic, Southeast Largehead hairtail",0.291,0.778,NA,1.303,fao_comsir,0.85
+"Atlantic, Southwest Argentine hake",1.049,0.638,NA,1.369,fao_comsir,0.919
+"Atlantic, Southwest Argentine red shrimp",1.139,0.863,NA,1.699,fao_comsir,1.181
+"Atlantic, Western Central Atlantic menhaden",0.279,0.508,NA,0.005,fao_comsir,0.369
+"Atlantic, Western Central Northern bluefin tuna",0.411,0.515,NA,1.446,fao_comsir,0.901
+"Indian Ocean, Eastern Albacore",1.26,1.748,NA,1.637,fao_comsir,1.546
+"Indian Ocean, Eastern Atlantic blue marlin",1.079,1.435,NA,1.592,fao_comsir,1.159
+"Indian Ocean, Eastern Blood cockle",0.504,1.765,NA,1.396,fao_comsir,1.246
+"Indian Ocean, Western Bigeye tuna",0.53,1.202,NA,0.948,fao_comsir,1.193
+"Indian Ocean, Western Indian oil sardine",1.144,1.313,NA,1.363,fao_comsir,0.916
+"Indian Ocean, Western Yellowfin tuna",0.513,1.076,NA,1.194,fao_comsir,0.953
+Mediterranean and Black Sea Black Sea sprat,0.364,0.414,NA,1.404,fao_comsir,0.4
+Mediterranean and Black Sea European anchovy,1.315,0.892,NA,1.466,fao_comsir,1.239
+"Pacific, Eastern Central Californian anchovy",0.313,0.55,NA,1.566,fao_comsir,0.674
+"Pacific, Eastern Central Chub mackerel",0.353,0.709,NA,1.102,fao_comsir,0.829
+"Pacific, Eastern Central Pacific herring",0.288,0.521,NA,2.242,fao_comsir,0.616
+"Pacific, Eastern Central South American pilchard",1.145,1.301,NA,1.662,fao_comsir,1.035
+"Pacific, Northeast Alaska pollack",1.046,0.666,NA,1.055,fao_comsir,0.768
+"Pacific, Northeast Flathead sole",1.189,1.05,NA,1.368,fao_comsir,0.993
+"Pacific, Northwest Akiami paste shrimp",1.037,1.113,NA,1.624,fao_comsir,0.965
+"Pacific, Northwest Alaska pollack",0.451,0.464,NA,1.337,fao_comsir,0.751
+"Pacific, Northwest Capelin",0.332,0.569,NA,1.388,fao_comsir,0.622
+"Pacific, Northwest Chub mackerel",1.397,0.88,NA,1.359,fao_comsir,1.006
+"Pacific, Northwest Japanese anchovy",0.91,0.975,NA,1.749,fao_comsir,1.482
+"Pacific, Northwest Japanese flying squid",0.593,1.726,NA,1.575,fao_comsir,1.069
+"Pacific, Northwest Largehead hairtail",1.201,2.498,NA,1.701,fao_comsir,1.34
+"Pacific, Northwest Okhostk atka mackerel",1.16,0.792,NA,1.446,fao_comsir,1.448
+"Pacific, Northwest Pacific herring",1.406,0.714,NA,1.176,fao_comsir,1.24
+"Pacific, Northwest Pacific saury",1.252,1.443,NA,1.427,fao_comsir,1.416
+"Pacific, Northwest Pink salmon",1.057,1.059,NA,1.71,fao_comsir,0.961
+"Pacific, Northwest South American pilchard",0.278,0.51,NA,1.449,fao_comsir,0.782
+"Pacific, Northwest Yellow croaker",1.185,1.505,NA,1.933,fao_comsir,2.02
+"Pacific, Southeast Anchoveta",0.584,0.623,NA,1.05,fao_comsir,1.296
+"Pacific, Southeast Chub mackerel",0.493,0.775,NA,0.971,fao_comsir,0.927
+"Pacific, Southeast Inca scad",0.409,0.711,NA,0.658,fao_comsir,0.995
+"Pacific, Southeast South American pilchard",0.249,0.428,NA,0.18,fao_comsir,0.618
+"Pacific, Southwest Snoek",1.045,1.614,NA,1.457,fao_comsir,1.23
+"Pacific, Western Central Skipjack tuna",1.08,1.745,NA,1.745,fao_comsir,1.118
+"Atlantic, Eastern Central Bluefish",0.291,NA,0.002,1.179,fao_costello,0.691
+"Atlantic, Eastern Central Red pandora",1.229,NA,1.098,1.159,fao_costello,1.07
+"Atlantic, Northeast Common edible cockle",0.317,NA,0.286,1.238,fao_costello,0.409
+"Atlantic, Northeast Cuckoo ray",1.308,NA,1.217,1.596,fao_costello,1.061
+"Atlantic, Northeast European plaice",0.447,NA,1.063,1.087,fao_costello,0.902
+"Atlantic, Northeast Grey gurnard",0.257,NA,1.597,0.739,fao_costello,1.035
+"Atlantic, Northeast Queen scallop",1.166,NA,1.551,1.525,fao_costello,0.856
+"Atlantic, Northeast Striped venus",0.506,NA,0.976,1.301,fao_costello,1.091
+"Atlantic, Northeast Turbot",1.283,NA,1.749,1.12,fao_costello,1.135
+"Atlantic, Northwest Bluefish",0.508,NA,1.213,1.72,fao_costello,0.918
+"Atlantic, Northwest Rainbow smelt",0.437,NA,1.849,1.831,fao_costello,0.907
+"Atlantic, Northwest Red crab",0.509,NA,1.08,1.287,fao_costello,1.091
+"Atlantic, Southeast Red pandora",0.301,NA,0.008,0.431,fao_costello,0.844
+"Atlantic, Southwest Bluefish",0.422,NA,0.32,1.647,fao_costello,0.572
+"Atlantic, Southwest White morwong",0.395,NA,0.674,1.454,fao_costello,0.765
+"Atlantic, Western Central Bluefish",0.378,NA,0.187,1.479,fao_costello,0.637
+"Indian Ocean, Antarctic Grey rockcod",0.305,NA,0.049,2.568,fao_costello,0.55
+Mediterranean and Black Sea Bluefish,0.456,NA,0.994,1.067,fao_costello,0.871
+Mediterranean and Black Sea Gilthead seabream,1.082,NA,1.578,1.411,fao_costello,0.871
+Mediterranean and Black Sea Spottail mantis squillid,1.181,NA,1.645,1.667,fao_costello,0.771
+Mediterranean and Black Sea Striped venus,1.101,NA,1.629,1.564,fao_costello,0.949
+Mediterranean and Black Sea Turbot,0.389,NA,0.326,1.216,fao_costello,0.42
+"Pacific, Eastern Central Pacific calico scallop",1.303,NA,0.986,1.617,fao_costello,1.399
+"Pacific, Northeast Kamchatka flounder",0.316,NA,0.485,0.916,fao_costello,0.675
+"Pacific, Northwest Littlemouth flounder",1.44,NA,1.086,1.489,fao_costello,0.748
+"Pacific, Southeast Southern king crab",1.124,NA,1.571,1.616,fao_costello,1.177
+"Atlantic, Northeast Common periwinkle",0.39,0.952,1.272,NA,fao_sscom,0.659
+"Atlantic, Northeast Northern shortfin squid",1.594,1.694,1.042,NA,fao_sscom,0.476
+"Atlantic, Northwest Yellowtail flounder",0.331,0.372,0.113,NA,fao_sscom,0.838
+"Atlantic, Southwest Barred grunt",0.304,0.461,0.03,NA,fao_sscom,0.524
+"Pacific, Northwest Blackmouth croaker",0.29,0.463,0.022,NA,fao_sscom,0.653
+"Pacific, Northwest Giant abalone",0.391,0.799,0.202,NA,fao_sscom,0.853
+"Pacific, Northwest Japanese carpet shell",0.41,1.539,0.18,NA,fao_sscom,0.516
+"Pacific, Northwest Red king crab",0.285,0.616,0.061,NA,fao_sscom,0.808
+"Pacific, Southwest Greenback horse mackerel",0.308,0.521,0.005,NA,fao_sscom,0.58
