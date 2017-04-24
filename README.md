@@ -26,8 +26,6 @@ The generated data file `data-generated/ensemble-estimates.csv` ([link to raw da
 
 `SSCOM` The SSCOM method estimate of B/Bmsy
 
-`spec_freq_0.05` and `spec_freq_0.02` Spectral densities of the catch timeseries at frequencies of 0.05 and 0.02
-
 `ensemble_method` The version of the superensemble model used. `full_ensemble` Is the full ensemble including all 4 individual estimates. `fao_cmsy`, for example, excludes CMSY because it did not converge or was not available. 
 
 `ensemble` contains the superensemble estimate of B/Bmsy.
