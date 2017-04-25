@@ -1,7 +1,7 @@
 # Ensemble fits to FAO data
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, cache=TRUE, autodep = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 library(dplyr)
 library(ggplot2)
 ```
@@ -369,28 +369,28 @@ This code chunk:
 library(randomForest)
 d_mean_sim <- na.omit(d_mean_sim)
 m_rf <- randomForest(
-  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello + SSCOM #+
-  ,#  spec_freq_0.05 + spec_freq_0.2,
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello + SSCOM +
+    spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_cmsy <- randomForest(
-  log(bbmsy_true_mean) ~ COMSIR + Costello + SSCOM #+
-  ,# spec_freq_0.05 + spec_freq_0.2,
+  log(bbmsy_true_mean) ~ COMSIR + Costello + SSCOM +
+    spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_comsir <- randomForest(
-  log(bbmsy_true_mean) ~ CMSY + Costello + SSCOM #+
-  ,# spec_freq_0.05 + spec_freq_0.2,
+  log(bbmsy_true_mean) ~ CMSY + Costello + SSCOM +
+    spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_costello <- randomForest(
-  log(bbmsy_true_mean) ~ CMSY + COMSIR + SSCOM #+
-  ,# spec_freq_0.05 + spec_freq_0.2,
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + SSCOM +
+    spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_sscom <- randomForest(
-  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello #+
-  ,# spec_freq_0.05 + spec_freq_0.2,
+  log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello +
+    spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_spectral <- randomForest(
@@ -400,13 +400,13 @@ m_rf_spectral <- randomForest(
 
 Make a partial dependence plot of Random Forest ensemble
 
-```{r}
+```{r, eval=FALSE}
 xa <- partialPlot(m_rf, x.var="CMSY", pred.data=d_mean_sim, plot = FALSE)
 xb <- partialPlot(m_rf, x.var="Costello", pred.data=d_mean_sim, plot = FALSE)
 xc <- partialPlot(m_rf, x.var="COMSIR", pred.data=d_mean_sim, plot = FALSE)
 xd <- partialPlot(m_rf, x.var="SSCOM", pred.data=d_mean_sim, plot = FALSE)
-# xe <- partialPlot(m_rf, x.var="spec_freq_0.05", pred.data=d_mean_sim, plot = FALSE)
-# xf <- partialPlot(m_rf, x.var="spec_freq_0.2", pred.data=d_mean_sim, plot = FALSE)
+xe <- partialPlot(m_rf, x.var="spec_freq_0.05", pred.data=d_mean_sim, plot = FALSE)
+xf <- partialPlot(m_rf, x.var="spec_freq_0.2", pred.data=d_mean_sim, plot = FALSE)
 
 plot(d_mean_sim$spec_freq_0.05, jitter(rep(1, nrow(d_mean_sim)), 0.3), col  = "#00000050")
 plot(d_mean_sim$spec_freq_0.2, jitter(rep(1, nrow(d_mean_sim)), 0.3), col  = "#00000050")
@@ -415,14 +415,14 @@ xa <- data.frame(predictor = "CMSY", as.data.frame(xa))
 xb <- data.frame(predictor = "mPRM", as.data.frame(xb))
 xc <- data.frame(predictor = "COMSIR", as.data.frame(xc))
 xd <- data.frame(predictor = "SSCOM", as.data.frame(xd))
-# xe <- data.frame(predictor = "spec_freq_0.05", as.data.frame(xe))
-# xf <- data.frame(predictor = "spec_freq_0.2", as.data.frame(xf))
+xe <- data.frame(predictor = "spec_freq_0.05", as.data.frame(xe))
+xf <- data.frame(predictor = "spec_freq_0.2", as.data.frame(xf))
 
 j <- bind_rows(xa, xb) %>% 
   bind_rows(xc) %>%
-  bind_rows(xd) #%>%
-# bind_rows(xe) %>%
-# bind_rows(xf)
+  bind_rows(xd) %>%
+  bind_rows(xe) %>%
+  bind_rows(xf)
 
 library(ggplot2)
 p <- ggplot(j, aes(x, exp(y)))+ geom_line() +
@@ -447,7 +447,7 @@ ggsave(paste0("figs/ensemble-partial_TS",cutoff_yr,"_CS", ct_size,".pdf"),width 
 
 What do the stocks look like that have very low spectral densities? 
 
-```{r}
+```{r, eval=FALSE}
 low_0.2 <- filter(d_mean_sim, spec_freq_0.2 < 0.00005)
 nrow(low_0.2)
 filter(trues, stock_id %in% low_0.2$stock_id)
@@ -535,7 +535,7 @@ fao_all_test$CMSY <- exp(predict(m_rf_cmsy, newdata=fao_all))
 fao_all_test$COMSIR <- exp(predict(m_rf_comsir, newdata=fao_all))
 fao_all_test$mPRM <- exp(predict(m_rf_costello, newdata=fao_all))
 fao_all_test$SSCOM <- exp(predict(m_rf_sscom, newdata=fao_all))
-# fao_all_test$Spectral <- exp(predict(m_rf_spectral, newdata=fao_all))
+fao_all_test$Spectral <- exp(predict(m_rf_spectral, newdata=fao_all))
 
 reshape2::melt(fao_all_test) %>%
   ggplot(aes(variable,value)) + geom_violin(draw_quantiles = c(0.25, 0.5, 0.75)) + coord_flip()+xlab("")+ylab(expression(B/B[MSY]))# + scale_fill_manual(values=c("#000000",RColorBrewer::brewer.pal(5,"Set2")))
@@ -547,7 +547,7 @@ Save generated data into .csv files.
 ```{r}
 fao_all <- rename(fao_all, mPRM = Costello)
 fao_all2 <- mutate_at(fao_all, 
-  vars(CMSY:spec_freq_0.2, ensemble), round, digits = 2)
+  vars(CMSY:spec_freq_0.2, ensemble), round, digits = 3)
 fao_all2$spec_freq_0.05 <- NULL
 fao_all2$spec_freq_0.2 <- NULL
 fao_all2 <- arrange(fao_all2, stock)
