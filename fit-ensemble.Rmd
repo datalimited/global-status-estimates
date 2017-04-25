@@ -4,7 +4,6 @@
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, cache=TRUE, autodep = TRUE)
 library(dplyr)
 library(ggplot2)
-set.seed(1)
 ```
 
 We'll start by reading in the previous model fits to the FAO data.
@@ -14,8 +13,8 @@ This code chunk:
 1. Sets conditions (minimum average annual catch of 1000 tonnes and a minimum time series length of 20 years)  
 2. Loads each FAO-catch only model fit (CMSY, SSCOM, COMSIR and Costello), fixes column names, adds a `method` column and combines all four datasets into one (`all.fits.df`). This final dataframe has the B/Bmsy estimate from each of the catch only models for each year in the stocks time series. There is no catch data in this dataframe.  
 3. Loads the FAO catch data, fixes some column names and then merges with the model fit data.
-  + All stocks in the FAO catch database that do not have matching model fits are removed
-  + Adds an empty column "b_bmsy_true"  
++ All stocks in the FAO catch database that do not have matching model fits are removed
++ Adds an empty column "b_bmsy_true"  
 4. Checks the final merged dataframe for stocks with missing model fits and saves those stocks to "FAO_missing_data.csv"  
 
 ```{r}
@@ -71,10 +70,10 @@ sscom.df$method<-"SSCOM"
 keep.names<-c("stock","year","b2bmsy","method")
 
 all.fits.df<-rbind(
-                   cmsy.df[,keep.names],
-                   costello.df[,keep.names],
-                   comsir.df[,keep.names],
-                   sscom.df[,keep.names]
+  cmsy.df[,keep.names],
+  costello.df[,keep.names],
+  comsir.df[,keep.names],
+  sscom.df[,keep.names]
 )
 
 ## There are 1700 unique stocks in all.fits.df (2-7-17 JA)
@@ -99,9 +98,9 @@ all.df <- rename(all.df, b_bmsy_est = b2bmsy) %>%
 
 #checking for missing data
 check <- all.df %>% group_by(stock, method) %>%
-                    arrange(stock, method, -year) %>% 
-                    summarise(lastbbmsy_isnotna = !is.na(b_bmsy_est[1])) %>%
-        reshape2::dcast(stock ~ method, value.var = "lastbbmsy_isnotna")
+  arrange(stock, method, -year) %>% 
+  summarise(lastbbmsy_isnotna = !is.na(b_bmsy_est[1])) %>%
+  reshape2::dcast(stock ~ method, value.var = "lastbbmsy_isnotna")
 check$CMSY[check$CMSY == "FALSE"] <- NA
 summary(check)
 
@@ -127,13 +126,13 @@ This code chunk:
 # currently, cutting stocks with fewer than 20 data points
 # using AR as smoother, empirical didn't seem to confer much more benefit
 train_spec_mat <- function(x, freq_vec = 1/c(5, 20)) {
-if(length(x) >= cutoff_yr) {
-  sp <- spec.ar(x/max(x), plot = FALSE)
-  # approximate at fixed frequencies - necessary as series of different length
-  approx(x = sp$freq, y = sp$spec, xout = freq_vec) %>% as.data.frame
- } else {
-   data.frame(x=NA, y=NA, xout=NA)
- }
+  if(length(x) >= cutoff_yr) {
+    sp <- spec.ar(x/max(x), plot = FALSE)
+    # approximate at fixed frequencies - necessary as series of different length
+    approx(x = sp$freq, y = sp$spec, xout = freq_vec) %>% as.data.frame
+  } else {
+    data.frame(x=NA, y=NA, xout=NA)
+  }
 }
 
 spec <- cdat %>%
@@ -200,7 +199,7 @@ summary(fao)
 
 #remove stocks with mean ct < 1000 Tonnes per year
 mean_catch <- group_by(cdat, stock) %>% 
-                  summarise(mean_ct = mean(ct)) 
+  summarise(mean_ct = mean(ct)) 
 mean_ct_filter <- filter(mean_catch, mean_ct >= ct_size)
 
 fao_filter <- inner_join(fao, mean_ct_filter)
@@ -376,22 +375,22 @@ m_rf <- randomForest(
 
 m_rf_cmsy <- randomForest(
   log(bbmsy_true_mean) ~ COMSIR + Costello + SSCOM #+
-    ,# spec_freq_0.05 + spec_freq_0.2,
+  ,# spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_comsir <- randomForest(
   log(bbmsy_true_mean) ~ CMSY + Costello + SSCOM #+
-    ,# spec_freq_0.05 + spec_freq_0.2,
+  ,# spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_costello <- randomForest(
   log(bbmsy_true_mean) ~ CMSY + COMSIR + SSCOM #+
-    ,# spec_freq_0.05 + spec_freq_0.2,
+  ,# spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_sscom <- randomForest(
   log(bbmsy_true_mean) ~ CMSY + COMSIR + Costello #+
-    ,# spec_freq_0.05 + spec_freq_0.2,
+  ,# spec_freq_0.05 + spec_freq_0.2,
   data = d_mean_sim, ntree = 1000L)
 
 m_rf_spectral <- randomForest(
@@ -420,10 +419,10 @@ xd <- data.frame(predictor = "SSCOM", as.data.frame(xd))
 # xf <- data.frame(predictor = "spec_freq_0.2", as.data.frame(xf))
 
 j <- bind_rows(xa, xb) %>% 
-     bind_rows(xc) %>%
-     bind_rows(xd) #%>%
-     # bind_rows(xe) %>%
-     # bind_rows(xf)
+  bind_rows(xc) %>%
+  bind_rows(xd) #%>%
+# bind_rows(xe) %>%
+# bind_rows(xf)
 
 library(ggplot2)
 p <- ggplot(j, aes(x, exp(y)))+ geom_line() +
@@ -498,15 +497,15 @@ This code chunk:
 ```{r}
 #sort data into 4 chunks
 fao_all <- na.omit(fao_filter) %>%
-          mutate(ensemble_method = "full_ensemble") # n=633
+  mutate(ensemble_method = "full_ensemble") # n=633
 fao_cmsy <- filter(fao_filter, is.na(CMSY), !is.na(COMSIR), !is.na(Costello), !is.na(SSCOM))  %>%
-            mutate(ensemble_method = "fao_cmsy")  # n=62
+  mutate(ensemble_method = "fao_cmsy")  # n=62
 fao_comsir <- filter(fao_filter, is.na(COMSIR), !is.na(CMSY), !is.na(Costello), !is.na(SSCOM))  %>%
-            mutate(ensemble_method = "fao_comsir")  # n=61
+  mutate(ensemble_method = "fao_comsir")  # n=61
 fao_costello <- filter(fao_filter, is.na(Costello), !is.na(CMSY), !is.na(COMSIR), !is.na(SSCOM))  %>%
-            mutate(ensemble_method = "fao_costello")  # n=26
+  mutate(ensemble_method = "fao_costello")  # n=26
 fao_sscom <- filter(fao_filter, is.na(SSCOM), !is.na(CMSY), !is.na(COMSIR), !is.na(Costello)) %>%
-            mutate(ensemble_method = "fao_sscom")  # n=9
+  mutate(ensemble_method = "fao_sscom")  # n=9
 
 fao_all$ensemble <- exp(predict(m_rf, newdata=fao_all))
 fao_cmsy$ensemble <- exp(predict(m_rf_cmsy, newdata=fao_cmsy))
@@ -539,7 +538,7 @@ fao_all_test$SSCOM <- exp(predict(m_rf_sscom, newdata=fao_all))
 # fao_all_test$Spectral <- exp(predict(m_rf_spectral, newdata=fao_all))
 
 reshape2::melt(fao_all_test) %>%
-ggplot(aes(variable,value)) + geom_violin(draw_quantiles = c(0.25, 0.5, 0.75)) + coord_flip()+xlab("")+ylab(expression(B/B[MSY]))# + scale_fill_manual(values=c("#000000",RColorBrewer::brewer.pal(5,"Set2")))
+  ggplot(aes(variable,value)) + geom_violin(draw_quantiles = c(0.25, 0.5, 0.75)) + coord_flip()+xlab("")+ylab(expression(B/B[MSY]))# + scale_fill_manual(values=c("#000000",RColorBrewer::brewer.pal(5,"Set2")))
 ggsave("figs/model_sensitivity_violin_plot.pdf",width=3,height=5)
 ```
 
@@ -552,6 +551,16 @@ fao_all2 <- mutate_at(fao_all,
 fao_all2$spec_freq_0.05 <- NULL
 fao_all2$spec_freq_0.2 <- NULL
 fao_all2 <- arrange(fao_all2, stock)
+
+# In the paper we also excluded the three Antarctic FAO areas due to low sample sizes
+fao_all2 <- filter(fao_all2, !stock %in% 
+    c("Atlantic, Antarctic Patagonian toothfish",
+      "Indian Ocean, Antarctic Antarctic krill",
+      "Indian Ocean, Antarctic Marbled rockcod",
+      "Indian Ocean, Antarctic Patagonian toothfish",
+      "Indian Ocean, Antarctic Grey rockcod",
+      "Atlantic, Antarctic Mackerel icefish"))
+
 readr::write_csv(fao_all2, path = "data-generated/ensemble-estimates.csv")
 ```
 
