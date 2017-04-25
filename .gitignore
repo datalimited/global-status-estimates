@@ -6,3 +6,5 @@
 *.sqlite3
 *.accdb
 figs/
+
+*.html
