@@ -38,7 +38,7 @@ The file `fit-ensemble.Rmd` generates the ensemble model based on a simulated da
 
 All estimates are for the average of the last 5 years of data: 2006-2010.
 
-The superensemble estimates are stochastic. They come from random forest models. Estimates will vary in their second decimal place and occasionally their first decimal place from run to run with different random seeds.
+The superensemble estimates are stochastic. They come from random forest models. Estimates will vary in their second decimal place and occasionally their first decimal place from run to run with different random seeds. The included version is from the run used for the paper. The values here have been rounded to 2 decimal places but even this is overly precise.
 
 Any catch-only stock status model may not be particularly accurate on a stock-by-stock basis — especially given that the individual models were not tuned for the unique circumstances of each stock in the paper cited above. Here they were used to determine aggregate status across multiple stocks. For individual stock estimates, these catch only models should only be used if a fuller stock assessment with addition sources of data cannot be performed.
 
